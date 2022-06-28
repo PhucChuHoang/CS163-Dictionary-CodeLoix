@@ -8,6 +8,12 @@
 #include <iostream>
 #include <string>
 #include <vector>
+#include <chrono>
+#include <random>
+#include <assert.h>
+#include <ctime>
+
+#define rand rd
 
 void InitData(HashTable &AnhViet, HashTable &VietAnh, HashTable &AnhAnh);
 
