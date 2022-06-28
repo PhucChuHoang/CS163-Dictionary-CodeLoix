@@ -10,4 +10,7 @@
 #include <vector>
 
 void InitData(HashTable &AnhViet, HashTable &VietAnh, HashTable &AnhAnh);
+bool ChooseFunctions(HashTable &MainData);
+bool ChooseDictionary(HashTable &AnhViet, HashTable &VietAnh, HashTable &AnhAnh);
 void MainProcess();
+
