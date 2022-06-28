@@ -1,0 +1,21 @@
+@a
+*excl
+-O; oh (exclamation of surprise, regret, ect.)
+=a, do choi dep qua!+Oh! What a nice toy!
+=a, toi nghiep qua+Oh! What a pity!
+-By the way
+=a, con mot van de nay nua +By the way, there's this one other question
+*noun
+-Acre (100 square meters)
+
+@a dua
+*verb
+-To ape, to chime in, to join in, to take a leaf out of sb's book
+=a dua theo loi an mac lo lang+to ape other's eccentric style of dress
+=nguoi hay a dua bat chuoc+a copy-cat
+
+@a ha
+*excl
+-Aha, ha; hurrah, hurray
+=a ha! ten trom bi canh sat tom roi!+Ha! the thief is caught by the police!
+=a ha! co gai xinh qua!+hurrah! What a pretty girl!
