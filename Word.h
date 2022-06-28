@@ -1,7 +1,11 @@
 #pragma once
 
+#include "Const.h"
+
 #include <iostream>
 #include <vector>
+#include <string>
+#include <sstream>
 #include <fstream>
 
 typedef std::vector <std::string> VecString;
@@ -21,14 +25,14 @@ struct Word
     //Word(std::string &s);
     ~Word();
 
-    void AddDef(int Def);
-    void AddEx(int Def, std::string &Ex);
-    void AddTrans(int Def, std::string &Trans);
+    void AddType(int Type);
+    void AddEx(int Type, std::string &Ex);
+    void AddTrans(int Type, std::string &Trans);
 
-    void ShowData(int level, std::vector <std::string> &GetDef);
+    void ShowData(int level, std::vector <std::string> &GetType);
 };
 
-std::string GetDefString(int Def, std::vector <std::string> &GetDef);
-int GetDefInt(std::string Def, std::vector <std::string> &GetDef);
-void readData(std::vector<Word> &vietanh, std::ifstream &fin, std::vector <std::string> &GetDef);
-void AddDef(std::string &Def, std::vector <std::string> &GetDef);
+std::string GetTypeString(int Type, std::vector <std::string> &GetType);
+int GetTypeInt(std::string Type, std::vector <std::string> &GetType);
+void readData(std::vector<Word> &vietanh, std::ifstream &fin, std::vector <std::string> &GetType);
+void AddType(std::string &Type, std::vector <std::string> &GetType);

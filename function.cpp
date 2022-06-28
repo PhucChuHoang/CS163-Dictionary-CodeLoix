@@ -101,7 +101,7 @@ void saveHistory(vector<string> hisSearch) {
     ofstream fout;
     string filePath = "Data/his.txt";
     fout.open(filePath);
-    for (int i = 0; i < hisSearch.size(); ++i) {
+    for (int i = 0; i < int(hisSearch.size()); ++i) {
         fout << hisSearch[i] << endl;
     }
     fout.close();
@@ -121,8 +121,8 @@ vector<string> loadHistory() {
 }
 
 void displayHistory(vector<string> hisSearch) {
-    cout << setw(93) << "Search History" << endl; 
-    for (int i = 0; i < hisSearch.size(); ++i) {
+    cout << setw(93) << "Search History" << endl;
+    for (int i = 0; i < int(hisSearch.size()); ++i) {
         cout << setw(93) << " " << i + 1 << ". " << hisSearch[i] << endl;
     }
 }

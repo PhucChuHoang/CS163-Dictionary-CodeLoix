@@ -1,10 +1,5 @@
 #include "Word.h"
-#include "Const.h"
 
-#include <iostream>
-#include <vector>
-#include <string>
-#include <sstream>
 
 using namespace std;
 
@@ -28,37 +23,37 @@ Word::~Word() {
 
 //Inner Functionsssssssssssssssssssssssssssssssssssssss
 
-void Word::AddDef(int Def) {
+void Word::AddType(int Type) {
     for (Int_VS_VS &c: typeDefEx)
-        if (c.Type == Def) return;
+        if (c.Type == Type) return;
     VecString _Exam;
     VecString _Trans;
-    typeDefEx.push_back({Def, _Exam, _Trans});
+    typeDefEx.push_back({Type, _Exam, _Trans});
 }
 
-void Word::AddEx(int Def, string &Ex) {
+void Word::AddEx(int Type, string &Ex) {
     for (Int_VS_VS &c: typeDefEx) {
-        if (c.F == Def) {
+        if (c.F == Type) {
             c.S.push_back(Ex);
             return;
         }
     }
 }
 
-void Word::AddTrans(int Def, string &_Trans) {
+void Word::AddTrans(int Type, string &_Trans) {
     for (Int_VS_VS &c: typeDefEx) {
-        if (c.F == Def) {
+        if (c.F == Type) {
             c.T.push_back(_Trans);
             return;
         }
     }
 }
 
-void Word::ShowData(int level, VecString &GetDef) {
+void Word::ShowData(int level, VecString &GetType) {
     if (level >= 1) cout << Key << "\n";
     if (level >= 2) {
         for (Int_VS_VS &c: typeDefEx) {
-            cout << "* " + GetDefString(c.F, GetDef) + '\n';
+            cout << "* " + GetTypeString(c.F, GetType) + '\n';
             for (string &s: c.S) cout << " - " + s + '\n';
             for (string &s: c.T) cout << " " + s + ((s != c.T.back()) ? "," : ".\n");
         }
@@ -67,18 +62,18 @@ void Word::ShowData(int level, VecString &GetDef) {
 
 //Outer Functionsssssssssssssssssssssssssssssssssssssss
 
-string GetDefString(int Def, VecString &GetDef) {
-    if (Def >= int(GetDef.size())) return "unknown";
-    return GetDef[Def];
+string GetTypeString(int Type, VecString &GetType) {
+    if (Type >= int(GetType.size())) return "unknown";
+    return GetType[Type];
 }
 
-int GetDefInt(string Def, VecString &GetDef) {
-    for (int i = 0; i < int(GetDef.size()); i++)
-            if (Def == GetDef[i]) return i;
+int GetTypeInt(string Type, VecString &GetType) {
+    for (int i = 0; i < int(GetType.size()); i++)
+            if (Type == GetType[i]) return i;
     return oo;
 }
 
-void readData(vector <Word> &vietanh, ifstream &fin, VecString &GetDef) {
+void readData(vector <Word> &vietanh, ifstream &fin, VecString &GetType) {
     while (!fin.eof()) {
         bool flag = false;
         Word toAdd;
@@ -111,8 +106,8 @@ void readData(vector <Word> &vietanh, ifstream &fin, VecString &GetDef) {
             }
 
             getline(fin, tmp_type, '\n');
-            AddDef(tmp_type, GetDef);
-            tmp_typeDefEx.Type = GetDefInt(tmp_type, GetDef);
+            AddType(tmp_type, GetType);
+            tmp_typeDefEx.Type = GetTypeInt(tmp_type, GetType);
           }
           else if (prefix == '-') {
             string tmp_trans;
@@ -140,6 +135,6 @@ void readData(vector <Word> &vietanh, ifstream &fin, VecString &GetDef) {
 }
 
 
-void AddDef(string &Def, VecString &GetDef) {
-    if (GetDefInt(Def, GetDef) == oo) GetDef.push_back(Def);
+void AddType(string &Type, VecString &GetType) {
+    if (GetTypeInt(Type, GetType) == oo) GetType.push_back(Type);
 }

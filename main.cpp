@@ -35,7 +35,7 @@ int main() {
             cout << "Cannot found " + word + "!\n";
             continue;
         }
-        Temp->data.ShowData(3, VietAnh.GetDef);
+        Temp->data.ShowData(3, VietAnh.GetType);
         Temp = nullptr;
     }
 

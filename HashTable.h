@@ -1,9 +1,12 @@
 #pragma once
 
-#include <iostream>
-
 #include "Word.h"
 #include "Const.h"
+
+#include <iostream>
+#include <fstream>
+#include <vector>
+#include <string>
 
 struct HashNode {
     Word data;
@@ -20,7 +23,7 @@ struct HashLinkedList {
 struct HashTable {
     int P, N;
     HashLinkedList *List;
-    std::vector <std::string> GetDef;
+    std::vector <std::string> GetType;
 
     HashTable(int _P, int _N);
     ~HashTable();

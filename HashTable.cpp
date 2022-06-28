@@ -1,11 +1,4 @@
-#include "Word.h"
 #include "HashTable.h"
-#include "Const.h"
-
-#include <iostream>
-
-#include <vector>
-#include <string>
 
 using namespace std;
 
@@ -17,7 +10,7 @@ HashTable::HashTable(int _P, int _N) {
     P = _P;
     N = _N;
     List = new HashLinkedList [N];
-    GetDef.clear();
+    GetType.clear();
 }
 
 HashTable::~HashTable() {
@@ -32,7 +25,7 @@ HashTable::~HashTable() {
         }
     }
 
-    GetDef.clear();
+    GetType.clear();
     delete [] List;
 }
 
@@ -65,7 +58,7 @@ void HashTable::InsertNewWord(Word &W) {
     HashNode* Temp = FindWord(W.Key);
 
     for (Int_VS_VS &c: W.typeDefEx) {
-        Temp->data.AddDef(c.Type);
+        Temp->data.AddType(c.Type);
         for (string &s: c.Exam) Temp->data.AddEx(c.Type, s);
         for (string &s: c.Trans) Temp->data.AddTrans(c.Type, s);
     }
@@ -133,7 +126,7 @@ void HashTable::FileInput(string &Filename) {
     ifstream fi(Filename);
     vector <Word> Temp;
     Temp.clear();
-    readData(Temp, fi, GetDef);
+    readData(Temp, fi, GetType);
     fi.close();
     for (Word &c: Temp) InsertNewWord(c);
     Temp.clear();
@@ -145,7 +138,7 @@ void HashTable::ShowAllWord() {
         if (List[i].pHead != nullptr) {
             HashNode* current = List[i].pHead;
             while (current != nullptr) {
-                current->data.ShowData(3, GetDef);
+                current->data.ShowData(3, GetType);
                 current = current->pNext;
             }
         }
