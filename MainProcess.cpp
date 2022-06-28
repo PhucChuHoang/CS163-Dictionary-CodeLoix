@@ -6,10 +6,60 @@ void InitData(HashTable &AnhViet, HashTable &VietAnh, HashTable &AnhAnh) {
     string Path = "Data/";
     string AnhVietFile = Path + "anhviet.txt";
     string VietAnhFile = Path + "vietanh.txt";
+    string HistoryFile = Path + "his.txt";
     //string AnhAnhFile = "";
 
     AnhViet.FileInput(AnhVietFile);
     VietAnh.FileInput(VietAnhFile);
+
+}
+
+bool SearchProcessing(HashTable &MainData) {
+    SearchMenu();
+    int Command = GetCommand();
+
+    if (Command == 0) return 0;
+
+
+
+    return 1;
+}
+
+bool EditProcessing(HashTable &MainData) {
+    EditWordMenu();
+    int Command = GetCommand();
+
+    if (Command == 0) return 0;
+
+
+
+    return 1;
+}
+
+bool RandomWordProcessing(HashTable &MainData) {
+    return 0;
+}
+
+bool FavouriteProcessing(HashTable &MainData) {
+    FavouriteMenu();
+    int Command = GetCommand();
+
+    if (Command == 0) return 0;
+
+
+
+    return 1;
+}
+
+bool MinigameProcessing(HashTable &MainData) {
+    MinigameMenu();
+    int Command = GetCommand();
+
+    if (Command == 0) return 0;
+
+
+
+    return 1;
 }
 
 bool ChooseFunctions(HashTable &MainData) {
@@ -19,7 +69,11 @@ bool ChooseFunctions(HashTable &MainData) {
 
     if (Command == 0) return 0;
 
-
+    if (Command == 1) while (SearchProcessing(MainData));
+    if (Command == 2) while (EditProcessing(MainData));
+    if (Command == 3) while (RandomWordProcessing(MainData));
+    if (Command == 4) while (FavouriteProcessing(MainData));
+    if (Command == 5) while (MinigameProcessing(MainData));
 
     return 1;
 }
@@ -39,7 +93,7 @@ bool ChooseDictionary(HashTable &AnhViet, HashTable &VietAnh, HashTable &AnhAnh)
 }
 
 void MainProcess() {
-    HashTable AnhViet(31, 14071), VietAnh(31, 14071), AnhAnh(31, 14071);
+    HashTable AnhViet("AnhViet", 31, 14071), VietAnh("VietAnh", 31, 14071), AnhAnh("AnhAnh", 31, 14071);
     InitData(AnhViet, VietAnh, AnhAnh);
     while (ChooseDictionary(AnhViet, VietAnh, AnhAnh));
 }

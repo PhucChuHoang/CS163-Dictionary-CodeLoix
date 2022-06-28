@@ -6,11 +6,14 @@ HashNode::HashNode(string &_data) {
     data.Key = _data;
 }
 
-HashTable::HashTable(int _P, int _N) {
+HashTable::HashTable(string _Name, int _P, int _N) {
+    Name = _Name;
     P = _P;
     N = _N;
     List = new HashLinkedList [N];
     GetType.clear();
+    History.clear();
+    LoadHistory();
 }
 
 HashTable::~HashTable() {
@@ -26,6 +29,8 @@ HashTable::~HashTable() {
     }
 
     GetType.clear();
+    SaveHistory();
+    History.clear();
     delete [] List;
 }
 
@@ -144,5 +149,33 @@ void HashTable::ShowAllWord() {
         }
         cout << '\n';
     }
+}
+
+//History dev
+
+void HashTable::SaveHistory() {
+    ofstream fout;
+    string filePath = "Data/History/" + Name + ".txt";
+    fout.open(filePath);
+    if (History.size()) for (string &c: History) fout << c << '\n';
+    fout.close();
+}
+
+void HashTable::LoadHistory() {
+    ifstream fin;
+    vector<string> hisSearch;
+    string filePath = "Data/History/" + Name + ".txt", temp;
+    fin.open(filePath);
+    while(!fin.eof()) {
+        fin >> temp;
+        hisSearch.push_back(temp);
+    }
+    fin.close();
+}
+
+void HashTable::DisplayHistory() {
+    cout << setw(93) << "Search History" << '\n';
+    int cnt = 0;
+    if (History.size()) for (string &c: History) cout << setw(93) << " " << (cnt++) << ". " << c << '\n';
 }
 

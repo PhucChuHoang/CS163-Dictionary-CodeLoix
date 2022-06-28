@@ -7,6 +7,7 @@
 #include <fstream>
 #include <vector>
 #include <string>
+#include <iomanip>
 
 struct HashNode {
     Word data;
@@ -21,11 +22,13 @@ struct HashLinkedList {
 };
 
 struct HashTable {
+    std::string Name;
     int P, N;
     HashLinkedList *List;
     std::vector <std::string> GetType;
+    std::vector <std::string> History;
 
-    HashTable(int _P, int _N);
+    HashTable(std::string Name, int _P, int _N);
     ~HashTable();
 
     int GetHash(std::string &s);
@@ -38,5 +41,9 @@ struct HashTable {
 
     void FileInput(std::string &Filename);
     void ShowAllWord();
+
+    void SaveHistory();
+    void LoadHistory();
+    void DisplayHistory();
 };
 
