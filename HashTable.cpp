@@ -10,7 +10,7 @@ HashTable::HashTable(string _Name, int _P, int _N) {
     Name = _Name;
     P = _P;
     N = _N;
-    List = new HashLinkedList [N];
+    List = new HashLinkedList[N];
     GetType.clear();
     History.clear();
     LoadHistory();
@@ -166,11 +166,14 @@ void HashTable::LoadHistory() {
     vector<string> hisSearch;
     string filePath = "Data/History/" + Name + ".txt", temp;
     fin.open(filePath);
-    while(!fin.eof()) {
-        fin >> temp;
-        hisSearch.push_back(temp);
+    if (fin.is_open()) {
+        while(!fin.eof()) {
+            fin >> temp;
+            hisSearch.push_back(temp);
+        }
+        fin.close();
     }
-    fin.close();
+    return;
 }
 
 void HashTable::DisplayHistory() {
