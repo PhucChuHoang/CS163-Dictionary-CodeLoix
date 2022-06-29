@@ -36,7 +36,22 @@ bool EditProcessing(HashTable &MainData) {
     return 1;
 }
 
+mt19937 rd(chrono::steady_clock::now().time_since_epoch().count());
+
+long long Rand(long long l, long long h) {
+    assert(l <= h);
+    return l + rd() * 1LL * rd() % (h - l + 1);
+}
+
 bool RandomWordProcessing(HashTable &MainData) {
+    long long location = Rand(0, MainData.N);
+    while (MainData.List[location].pHead == nullptr) {
+        location = Rand(0,MainData.N);
+    }
+    string word = MainData.List[location].pHead->data.Key;
+    string wordDef = MainData.List[location].pHead->data.typeDefEx[0].Trans[0];
+    cout << word << endl;
+    cout << wordDef << endl;
     return 0;
 }
 
