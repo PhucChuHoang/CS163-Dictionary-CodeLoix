@@ -7,6 +7,8 @@ void InitData(HashTable &AnhViet, HashTable &VietAnh, HashTable &AnhAnh) {
     string AnhVietFile = Path + "anhviet.txt";
     string VietAnhFile = Path + "vietanh.txt";
     string HistoryFile = Path + "his.txt";
+    string SlangFile = Path + "slang.txt";
+    string EmoFile = Path + "emotional.txt";
     //string AnhAnhFile = "";
 
     AnhViet.FileInput(AnhVietFile);

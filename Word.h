@@ -36,4 +36,5 @@ std::string GetTypeString(int Type, std::vector <std::string> &GetType);
 int GetTypeInt(std::string Type, std::vector <std::string> &GetType);
 void readData(std::vector<Word> &vietanh, std::ifstream &fin, std::vector <std::string> &GetType);
 void readSlang(std::vector<Word> &Slang, std::ifstream &fin);
+void readEmo(std::vector<Word> &Emo, std::ifstream &fin);
 void AddType(std::string &Type, std::vector <std::string> &GetType);

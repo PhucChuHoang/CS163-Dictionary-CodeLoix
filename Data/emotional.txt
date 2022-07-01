@@ -195,7 +195,7 @@ CMIIW	Correct me if I'm wrong
 CNP	Continue in next post
 CO	Conference
 CRAFT	Can't remember a frighten thing
-CRS	Can’t remember shit
+CRS	Canï¿½t remember shit
 CSG	Chuckle snicker grin
 CTS	Changing the subject
 CU	See you
@@ -341,11 +341,11 @@ HHOJ	Ha ha, only joking
 HHOK	Ha ha, only kidding
 HHOS	Ha ha, only seriously
 HIH	Hope it helps
-HILIACACLO	Help I lapsed into a coma and can’t log off
+HILIACACLO	Help I lapsed into a coma and canï¿½t log off
 HIWTH	Hate it when that happens
 HLM	He loves me
 HMS	Home made smiley
-HMT	Here’s my try
+HMT	Hereï¿½s my try
 HMWK	Homework
 HOAS	Hold on a second
 HSIK	How should i know
@@ -376,10 +376,10 @@ IGTP	I get the point
 IHTFP	I hate this fountain place
 IHU	I hate you
 IHY	I hate you
-II	I’m impressed
+II	Iï¿½m impressed
 IIR	If I recall
 IIRC	If I recall correctly
-IIT	I’m impressed too
+IIT	Iï¿½m impressed too
 IJWTK	I just want to know
 IJWTS	I just want to say
 IK	I know

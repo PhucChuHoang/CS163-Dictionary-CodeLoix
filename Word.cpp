@@ -138,15 +138,30 @@ void readSlang(vector<Word> &Slang, ifstream &fin) {
   while (!fin.eof()) {
     Word to_add;
     string line;
+    Int_VS_VS tmp_tdx;
     getline(fin, line, '\n');
     stringstream ss(line);
     getline(ss, to_add.Key, '`');
     string tmp_trans;
     while (ss.good()) {
       getline(ss, tmp_trans, '|');  
-      to_add.typeDefEx[0].Trans.push_back(tmp_trans);
+      tmp_tdx.Trans.push_back(tmp_trans);
     }
+    to_add.typeDefEx.push_back(tmp_tdx);
     Slang.push_back(to_add);
+  }
+}
+
+void readEmo(vector<Word> &Emo, ifstream &fin) {
+  while (!fin.eof()) {
+    Word to_add;
+    Int_VS_VS tmp_tdx;
+    getline(fin, to_add.Key, '\t');
+    string tmp_trans;
+    getline(fin, tmp_trans);
+    tmp_tdx.Trans.push_back(tmp_trans);
+    to_add.typeDefEx.push_back(tmp_tdx);
+    Emo.push_back(to_add);
   }
 }
 
