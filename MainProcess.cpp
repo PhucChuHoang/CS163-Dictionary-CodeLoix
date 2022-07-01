@@ -44,14 +44,22 @@ long long Rand(long long l, long long h) {
 }
 
 bool RandomWordProcessing(HashTable &MainData) {
-    long long location = Rand(0, MainData.N);
+    system("cls");
+    cout << "Check" << endl;
+    system("pause");
+    long long location = Rand(0, MainData.N-1);
     while (MainData.List[location].pHead == nullptr) {
-        location = Rand(0,MainData.N);
+        location = Rand(0,MainData.N-1);
     }
+    cout << "Check" << endl;
+    system("pause");
     string word = MainData.List[location].pHead->data.Key;
     string wordDef = MainData.List[location].pHead->data.typeDefEx[0].Trans[0];
-    cout << word << endl;
-    cout << wordDef << endl;
+    cout << "Check" << endl;
+    system("pause");
+    cout << setw(106 - word.length()/2) << " " << word << endl;
+    cout << setw(106 - wordDef.length()/2) << " " << wordDef << endl;
+    system("pause");
     return 0;
 }
 
