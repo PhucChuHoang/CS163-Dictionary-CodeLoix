@@ -45,12 +45,9 @@ long long Rand(long long l, long long h) {
 
 bool RandomWordProcessing(HashTable &MainData) {
     system("cls");
-    std::random_device rd;
-    std::mt19937 gen(rd());
-    std::uniform_int_distribution<> distr(0, MainData.N-1);
-    long long location = distr(gen) % MainData.N;
-    while (location < 0 && MainData.List[location].pHead == nullptr) {
-        location = distr(gen) % MainData.N;
+    long long location = Rand(0, MainData.N-1);
+    while ((location < 0) || (MainData.List[location].pHead) == nullptr || (MainData.List[location].pHead->data.typeDefEx[0].Trans.empty())) {
+        location = Rand(0, MainData.N-1);
     }
     string word = MainData.List[location].pHead->data.Key;
     string wordDef = MainData.List[location].pHead->data.typeDefEx[0].Trans[0];
