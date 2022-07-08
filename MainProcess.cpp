@@ -2,18 +2,29 @@
 
 using namespace std;
 
-void InitData(HashTable &AnhViet, HashTable &VietAnh, HashTable &AnhAnh) {
+void GetData(HashTable &HT) {
     string Path = "Data/";
-    string AnhVietFile = Path + "anhviet.txt";
-    string VietAnhFile = Path + "vietanh.txt";
-    string HistoryFile = Path + "his.txt";
-    string SlangFile = Path + "slang.txt";
-    string EmoFile = Path + "emotional.txt";
-    //string AnhAnhFile = "";
+    string check = Path + "Checker/" + HT.Name + ".txt";
+    string Filename = Path;
+    ifstream fi(check);
+    int isReset;
+    fi >> isReset;
+    fi.close();
+    if (isReset) Filename += "Origin/";
+        else Filename += "Save/";
+    Filename += HT.Name + ".txt";
+    HT.FileInput(Filename);
+    if (isReset) {
+        string his = "Data/History/" + HT.Name + ".txt";
+        ofstream fho(his);
+        fho.close();
+    }
+    HT.LoadHistory();
+}
 
-    AnhViet.FileInput(AnhVietFile);
-    VietAnh.FileInput(VietAnhFile);
-
+void InitData(HashTable &AnhViet, HashTable &VietAnh, HashTable &AnhAnh) {
+    GetData(AnhViet);
+    GetData(VietAnh);
 }
 
 bool SearchProcessing(HashTable &MainData) {
@@ -22,7 +33,30 @@ bool SearchProcessing(HashTable &MainData) {
 
     if (Command == 0) return 0;
 
+    if (Command == 1) {
+        system("cls");
+        string w;
+        cout << "Input word: ";
+        cin >> w;
+        vector <string> SuggestWords = MainData.Prefix.FindWordWithSamePrefix(10, w);
+        if (SuggestWords.empty()) {
+            cout << "Ko tim thay!";
+            system("pause");
+            return 1;
+        }
+        for (int i = 0; i < (int)(SuggestWords.size()); i++)
+            cout << i + 1 << ". " << SuggestWords[i] << '\n';
+        int pos = GetCommand();
+        if (pos >= (int) (SuggestWords.size()) || pos < 1) {
+            cout << "Invalid input!";
+            system("pause");
+            return 1;
+        }
 
+        HashNode *wp = MainData.FindWord(SuggestWords[pos - 1]);
+        wp->data.ShowData(3, MainData.GetType);
+        system("pause");
+    }
 
     return 1;
 }

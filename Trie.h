@@ -23,9 +23,7 @@ struct Trie {
     ~Trie();
 
     void Insert(std::string &s);
-
     bool Search(std::string s);
-
     void _Delete(std::string &s, int pos, TrieNode* &Cur);
     void Delete(std::string s);
 

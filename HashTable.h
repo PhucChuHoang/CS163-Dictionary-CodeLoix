@@ -2,6 +2,7 @@
 
 #include "Word.h"
 #include "Const.h"
+#include "Trie.h"
 
 #include <iostream>
 #include <fstream>
@@ -25,8 +26,10 @@ struct HashTable {
     std::string Name;
     int P, N;
     HashLinkedList *List;
+    Trie Prefix;
     std::vector <std::string> GetType;
     std::vector <std::string> History;
+
 
     HashTable(std::string Name, int _P, int _N);
     ~HashTable();
@@ -41,9 +44,12 @@ struct HashTable {
 
     void FileInput(std::string &Filename);
     void ShowAllWord();
+    void SaveHashTable();
 
     void SaveHistory();
     void LoadHistory();
     void DisplayHistory();
+
+
 };
 

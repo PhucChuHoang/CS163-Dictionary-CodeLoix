@@ -17,6 +17,8 @@ HashTable::HashTable(string _Name, int _P, int _N) {
 }
 
 HashTable::~HashTable() {
+    SaveHashTable();
+
     for (int i = 0; i < N; i++) {
         HashNode *pD = nullptr;
         List[i].pTail = nullptr;
@@ -27,6 +29,7 @@ HashTable::~HashTable() {
             pD = nullptr;
         }
     }
+
 
     GetType.clear();
     SaveHistory();
@@ -47,6 +50,7 @@ int HashTable::GetHash(string &s) {
 void HashTable::InsertNewString(string &s) {
     int location = GetHash(s);
     if (FindWord(s) != nullptr) return;
+    Prefix.Insert(s);
     if (List[location].pHead == nullptr) {
         HashNode* temp = new HashNode(s);
         List[location].pHead = List[location].pTail = temp;
@@ -87,6 +91,7 @@ void HashTable::DeleteWord(string &s) {
     int location = GetHash(s);
     if (List[location].pHead == nullptr) return;
 
+    Prefix.Delete(s);
     if (List[location].pHead->data.Key == s) {
         HashNode* pD = List[location].pHead;
         if (List[location].pTail->data.Key == s) List[location].pTail = nullptr;
@@ -151,6 +156,38 @@ void HashTable::ShowAllWord() {
     }
 }
 
+void HashTable::SaveHashTable() {
+    string Filename = "Data/Save/" + Name + ".txt";
+    string Filecheck = "Data/Checker/" + Name + ".txt";
+
+    ofstream fco(Filecheck);
+    fco << 0;
+    fco.close();
+
+    ofstream fo(Filename);
+
+    for (int i = 0; i < N; i++) {
+        HashNode *Cur = List[i].pHead;
+        while (Cur) {
+
+            Word Temp = Cur->data;
+
+            fo << "@" + Temp.Key << '\n';
+
+            for (Int_VS_VS &c: Temp.typeDefEx) {
+                fo << "*" + GetTypeString(c.Type, GetType) << '\n';
+                for (string &T: c.Trans) fo << "-" + T << '\n';
+                for (string &E: c.Exam) fo << "=" + E << '\n';
+            }
+
+            Cur = Cur->pNext;
+            fo << '\n';
+        }
+    }
+
+    fo.close();
+}
+
 //History dev
 
 void HashTable::SaveHistory() {
@@ -181,4 +218,5 @@ void HashTable::DisplayHistory() {
     int cnt = 0;
     if (History.size()) for (string &c: History) cout << setw(93) << " " << (cnt++) << ". " << c << '\n';
 }
+
 

@@ -4,6 +4,7 @@
 #include "HashTable.h"
 #include "UIhelper.h"
 #include "Menu.h"
+#include "Trie.h"
 
 #include <iostream>
 #include <string>

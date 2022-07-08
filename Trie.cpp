@@ -24,7 +24,7 @@ Trie::~Trie() {
     Self_Destruct(Root);
 }
 
-void Trie::Insert(std::string &s) {
+void Trie::Insert(string &s) {
     if (Search(s)) return;
     TrieNode *Cur = Root;
 
