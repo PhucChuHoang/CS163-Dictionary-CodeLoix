@@ -104,13 +104,56 @@ bool FavouriteProcessing(HashTable &MainData) {
     return 1;
 }
 
+bool checkDif(long long check1, long long check2, long long check3, long long check4) {
+    return check1 != check2 && check1 != check3 && check1 != check4;
+}
+
 bool MinigameProcessing(HashTable &MainData) {
     MinigameMenu();
     int Command = GetCommand();
 
     if (Command == 0) return 0;
 
+    system("cls");
+    long long location = Rand(0, MainData.N-1);
+    long long fake1 = Rand(0, MainData.N-1), fake2 = Rand(0, MainData.N-1), fake3 = Rand(0, MainData.N-1);
+    while ((location < 0) || (MainData.List[location].pHead) == nullptr || (MainData.List[location].pHead->data.typeDefEx[0].Trans.empty())) {
+        location = Rand(0, MainData.N-1);
+    }
+    while ((fake1 < 0) || !checkDif(fake1, location, fake2, fake3) || (MainData.List[fake1].pHead) == nullptr || (MainData.List[fake1].pHead->data.typeDefEx[0].Trans.empty())) {
+        fake1 = Rand(0, MainData.N-1);
+    }
+    while ((fake2 < 0) || !checkDif(fake2, location, fake1, fake3) || (MainData.List[fake2].pHead) == nullptr || (MainData.List[fake2].pHead->data.typeDefEx[0].Trans.empty())) {
+        fake2 = Rand(0, MainData.N-1);
+    }
+    while ((fake3 < 0) || !checkDif(fake3, location, fake1, fake2) || (MainData.List[fake3].pHead) == nullptr || (MainData.List[fake3].pHead->data.typeDefEx[0].Trans.empty())) {
+        fake3 = Rand(0, MainData.N-1);
+    }
+    string wordAns = MainData.List[location].pHead->data.Key;
+    string defAns = MainData.List[location].pHead->data.typeDefEx[0].Trans[0];
 
+    if (Command == 1) {
+        cout << "What is the meaning of \"" << wordAns << "\"?" << endl;
+        cout << "1. " << MainData.List[fake1].pHead->data.typeDefEx[0].Trans[0] << endl;
+        cout << "2. " << MainData.List[fake2].pHead->data.typeDefEx[0].Trans[0] << endl;
+        cout << "3. " << defAns << endl;
+        cout << "4. " << MainData.List[fake3].pHead->data.typeDefEx[0].Trans[0] << endl;
+        int res = GetCommand();
+        if (res == 3) cout << "Correct" << endl;
+        else cout << "Incorrect" << endl;
+        system("pause");
+    }
+    else if (Command == 2) {
+        cout << "What is the word for \"" << defAns << "\"?" << endl;
+        cout << "1. " << MainData.List[fake1].pHead->data.Key << endl;
+        cout << "2. " << MainData.List[fake2].pHead->data.Key << endl;
+        cout << "3. " << wordAns << endl;
+        cout << "4. " << MainData.List[fake3].pHead->data.Key << endl;
+        int res = GetCommand();
+        if (res == 3) cout << "Correct" << endl;
+        else cout << "Incorrect" << endl;
+        system("pause");
+    }
 
     return 1;
 }
