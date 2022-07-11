@@ -51,3 +51,17 @@ void MinigameMenu() {
     cout << setw(95) << " " << "2. Guess Meaning" << '\n';
     cout << setw(95) << " " << "0. Back" << '\n';
 }
+
+void EditWordDefMenu() {
+    system("cls");
+    cout << setw(95) << " " << "1. Change Definition" << '\n';
+    cout << setw(95) << " " << "2. Add Definition" << '\n';
+    cout << setw(95) << " " << "0. Back" << '\n';
+}
+
+void ChangeWordDefMenu() {
+    system("cls");
+    cout << setw(95) << " " << "1. Change Definition" << '\n';
+    cout << setw(95) << " " << "2. Add Definition" << '\n';
+    cout << setw(95) << " " << "0. Back" << '\n';
+}

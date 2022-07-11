@@ -104,6 +104,44 @@ bool FavouriteProcessing(HashTable &MainData) {
     return 1;
 }
 
+bool EditWordDefProcessing(HashTable &data, string to_edit) {
+    EditWordDefMenu();
+    int Command = GetCommand();
+
+    if (Command == 0) return 0;
+
+    HashNode* to_edit_word = data.FindWord(to_edit);
+    if (!to_edit_word) {
+        cout << setw(95) << " " << "Word doesn't exist" << endl;
+        return 0;
+    }
+
+    string tmp_type;
+    string tmp_def;
+    cout << setw(95) << " " << "Input type of the new definition: ";
+    getline(cin, tmp_type);
+    AddType(tmp_type, data.GetType);
+    cout << setw(95) << " " << "Input the new definition: ";
+    getline(cin, tmp_def);
+    int int_type = GetTypeInt(tmp_type, data.GetType);
+
+    // change definition (clear + update)
+    if (Command == 1) {
+        to_edit_word->data.typeDefEx.clear();
+        cout << setw(95) << " " << "The word's definition has been changed." << endl;
+    }
+
+    // add definition
+    if (Command == 2) {
+        cout << setw(95) << " " << "New definition has been added" << endl;
+    }
+
+    to_edit_word->data.AddType(int_type);
+    to_edit_word->data.AddTrans(int_type, tmp_def);
+    return 1;
+
+}
+
 bool checkDif(long long check1, long long check2, long long check3, long long check4) {
     return check1 != check2 && check1 != check3 && check1 != check4;
 }

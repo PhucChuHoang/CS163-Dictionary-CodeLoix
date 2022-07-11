@@ -9,3 +9,4 @@ void SearchMenu();
 void EditWordMenu();
 void FavouriteMenu();
 void MinigameMenu();
+void EditWordDefMenu();
