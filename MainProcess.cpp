@@ -131,29 +131,58 @@ bool MinigameProcessing(HashTable &MainData) {
     }
     string wordAns = MainData.List[location].pHead->data.Key;
     string defAns = MainData.List[location].pHead->data.typeDefEx[0].Trans[0];
+    int ansIndex = Rand(1,4);
+    bool used1 = false, used2 = false;
 
     if (Command == 1) {
         cout << "What is the meaning of \"" << wordAns << "\"?" << endl;
-        cout << "1. " << MainData.List[fake1].pHead->data.typeDefEx[0].Trans[0] << endl;
-        cout << "2. " << MainData.List[fake2].pHead->data.typeDefEx[0].Trans[0] << endl;
-        cout << "3. " << defAns << endl;
-        cout << "4. " << MainData.List[fake3].pHead->data.typeDefEx[0].Trans[0] << endl;
-        int res = GetCommand();
-        if (res == 3) cout << "Correct" << endl;
-        else cout << "Incorrect" << endl;
-        system("pause");
+        for (int i = 1; i <= 4; ++i) {
+            if (i == ansIndex) {
+                cout << i <<". " << defAns << endl;
+                continue;
+            }
+            else {
+                if (!used1) {
+                    cout << i << ". " << MainData.List[fake1].pHead->data.typeDefEx[0].Trans[0] << endl;
+                    used1 = true;
+                }
+                else if (!used2) {
+                    cout << i << ". " << MainData.List[fake2].pHead->data.typeDefEx[0].Trans[0] << endl;
+                    used2 = true;
+                }
+                else {
+                    cout << i << ". " << MainData.List[fake3].pHead->data.typeDefEx[0].Trans[0] << endl;
+                }
+            }
+        }
     }
     else if (Command == 2) {
         cout << "What is the word for \"" << defAns << "\"?" << endl;
-        cout << "1. " << MainData.List[fake1].pHead->data.Key << endl;
-        cout << "2. " << MainData.List[fake2].pHead->data.Key << endl;
-        cout << "3. " << wordAns << endl;
-        cout << "4. " << MainData.List[fake3].pHead->data.Key << endl;
-        int res = GetCommand();
-        if (res == 3) cout << "Correct" << endl;
-        else cout << "Incorrect" << endl;
-        system("pause");
+        for (int i = 1; i <= 4; ++i) {
+            if (i == ansIndex) {
+                cout << i <<". " << wordAns << endl;
+                continue;
+            }
+            else {
+                if (!used1) {
+                    cout << i << ". " << MainData.List[fake1].pHead->data.Key << endl;
+                    used1 = true;
+                }
+                else if (!used2) {
+                    cout << i << ". " << MainData.List[fake2].pHead->data.Key << endl;
+                    used2 = true;
+                }
+                else {
+                    cout << i << ". " << MainData.List[fake3].pHead->data.Key << endl;
+                }
+            }
+        }
     }
+
+    int res = GetCommand();
+    if (res == ansIndex) cout << "Correct" << endl;
+    else cout << "Incorrect" << endl;
+    system("pause");
 
     return 1;
 }
