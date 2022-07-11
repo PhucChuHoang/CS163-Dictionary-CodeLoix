@@ -7,6 +7,8 @@ void ChooseDictionaryMenu() {
     cout << setw(90) << " " << "1. English - Vietnamese Dictionary" << '\n';
     cout << setw(90) << " " << "2. Vietnamese - English Dictionary" << '\n';
     cout << setw(90) << " " << "3. English Dictionary" << '\n';
+    cout << setw(90) << " " << "4. Emotional Dictionary" << '\n';
+    cout << setw(90) << " " << "5. Slang Dictionary" << '\n';
     cout << setw(90) << " " << "0. Exit" << '\n';
 }
 
