@@ -22,9 +22,12 @@ void GetData(HashTable &HT) {
     HT.LoadHistory();
 }
 
-void InitData(HashTable &AnhViet, HashTable &VietAnh, HashTable &AnhAnh) {
+void InitData(HashTable &AnhViet, HashTable &VietAnh, HashTable &AnhAnh, HashTable &emo, HashTable &slang) {
     GetData(AnhViet);
     GetData(VietAnh);
+    // consider...
+    GetData(emo);
+    GetData(slang);
 }
 
 bool SearchProcessing(HashTable &MainData) {
@@ -241,7 +244,7 @@ bool ChooseFunctions(HashTable &MainData) {
     return 1;
 }
 
-bool ChooseDictionary(HashTable &AnhViet, HashTable &VietAnh, HashTable &AnhAnh) {
+bool ChooseDictionary(HashTable &AnhViet, HashTable &VietAnh, HashTable &AnhAnh, HashTable &emotional, HashTable& slang) {
 
     ChooseDictionaryMenu();
     int Command = GetCommand();
@@ -251,13 +254,15 @@ bool ChooseDictionary(HashTable &AnhViet, HashTable &VietAnh, HashTable &AnhAnh)
     if (Command == 1) while (ChooseFunctions(AnhViet));
     if (Command == 2) while (ChooseFunctions(VietAnh));
     if (Command == 3) while (ChooseFunctions(AnhAnh));
+    if (Command == 4) while (ChooseFunctions(emotional));
+    if (Command == 5) while (ChooseFunctions(slang));
 
     return 1;
 }
 
 void MainProcess() {
-    HashTable AnhViet("AnhViet", 31, 14071), VietAnh("VietAnh", 31, 14071), AnhAnh("AnhAnh", 31, 14071);
-    InitData(AnhViet, VietAnh, AnhAnh);
-    while (ChooseDictionary(AnhViet, VietAnh, AnhAnh));
+    HashTable AnhViet("AnhViet", 31, 14071), VietAnh("VietAnh", 31, 14071), AnhAnh("AnhAnh", 31, 14071), emotional("emotional", 131, 14071), slang("emotional", 131, 14701);
+    InitData(AnhViet, VietAnh, AnhAnh, emotional, slang);
+    while (ChooseDictionary(AnhViet, VietAnh, AnhAnh, emotional, slang));
 }
 

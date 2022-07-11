@@ -17,7 +17,7 @@
 
 #define rand rd
 
-void InitData(HashTable &AnhViet, HashTable &VietAnh, HashTable &AnhAnh);
+void InitData(HashTable &AnhViet, HashTable &VietAnh, HashTable &AnhAnh, HashTable &emo, HashTable &slang);
 
 bool SearchProcessing(HashTable &MainData);
 bool EditProcessing(HashTable &MainData);
@@ -27,7 +27,7 @@ bool MinigameProcessing(HashTable &MainData);
 bool EditWordDefProcessing(HashTable &data, string to_edit);
 
 bool ChooseFunctions(HashTable &MainData);
-bool ChooseDictionary(HashTable &AnhViet, HashTable &VietAnh, HashTable &AnhAnh);
+bool ChooseDictionary(HashTable &AnhViet, HashTable &VietAnh, HashTable &AnhAnh, HashTable &emotional, HashTable& slang);
 
 void MainProcess();
 
