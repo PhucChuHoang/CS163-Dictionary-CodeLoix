@@ -25,7 +25,7 @@ bool RandomWordProcessing(HashTable &MainData);
 bool FavouriteProcessing(HashTable &MainData);
 bool MinigameProcessing(HashTable &MainData);
 bool EditWordDefProcessing(HashTable &data, std::string to_edit);
-bool HistoryProcessing(HashTable &data);
+
 bool ChooseFunctions(HashTable &MainData);
 bool ChooseDictionary(HashTable &AnhViet, HashTable &VietAnh, HashTable &AnhAnh, HashTable &emotional, HashTable& slang);
 
