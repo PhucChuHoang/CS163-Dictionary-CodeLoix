@@ -27,7 +27,6 @@ void GetData(HashTable &HT) {
 void InitData(HashTable &AnhViet, HashTable &VietAnh, HashTable &AnhAnh, HashTable &emo, HashTable &slang) {
     GetData(AnhViet);
     GetData(VietAnh);
-    // consider...
     GetData(emo);
     GetData(slang);
 }
@@ -103,9 +102,12 @@ bool FavouriteProcessing(HashTable &MainData) {
     int Command = GetCommand();
 
     if (Command == 0) return 0;
+    system("cls");
+    HashTable Fav("Fav", 31, 14071);
+    string Filename = "Data/Favorite/" + MainData.Name + ".txt";
+    Fav.FileInput(Filename);
 
-
-    }
+    
 
     return 1;
 }
