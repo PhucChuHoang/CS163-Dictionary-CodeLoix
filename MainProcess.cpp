@@ -25,8 +25,8 @@ void GetData(HashTable &HT) {
 void InitData(HashTable &AnhViet, HashTable &VietAnh, HashTable &AnhAnh, HashTable &emo, HashTable &slang) {
     GetData(AnhViet);
     GetData(VietAnh);
-    GetData(emo);
-    GetData(slang);
+    // GetData(emo);
+    // GetData(slang);
 }
 
 bool SearchProcessing(HashTable &MainData) {
@@ -104,21 +104,19 @@ bool FavouriteProcessing(HashTable &MainData) {
     HashTable Fav("Fav", 31, 14071);
     string Filename = "Data/Favorite/" + MainData.Name + ".txt";
     Fav.FileInput(Filename);
+    // Show list
+    if (Command == 1){
+        
+    }
+    // Add word to the list
+    if (Command == 2){
 
+    }
 
-    return 1;
-}
+    // Delete word from the list
+    if (Command == 3){
 
-bool HistoryProcessing(HashTable &MainData) {
-    FavouriteMenu();
-    int Command = GetCommand();
-
-    if (Command == 0) return 0;
-    system("cls");
-    HashTable Fav("Fav", 31, 14071);
-    string Filename = "Data/Favorite/" + MainData.Name + ".txt";
-    Fav.FileInput(Filename);
-
+    }
 
     return 1;
 }
