@@ -135,8 +135,10 @@ void HashTable::FileInput(string &Filename) {
 
     ifstream fi(Filename);
     vector <Word> Temp;
-    Temp.clear();
-    readData(Temp, fi, GetType);
+    if (fi.good()) {
+        Temp.clear();
+        readData(Temp, fi, GetType);
+    }
     fi.close();
     for (Word &c: Temp) InsertNewWord(c);
     Temp.clear();

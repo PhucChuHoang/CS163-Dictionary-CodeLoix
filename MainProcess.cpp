@@ -7,8 +7,10 @@ void GetData(HashTable &HT) {
     string check = Path + "Checker/" + HT.Name + ".txt";
     string Filename = Path;
     ifstream fi(check);
-    int isReset;
-    fi >> isReset;
+    int isReset = 0;
+    if (fi.good()) {
+        fi >> isReset;
+    }
     fi.close();
     if (isReset) Filename += "Origin/";
         else Filename += "Save/";
