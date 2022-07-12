@@ -136,7 +136,9 @@ void HashTable::FileInput(string &Filename) {
     ifstream fi(Filename);
     vector <Word> Temp;
     Temp.clear();
-    readData(Temp, fi, GetType);
+    if (Filename == "emotional") readEmo(Temp, fi);
+    else if (Filename == "slang") readSlang(Temp, fi);
+    else readData(Temp, fi, GetType);
     fi.close();
     for (Word &c: Temp) InsertNewWord(c);
     Temp.clear();

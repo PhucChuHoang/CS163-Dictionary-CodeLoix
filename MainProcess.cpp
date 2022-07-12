@@ -25,7 +25,6 @@ void GetData(HashTable &HT) {
 void InitData(HashTable &AnhViet, HashTable &VietAnh, HashTable &AnhAnh, HashTable &emo, HashTable &slang) {
     GetData(AnhViet);
     GetData(VietAnh);
-    // consider...
     GetData(emo);
     GetData(slang);
 }
@@ -43,7 +42,7 @@ bool SearchProcessing(HashTable &MainData) {
         cin >> w;
         vector <string> SuggestWords = MainData.Prefix.FindWordWithSamePrefix(10, w);
         if (SuggestWords.empty()) {
-            cout << "Ko tim thay!";
+            cout << "Can't find!";
             system("pause");
             return 1;
         }
@@ -101,12 +100,28 @@ bool FavouriteProcessing(HashTable &MainData) {
     int Command = GetCommand();
 
     if (Command == 0) return 0;
-
+    system("cls");
+    HashTable Fav("Fav", 31, 14071);
+    string Filename = "Data/Favorite/" + MainData.Name + ".txt";
+    Fav.FileInput(Filename);
 
 
     return 1;
 }
 
+bool HistoryProcessing(HashTable &MainData) {
+    FavouriteMenu();
+    int Command = GetCommand();
+
+    if (Command == 0) return 0;
+    system("cls");
+    HashTable Fav("Fav", 31, 14071);
+    string Filename = "Data/Favorite/" + MainData.Name + ".txt";
+    Fav.FileInput(Filename);
+
+
+    return 1;
+}
 bool EditWordDefProcessing(HashTable &data, string to_edit) {
     EditWordDefMenu();
     int Command = GetCommand();
@@ -261,7 +276,7 @@ bool ChooseDictionary(HashTable &AnhViet, HashTable &VietAnh, HashTable &AnhAnh,
 }
 
 void MainProcess() {
-    HashTable AnhViet("AnhViet", 31, 14071), VietAnh("VietAnh", 31, 14071), AnhAnh("AnhAnh", 31, 14071), emotional("emotional", 131, 14071), slang("emotional", 131, 14701);
+    HashTable AnhViet("AnhViet", 31, 14071), VietAnh("VietAnh", 31, 14071), AnhAnh("AnhAnh", 31, 14071), emotional("emotional", 31, 14071), slang("emotional", 31, 14701);
     InitData(AnhViet, VietAnh, AnhAnh, emotional, slang);
     while (ChooseDictionary(AnhViet, VietAnh, AnhAnh, emotional, slang));
 }
