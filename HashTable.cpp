@@ -1,5 +1,5 @@
 #include "HashTable.h"
-
+#include <algorithm>
 using namespace std;
 
 HashNode::HashNode(string &_data) {
@@ -135,10 +135,16 @@ void HashTable::FileInput(string &Filename) {
 
     ifstream fi(Filename);
     vector <Word> Temp;
+    string tmp = "";
+    for (int i = (int)Filename.size() - 1; i >= 0; i--){
+        if (Filename[i] =='/') break;
+        tmp += Filename[i];
+    }
+    reverse(tmp.begin(), tmp.end());
     if (fi.good()) {
         Temp.clear();
-        if (Filename == "emotional") readEmo(Temp, fi);
-        else if (Filename == "slang") readSlang(Temp, fi);
+        if (tmp == "emotional.txt") readEmo(Temp, fi);
+        else if (tmp == "slang.txt") readSlang(Temp, fi);
         else readData(Temp, fi, GetType);
     }
     fi.close();
@@ -204,13 +210,12 @@ void HashTable::SaveHistory() {
 
 void HashTable::LoadHistory() {
     ifstream fin;
-    vector<string> hisSearch;
     string filePath = "Data/History/" + Name + ".txt", temp;
     fin.open(filePath);
     if (fin.is_open()) {
         while(!fin.eof()) {
             fin >> temp;
-            hisSearch.push_back(temp);
+            History.push_back(temp);
         }
         fin.close();
     }
@@ -221,6 +226,36 @@ void HashTable::DisplayHistory() {
     cout << setw(93) << "Search History" << '\n';
     int cnt = 0;
     if (History.size()) for (string &c: History) cout << setw(93) << " " << (cnt++) << ". " << c << '\n';
+}
+
+//Favorite dev
+
+void HashTable::SaveFavorite() {
+    ofstream fout;
+    string filePath = "Data/Favorite/" + Name + ".txt";
+    fout.open(filePath);
+    if (Favorite.size()) for (string &c: Favorite) fout << c << '\n';
+    fout.close();
+}
+
+void HashTable::LoadFavorite() {
+    ifstream fin;
+    string filePath = "Data/Favorite/" + Name + ".txt", temp;
+    fin.open(filePath);
+    if (fin.is_open()) {
+        while(!fin.eof()) {
+            fin >> temp;
+            Favorite.push_back(temp);
+        }
+        fin.close();
+    }
+    return;
+}
+
+void HashTable::DisplayFavorite() {
+    cout << setw(93) << "Favorite list" << '\n';
+    int cnt = 0;
+    if (Favorite.size()) for (string &c: Favorite) cout << setw(93) << " " << (cnt++) << ". " << c << '\n';
 }
 
 

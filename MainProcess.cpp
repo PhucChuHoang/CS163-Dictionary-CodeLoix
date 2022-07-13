@@ -22,6 +22,7 @@ void GetData(HashTable &HT) {
         fho.close();
     }
     HT.LoadHistory();
+    HT.LoadFavorite();
 }
 
 void InitData(HashTable &AnhViet, HashTable &VietAnh, HashTable &AnhAnh, HashTable &emo, HashTable &slang) {
@@ -36,7 +37,8 @@ bool SearchProcessing(HashTable &MainData) {
     int Command = GetCommand();
 
     if (Command == 0) return 0;
-
+    system("cls");
+    // Search by keyword
     if (Command == 1) {
         system("cls");
         string w;
@@ -59,9 +61,56 @@ bool SearchProcessing(HashTable &MainData) {
 
         HashNode *wp = MainData.FindWord(SuggestWords[pos - 1]);
         wp->data.ShowData(3, MainData.GetType);
+
+        // Save in history
+        MainData.History.push_back(wp->data.Key);
+        if (MainData.History.size() > 5){
+            MainData.History.erase(MainData.History.begin());
+        }
+        MainData.SaveHistory();
+        // Save in Favorite
+        cout << '\n';
+        cout << "1. Save in Favorite" << '\n';
+        cout << "2. Remove from Favorite" << '\n';
+        cout << "0. Back" << '\n';
+
+        int p = GetCommand();
+        int cnt = 0;
+        int id = -1;
+        for (string &c: MainData.Favorite){
+            if (c == wp->data.Key){
+                id = cnt;
+                break;
+            }
+            cnt++;
+        }
+        if (p == 1){
+            if (id == -1)
+            MainData.Favorite.push_back(wp->data.Key);
+            else cout << "You have added this word into favorite!" << '\n';
+        }
+        if (p == 2){
+            if (id == -1){
+                cout << "You have not add this word into favorite!" << '\n';
+            }
+            else{
+                MainData.Favorite.erase(MainData.Favorite.begin() + id);
+            }
+        }
+        MainData.SaveFavorite();
         system("pause");
     }
+    
+    // Search by definition
+    if (Command == 2){
 
+    }
+
+    //Show search History
+    if (Command == 3){
+        MainData.DisplayHistory();
+        system("pause");
+    }
     return 1;
 }
 
@@ -103,11 +152,26 @@ bool FavouriteProcessing(HashTable &MainData) {
 
     if (Command == 0) return 0;
     system("cls");
-    HashTable Fav("Fav", 31, 14071);
-    string Filename = "Data/Favorite/" + MainData.Name + ".txt";
-    Fav.FileInput(Filename);
 
-    
+    // Show Favorite list
+    if (Command == 1){
+        MainData.DisplayFavorite();
+        system("pause");
+    }
+
+    // Remove from Favorite list
+    if (Command == 2){
+        MainData.DisplayFavorite();
+        cout << "Remove a word from a list.";
+        int p = GetCommand();
+        if (p < 1 || p > MainData.Favorite.size()){
+            cout << "Invalid input!";
+            system("pause");
+            return 1;
+        }
+        MainData.Favorite.erase(MainData.Favorite.begin() + p - 1);
+        MainData.SaveFavorite();
+    }
 
     return 1;
 }
@@ -266,7 +330,7 @@ bool ChooseDictionary(HashTable &AnhViet, HashTable &VietAnh, HashTable &AnhAnh,
 }
 
 void MainProcess() {
-    HashTable AnhViet("AnhViet", 31, 14071), VietAnh("VietAnh", 31, 14071), AnhAnh("AnhAnh", 31, 14071), emotional("emotional", 131, 14071), slang("emotional", 131, 14701);
+    HashTable AnhViet("AnhViet", 31, 14071), VietAnh("VietAnh", 31, 14071), AnhAnh("AnhAnh", 31, 14071), emotional("emotional", 131, 14071), slang("slang", 131, 14701);
     InitData(AnhViet, VietAnh, AnhAnh, emotional, slang);
     while (ChooseDictionary(AnhViet, VietAnh, AnhAnh, emotional, slang));
 }

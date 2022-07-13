@@ -19308,7 +19308,8 @@
 -Languid, sluggish
 =Trong mat thi thong minh, ma nguoi thi du ddo
 =`
-=To look+intelligent and to be sluggish in one's movements
+=To look
+=intelligent and to be sluggish in one's movements
 
 @to hop
 *noun
@@ -56982,7 +56983,8 @@
 -(cu) Canopied dais; the throne
 =Khau dau lay tru
 ='o
-=c dan tri+To kow tow before the canopied dais
+=c dan tri
+=To kow tow before the canopied dais
 
 @chiet khau
 *excl

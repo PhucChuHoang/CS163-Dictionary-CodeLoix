@@ -13,7 +13,6 @@
 struct HashNode {
     Word data;
     HashNode* pNext = nullptr;
-
     HashNode (std::string &_data);
 };
 
@@ -29,7 +28,7 @@ struct HashTable {
     Trie Prefix;
     std::vector <std::string> GetType;
     std::vector <std::string> History;
-
+    std::vector <std::string> Favorite;
 
     HashTable(std::string Name, int _P, int _N);
     ~HashTable();
@@ -50,6 +49,8 @@ struct HashTable {
     void LoadHistory();
     void DisplayHistory();
 
-
+    void SaveFavorite();
+    void LoadFavorite();
+    void DisplayFavorite();
 };
 

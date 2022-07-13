@@ -15,8 +15,6 @@
 #include <ctime>
 #include <iomanip>
 
-#define rand rd
-
 void InitData(HashTable &AnhViet, HashTable &VietAnh, HashTable &AnhAnh, HashTable &emo, HashTable &slang);
 
 bool SearchProcessing(HashTable &MainData);
