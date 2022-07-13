@@ -53,7 +53,7 @@ bool SearchProcessing(HashTable &MainData) {
         for (int i = 0; i < (int)(SuggestWords.size()); i++)
             cout << i + 1 << ". " << SuggestWords[i] << '\n';
         int pos = GetCommand();
-        if (pos >= (int) (SuggestWords.size()) || pos < 1) {
+        if (pos > (int) (SuggestWords.size()) || pos < 1) {
             cout << "Invalid input!";
             system("pause");
             return 1;
@@ -157,6 +157,7 @@ bool EditProcessing(HashTable &MainData) {
     if (Command == 2){
         cout << "Input the word you want to edit: ";
         string to_edit;
+        cin.ignore();
         getline(cin, to_edit);
         while (EditWordDefProcessing(MainData, to_edit));
     }
@@ -165,7 +166,8 @@ bool EditProcessing(HashTable &MainData) {
     if (Command == 3){
         cout << "Input the word you want to remove: ";
         string to_remove;
-        cin >> to_remove;
+        cin.ignore();
+        getline(cin, to_remove);
         MainData.DeleteWord(to_remove);
     }
 
@@ -268,6 +270,7 @@ bool EditWordDefProcessing(HashTable &data, string to_edit) {
     HashNode* to_edit_word = data.FindWord(to_edit);
     if (!to_edit_word) {
         cout << setw(95) << " " << "Word doesn't exist" << endl;
+        system("pause");
         return 0;
     }
 
@@ -293,6 +296,7 @@ bool EditWordDefProcessing(HashTable &data, string to_edit) {
 
     to_edit_word->data.AddType(int_type);
     to_edit_word->data.AddTrans(int_type, tmp_def);
+    system("pause");
     return 1;
 
 }
@@ -392,7 +396,6 @@ bool ChooseFunctions(HashTable &MainData) {
     if (Command == 3) while (RandomWordProcessing(MainData));
     if (Command == 4) while (FavouriteProcessing(MainData));
     if (Command == 5) while (MinigameProcessing(MainData));
-
     return 1;
 }
 
