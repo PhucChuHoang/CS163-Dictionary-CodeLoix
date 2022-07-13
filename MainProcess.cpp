@@ -109,6 +109,13 @@ bool SearchProcessing(HashTable &MainData) {
     //Show search History
     if (Command == 3){
         MainData.DisplayHistory();
+        cout << '\n' << "1. Clear History" << '\n';
+        cout << "0. Back" << '\n';
+        int p = GetCommand();
+        if (p == 1){
+            MainData.History.clear();
+            MainData.SaveHistory();
+        }
         system("pause");
     }
     return 1;
@@ -119,8 +126,57 @@ bool EditProcessing(HashTable &MainData) {
     int Command = GetCommand();
 
     if (Command == 0) return 0;
+    system("cls");
+    //Add new word
+    if (Command == 1){
+        cout << "Input the word you want to add: ";
+        Word to_add;
+        cin >> to_add.Key;
+        HashNode* to_add_word = MainData.FindWord(to_add.Key);
+        if (!to_add_word){
+            MainData.InsertNewWord(to_add);
+            while(EditWordDefProcessing(MainData, to_add.Key));
+        }
+        else{
+            cout << "This word already exists in dictionary" << endl;
+            cout << "1. Edit definition" << endl;
+            cout << "2. Add another word" << endl;
+            cout << "0. Back" << endl;
+            int p  = GetCommand();
+            if (p == 1){
+                while (EditWordDefProcessing(MainData, to_add.Key));
+            }
+            if (p == 2){
+                return 1;
+            }
+            else return 0;
+        }
+    }
 
+    // Edit definition
+    if (Command == 2){
+        cout << "Input the word you want to edit: ";
+        string to_edit;
+        getline(cin, to_edit);
+        while (EditWordDefProcessing(MainData, to_edit));
+    }
 
+    // Remove word
+    if (Command == 3){
+        cout << "Input the word you want to remove: ";
+        string to_remove;
+        cin >> to_remove;
+        MainData.DeleteWord(to_remove);
+    }
+
+    // Reset Dictionary
+    if (Command == 4){
+        string Filename = "Data/Checker/" + MainData.Name + ".txt";
+        ofstream fo;
+        fo.open(Filename);
+        fo << 1 << endl;
+        fo.close();
+    }
 
     return 1;
 }
@@ -141,7 +197,29 @@ bool RandomWordProcessing(HashTable &MainData) {
     string word = MainData.List[location].pHead->data.Key;
     string wordDef = MainData.List[location].pHead->data.typeDefEx[0].Trans[0];
     cout << setw(106 - word.length()/2) << " " << word << endl;
-    cout << setw(106 - wordDef.length()/2) << " " << wordDef << endl;
+    cout << setw(106 - wordDef.length()/2) << " " << wordDef << endl << endl;
+    MainData.History.push_back(word);
+    if (MainData.History.size() > 5){
+        MainData.History.erase(MainData.History.begin());
+    }
+    MainData.SaveHistory();
+    cout << "1. Add to favorite list" << '\n';
+    cout << "0. Back" << '\n';
+    int p = GetCommand();
+    int cnt = 0;
+    int id = -1;
+    for (string &c: MainData.Favorite){
+        if (c == word){
+            id = cnt;
+            break;
+        }
+        cnt++;
+    }
+    if (p == 1){
+        if (id == -1) MainData.Favorite.push_back(word);
+        else cout << "You have added this word into favorite!" << '\n';
+    }
+    MainData.SaveFavorite();
     system("pause");
     return 0;
 }
@@ -173,6 +251,11 @@ bool FavouriteProcessing(HashTable &MainData) {
         MainData.SaveFavorite();
     }
 
+    // Clear Favorite list
+    if (Command == 3){
+        MainData.Favorite.clear();
+        MainData.SaveFavorite();
+    }
     return 1;
 }
 

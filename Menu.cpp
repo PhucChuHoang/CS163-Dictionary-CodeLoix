@@ -43,6 +43,7 @@ void FavouriteMenu() {
     system("cls");
     cout << setw(95) << " " << "1. View Favorite List" << '\n';
     cout << setw(95) << " " << "2. Remove Word from Favorite List" << '\n';
+    cout << setw(95) << " " << "3. Clear Favorite List" << '\n';
     cout << setw(95) << " " << "0. Back" << '\n';
 }
 

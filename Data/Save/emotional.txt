@@ -1,685 +1,2740 @@
-%-)	User has been staring at a green screen for 15 hours straight.
-(-:	User is left handed.
-(8-o	It's Mr. Bill!
-(:I	User is an egghead.
-*:o)	And Bozo the Clown!
-*<:-)	User is wearing a Santa Claus Hat.
-+-:-)	User is the Pope or holds some other religious office.
-,-)	Ditto...but he's winking.
-,:-)	Same thing...other side.
--6%	User is braindead.
--:-(	Real punk rockers don't smile.
--:-)	User is a punk rocker.
--=* :-)	User is a TeX wizard.
-.-)	User only has one eye.
-2MFM	To much for me
-2U2	To you too
-3:[	Mean Pet smiley.
-3:]	Pet smiley.
-4AYN	For all you know
-4COL	For crying out loud
-4SALE	For sale
-4U	For you
-8 :-)	User is a wizard.
-8 :-I	Net.unix-wizards
-8-)	User is wearing sunglasses.
-8:-)	User is a little girl.
-:'-(	User is crying.
-:'-)	User is so happy, s/he is crying.
-:(	Sad.
-:)	Happy.
-:*	Kisses.
-:*)	User is drunk.
-:,(	Crying.
-:-#	User wears braces.
-:-&	User is tongue tied.
-:-(	boo hoo
-:-)	ha ha
-:-)-8	User is a Big girl.
-:-)~	User drools.
-:-*	User just ate something sour.
-:-/	User is skeptical.
-:-0	No Yelling!(Quiet Lab)
-:-7	User juust made a wry statement.
-:-9	User is licking his/her lips.
-:-:	Mutant smiley; the invisible smiley.
-:->	hey hey
-:-?	User smokes a pipe.
-:-@	User is screaming.
-:-C	User is really bummed.
-:-D	User is laughing (at you!)
-:-E	Bucktoothed vampire.
-:-F	Bucktoothed vampire with one tooth missing.
-:-I	hmmm
-:-O	oops
-:-P	nyahhhh!
-:-Q	User is a smoker.
-:-S	User just made an incoherent statement.
-:-X	User's lips are sealed.
-:-[	User is a vampire.
-:-`	User spitting out its chewing tobacco.
-:-o	Uh oh!
-:-{)	User has a mustache.
-:-{}	User wears lipstick.
-:-~)	User has a cold.
-::-)	User wears normal glasses.
-:<	What?
-:<)	User is from an Ivy League School.
-:=)	User has two noses.
-:>	What?
-:@	What?
-:C	What?
-:D	Laughter.
-:I	Hmmm...
-:O	Yelling.
-:Q	What?
-:[	Real Downer.
-:]	Gleep...a friendly midget smiley who will gladly be your friend.
-:^)	User has a broken nose.
-:_)	User's nose is sliding off of his face.
-:v)	User has a broken nose, but it's the other way.
-:{	What?
-:}	What should we call these? (what?)
-;-)	Winky smiley. User just made a flirtatious and/or sarcastic remark.More of a "don't hit me for what I just said" smiley.
-<:-I	User is a dunce.
-<|-(	User is Chinese and doesn't like these kind of jokes.
-<|-)	User is Chinese.
-=)	Variation on a theme...
-=))	Full of laughing
-=:-)	User is a hosehead.
-=W=	Whatever
->:->	User just made a really devilish remark.
->;->	Winky and devil combined. A very lewd remark was just made.
->U	Screw you!
-?	Huh?
-?4U	Question for you
-@:-)	User is wearing a turban.
-@=	User is pro-nuclear war.
-A/S/L	Age/Sex/Location
-AAMOF	As a matter of fact
-ABFL	A big fat lady
-ABT	About
-ADN	Any day now
-AFAIC	As far as I'm concerned
-AFAICS	As far as I can see
-AFAICT	As far as I can tell
-AFAIK	As far as I know
-AFAYC	As far as you're concerned
-AFK	Away from computer keyboard (for wireless users)
-AIM	AOL Instant Messenger; also verb for FTP'ing files via AIM
-AISI	As I see it
-AIUI	As I understand it
-AKA	Also known as
-AML	All my love
-ANFSCD	And now for something completely different
-ASAP	As soon as possible
-ASL	Assistant section leader
-ASOP	Assistant system operator
-ATM	At the moment
-AWA	As well as
-AWGTHTGTTA	Are we going to have to go trough this again?
-AWHFY	Are we having fun yet?
-AWOL	Absent without leave
-AYOR	At your own risk
-AYPI?	And your point is?
-B	Back
-B-)	User wears horn-rimmed glasses.
-B/C	Because
-B/F	Boyfriend
-B4	Before
-B4N	Bye for now
-B:-)	Sunglasses on head.
-BAC	Back at computer
-BAG	Busting a gut
-BAK	Back at the keyboard
-BBIAB	Be back in a bit
-BBL	Be back later
-BBLBNTSBO...	Be back later but not to soon because of...
-BBR	Burnt beyond repair
-BBS	Be back soon
-BC	Because
-BCNU	Be Seein' You
-BEG	Big evil grin
-BF	Boyfriend
-BFN	Bye for now
-BG	Big grin
-BICBW	But I could be wrong
-BION	Believe it or not
-BIOYIOB	Blow it out your I/O port
-BITMT	But in the meantime
-BKA	Better known as
-BL	Belly laughing
-BM	Bite me
-BMB	bite my bum
-BMG	Be my guest
-BMTIPG	Brilliant minds think in parallel gutters
-BOB	Back off bastard
-BOL	Be on later
-BOM	Bitch of mine
-BOT	Back on topic
-BRB	Be right back
-BRBB	Be right back bitch
-BRBS	Be right back soon
-BRH	Be right here
-BRS	Big red switch
-BS	Big smile
-BSF	But seriously folks
-BST	But seriously though
-BTA	But then again
-BTAIM	Be that as it may
-BTDT	Been there done that
-BTOBD	Be there or be dead
-BTOBS	Be there or be square
-BTSOOM	Beats the shit out of me
-BTW	By the way
-BUDWEISER	Because you deserve what every individual should ever receive
-BWQ	Buzz word quotient
-BWTHDIK	But what the heck do I know
-BYOB	Bring your own bottle
-BYOH	Bat You Onna Head
-C&G	Chuckle and grin
-C=:-)	User is a chef.
-C=}>;*{))	A drunk, devilish chef with a toupee in an updraft, a mustache, and a double chin.
-CAD	Ctrl-alt-delete
-CADET	Can't add, doesn't even try
-CDIWY	Couldn't do it without you
-CFN	Ciao for now
-CFS	Care for secret?
-CFV	Call for votes
-CFY	Calling for you
-CID	Consider it done
-CIM	CompuServe information manager
-CLM	Career limiting move
-CM@TW	Catch me at the web
-CMIIW	Correct me if I'm wrong
-CNP	Continue in next post
-CO	Conference
-CRAFT	Can't remember a frighten thing
-CRS	Can�t remember shit
-CSG	Chuckle snicker grin
-CTS	Changing the subject
-CU	See you
-CU2	See you too
-CUL	See you later
-CUL8R	See you later
-CWOT	Complete waste of time
-CWYL	Chat with you later
-CYA	See ya
-CYAL8R	See ya later
-CYO	See you online
-DBA	Doing business as
-DCED	Disconnected
-DFLA	Disenhanced four-letter acronym
-DGA	Digital guardian angel
-DH	Darling husband
-DIIK	Darn if i know
-DIKU	Do I know you?
-DITYID	Did I tell you I'm distressed
-DIY	Do it yourself
-DL	Dead link
-DLTBBB	Don't let the bad bugs bite
-DMMGH	Don't make me get hostile
-DND	Do not disturb
-DQMOT	Don't quote me on this
-DTC	Damn this computer
-DTRT	Do the right thing
-DUCT	Did you see that?
-DWAI	Don't worry about it
-DWIM	Do what I mean
-DWIMC	Do what I mean, correctly
-DWISNWID	Do what I say, not what I do
-DYJHIW	Don't you just hate it when...
-DYK	Do you know
-DYOH	Do your own homework
-E-:-)	User is a Ham radio operator.
-E-:-I	Net.ham-radio
-EAK	Eating at keyboard
-EG	Evil grin
-EIE	Enough is enough
-EMFJI	Excuse me for jumping in
-EMSG	Email message
-EOD	End of discussion
-EOF	End of file
-EOL	End of lecture
-EOM	End of message
-EOT	End of thread
-ETLA	Extended three letter acronym
-F	Female
-F/F	Face to face
-F2F	Face to face
-FAQ	Frequently asked questions
-FAWC	For anyone who cares
-FBOW	For better or worse
-FBTW	Fine, be that way
-FCFS	First come, first served
-FCOL	For crying out loud
-FIFO	First in, first out
-FISH	First in, still here
-FLA	Four-letter acronym
-FOAD	Fight over and die
-FOAF	Friend of a friend
-FOB	Full of bless
-FOC	Free of charge
-FOCL	Falling of chair laughing
-FOFL	Falling on the floor laughing
-FOS	Freedom of speech
-FOTCL	Falling of the chair laughing
-FTF	Face to face
-FTTT	From time to time
-FU	F*cked up
-FUBAR	F*cked up beyond all recognition
-FUD	Fear, uncertainty and doubt
-FURTB	Full up ready to burst (about hard disk drives)
-FW	Forward
-FWIW	For what it's worth
-FYA	For your amusement
-FYE	For your entertainment
-FYEO	For your eyes only
-FYI	For your information
-G	Grin
-G&BIT	Grin and bear it
-G2B	Going to bed
-G2G	Got to go
-G2GGS2D	Got to go get something to drink
-GA	Good afternoon
-GAFIA	Get away from it all
-GAL	Get a life
-GAS	Greetings and salutations
-GBH	Great big hug
-GBH&K	Great big huh and kisses
-GBR	Garbled beyond recovery
-GBY	God bless you
-GD&H	Grinning, ducking and hiding
-GD&R	Grinning, ducking and running
-GD&RAFAP	Grinning, ducking and running as fast as possible
-GD&REF&F	grinning, ducking and running even further and faster
-GD&RF	Grinning, ducking and running fast
-GD&RVF	Grinning, ducking and running very
-GD&W	Grin, duck and wave
-GDW	Grin, duck and wave
-GE	Good evening
-GF	Girlfriend
-GFETE	Grinning from ear to ear
-GFN	Gone for now
-GFU	Good for you
-GG	Good game
-GGU2	Good game you two
-GIGO	Garbage in garbage out
-GJ	Good job
-GL	Good luck
-GL&GH	Good luck and good hunting
-GM	Good morning
-GMAB	Give me a break
-GMTA	Great minds think alike
-GN	Good night
-GOK	God only knows
-GOWI	Get on with it
-GPF	General protection fault
-GR&D	Grinning, running and ducking
-GR8	Great
-GRA	Go right ahead
-GTG	Got to go
-GTSY	Glad to see you
-GW	Good work
-H	Hug
-H&K	Hug and kiss
-H/O	Hold on
-HAG1	Have a good one
-HAGD	Have a good day
-HAGN	Have a good night
-HAGS	Have a good summer
-HAHA	Having a heart attack
-HAK	Hug and kiss
-HAND	Have a nice day
-HB	Hug back
-HDYWTDT	How do you work this dratted thing
-HF	Have fun
-HH	Holding hands
-HHIS	Hanging head in shame
-HHJK	Ha ha, just kidding
-HHOJ	Ha ha, only joking
-HHOK	Ha ha, only kidding
-HHOS	Ha ha, only seriously
-HIH	Hope it helps
-HILIACACLO	Help I lapsed into a coma and can�t log off
-HIWTH	Hate it when that happens
-HLM	He loves me
-HMS	Home made smiley
-HMT	Here�s my try
-HMWK	Homework
-HOAS	Hold on a second
-HSIK	How should i know
-HT	Hi there
-HTH	Hope this helps
-HTHBE	Hope this has been enlightening
-HYLMS	Hate you like my sister
-IAAA	I am an accountant
-IAAL	I am a lawyer
-IAC	In any case
-IAE	In any event
-IAG	It's all good
-IAIM	In an Irish minute
-IANAA	I am not an accountant
-IANAL	I am not a lawyer
-IBN	I'm bucked naked
-IC	I see
-ICOCBW	I could of course be wrong
-IDC	I don't care
-IDGI	I don't get it
-IDGW	In a good way
-IDI	I doubt it
-IDK	I don't know
-IDTT	I'll drink to that
-IFVB	I feel very bad
-IGP	I gotta pee
-IGTP	I get the point
-IHTFP	I hate this fountain place
-IHU	I hate you
-IHY	I hate you
-II	I�m impressed
-IIR	If I recall
-IIRC	If I recall correctly
-IIT	I�m impressed too
-IJWTK	I just want to know
-IJWTS	I just want to say
-IK	I know
-IKWUM	I know what you mean
-ILBCNU	I"ll be seeing you
-ILU	I love you
-ILY	I love you
-ILYFAE	I love you forever and ever
-IM	Instant message
-IMAO	In my arrogant opinion
-IMBO	In my bloody opinion
-IMCO	In my considered opinion
-IME	In my experience
-IMFAO	In my fooling arrogant opinion
-IMHO	In my humble opinion
-IMNSHO	In my, not so humble opinion
-IMO	In my opinion
-IMOBO	In my own biased opinion
-IMP	I might be pregnant
-IMPOV	In my point of view
-IMS	I am sorry
-INAL	I'm not a lawyer
-INPO	In no particular order
-IOIT	I'm on Irish Time
-IOW	In other words
-IRC	Internet Relay Chat; an multiuser, multinetwork conversing platform (http://www.irc.org)
-IRL	In real life
-IRMFI	I reply merely for information
-IS	I'm sorry
-ISTM	It seems to me
-ISTR	I seem to recall
-ISWYM	I see what you mean
-ITFA	In the final analysis
-ITRO	In the reality of
-ITRW	In the real world
-ITSFWI	If the shoe fits, wear it
-IVL	In virtual live
-IWALY	I will always love you
-IWBNI	It would be nice if
-IYKWIM	If you know what I mean
-IYSWIM	If you see what I mean
-J/K	Just kidding
-J/P	Just playing
-JAM	Just a minute
-JAS	Just a second
-JASE	Just another system error
-JAWS	Just another windows shell
-JIC	Just in case
-JJWY	Just joking with you
-JK	Just kidding
-JMHO	Just my humble opinion
-JMO	Just my opinion
-JP	Just playing
-JTLYK	Just to let you know
-JW	Just wondering
-K	Kiss (rarely used)
-K:P	User is a little kid with a propeller beenie.
-KB	Kiss back
-KHYF	Know how you feel
-KIS	Keep it simple
-KISS	Keeping it sweetly simple
-KIT	Keep in touch
-KOTC	Kiss on the cheek
-KOTL	Kiss on the lips
-KUTGW	Keep up the good work
-KWIM	Know what I mean?
-L	Laugh
-L8R	Later
-L8R G8R	Later gator
-LAB	Life's a bitch
-LBR	Little boys room
-LD	Long distance
-LGR	Little girls room
-LHM	Lord help me
-LHU	Lord help us
-LL&P	Live long & prosper
-LMA	Leave me alone
-LMHO	Laughing my head off
-LMK	Let me know
-LNK	Love and kisses
-LOL	Lots of love
-LOLA	Laughing out loud again
-LOML	Light of my life (or love of my life)
-LOMLILY	Light of my life, I love you
-LOOL	Laughing out outrageously loud
-LSHIPMP	Laughing so hard I pissed my pants
-LSHMBB	Laughing so hard my belly is bouncing
-LSHMBH	Laughing so hard my belly hurts
-LTNS	Long time no see
-LTR	Long term relationship
-LTS	Laughing to self
-LULAS	Love you like a sister
-LUWAMH	Love you with all my heart
-LY	Love ya
-LYK	Let you know
-LYL	Love ya lots
-LYLAB	Love ya like a brother
-LYLAS	Love ya like a sister
-M	Male
-M8	Mate
-MB	Maybe
-MYOB	Mind your own business
-N	In
-N/C	Not cool
-N/M	Never mind / nothing much
-N/S	No shit
-N2M	Not too much
-NBD	No big deal
-NE1	Anyone
-NETUA	Nobody ever tells us anything
-NFI	No found idea
-NL	Not likely
-NM	Never mind / nothing much
-NMH	Not much here
-NMJC	Nothing much, just chillin'
-NOM	No offense meant
-NOTTOMH	Not of the top of my mind
-NOYB	None of your business
-NOYFB	None of your failing business
-NP	No problem
-NRN	No response necessary
-NS	No shit
-NTA	Non-technical acronym
-NVM	Nevermind
-O :-)	User is an angel (at heart, at least).
-O |-)	Net.religion
-O-)	Megaton Man On Patrol!(or else, user is a scuba diver)
-OBTW	Oh, by the way
-OF	On fire
-OFIS	On floor with stitches
-OH	Off hand
-OIC	Oh I see
-OK	Abbreviation of oll korrect (all correct)
-OL	Old lady (wife, girlfriend)
-OM	Old man (husband, boyfriend)
-OMG	Oh my god / gosh / goodness
-OOC	Out of character
-OT	Off topic / other topic
-OTOH	On the other hand
-OTP	On the phone
-OTTOMH	Off the top of my head
-PAW	Parents are watching
-PDS	Please don't shoot
-PEBCAK	Problem exists between chair and keyboard
-PLS	Please
-PLZ	Please
-PM	Private message
-PMFJI	Pardon me for jumping in
-PMJI	Pardon my jumping in (Another way for PMFJI)
-PMP	Peed my pants
-POAHF	Put on a happy face
-POC	Point of contact
-POOF	I have left the chat
-POS	Parents over shoulder
-POTB	Pats on the back
-POV	Point of view
-PPL	People
-PS	Post script
-PSA	Public show of affection
-Q4U	Question for you
-QSL	Reply
-QSO	Conversation
-QT	Cutie
-RCED	Reconnected
-RE	Hi again (same as re's)
-ROFL	Rolling on floor laughing
-ROFLOLAY	Rolling on floor laughing out loud at you
-ROFLOLTSDMC	Rolling on floor laughing out loud tears streaming down my cheeks
-ROFLOLUTS	Rolling on floor laughing out loud unable to speak
-ROFLOLWTIME	Rolling on floor laughing out loud with tears in my eyes
-ROTFL	Rolling on the floor laughing
-RSN	Real soon now
-RTF	Read the FAQ
-RTSM	Read the stupid manual
-RUOK?	Are you okay?
-RUTTM	Are you talking to me
-RVD	Really very dumb
-S	Smile
-S2R	Send to receive
-SAMAGAL	Stop annoying me and get a live
-SCNR	Sorry, could not resist
-SETE	Smiling ear to ear
-SH	So hot
-SHICPMP	So happy I could piss my pants
-SHID	Slaps head in disgust
-SHMILY	See how much I love you
-SIM	Shit, it's Monday
-SITWB	Sorry, in the wrong box
-SNAFU	Situation normal, all fed up
-SO	Significant other
-SOHF	Sense of humor failure
-SOMY	Sick of me yet?
-SPAM	Stupid persons' advertisement
-SRY	Sorry
-STW	Search the web
-SWAK	Sealed with a kiss
-SWALK	Sweet, with all love, kisses
-SWL	Screaming with laughter
-SYS	See you soon
-SYSOP	System operator
-T	Tickle
-TA	Thanks again
-TAFN	That's all for now
-TBA	To be announced
-TBH	To be honest
-TCO	Taken care of
-TGIF	Thank god its Friday
-THTH	To hot to handle
-THX	Thanks
-TIA	Thanks in advance
-TIIC	The idiots in charge
-TJM	That's just me
-TLA	Three-letter acronym
-TMA	Take my advice
-TMI	To much information
-TNSTAAFL	There's no such thing as a free lunch
-TNX	Thanks
-TOH	To other half
-TOY	Thinking of you
-TPTB	The powers that be
-TSDMC	Tears streaming down my cheeks
-TT2T	To tired to talk
-TTFN	Ta ta for now
-TTT	Thought that, too
-TTUL	Talk to you later
-TTYL	Talk to you later
-TTYLMF	Talk to you later my friend
-TU	Thank you
-TWMA	Till we meet again
-TX	Thanx
-TY	Thank you
-TYVM	Thank you very much
-U2	You too
-UR	Your
-URAQT!	You are a cutie!
-UW	You're welcom
-VBG	Very big grin
-VBS	Very big smile
-W	Wink
-W/E	Whatever
-W8	Wait
-W8AM	Wait a minute
-WAY	Who are you
-WB	Welcome back
-WBS	Write back soon
-WDHLM	Why doesn't he love me
-WE	Whatever
-WFM	Works for me
-WNDITWB	We never did it this way before
-WP	Wrong person
-WRT	With respect to
-WTF	What/who the fool?
-WTG	Way to go
-WTGP	Want to go private?
-WTH	What/who the heck?
-WTMI	Way to much information
-WU	What's up?
-WU?	What's up?
-WUD	What's up dog?
-WUF	Where are you from?
-WUWT	Whats up with that
-WYMM	Will you marry me?
-WYSIWYG	What you see is what you get
-X-(	Net.suicide
-XTLA	Extended three letter acronym
-Y	Why?
-Y2K	You're too kind
-YATB	You are the best
-YBS	You'll be sorry
-YG	Young gentleman
-YHBBYBD	You'd have better bet your bottom dollar
-YL	You 'll live
-YM	You mean
-YMMD	You've made my day
-YMMV	Your mileage may vary
-YOYO	You're on your own
-YT?	You there?
-YVW	You're very welcome
-YW	You are welcome
-YWIA	You're welcome in advance
-YWTKM	You want to kiss me
-YWTLM	You want to love me
-YY4U	Two wise for you
-[:-)	User is wearing a walkman.
-[:]	User is a robot.
-[]	Hugs and ...
-^-^	Satisfied Smile
-^-~	Wink
-^_-	Wink
-^_^	Smile
-^o	Snoring.
-`:-)	User shaved one of his eyebrows off this morning.
-d8=	Your pet beaver is wearing goggles and a hard hat.
-n00b	Leetspeak for beginner
-{:-)	User wears a toupee.
-|-)	hee hee
-|-D	ho ho
-|-I	User is asleep.
-|-O	User is yawning/snoring.
-|I	Asleep.
-}:-(	Toupee in an updraft.
-}:^#})	Updrafted bushy-mustached pointy nosed smiley with a double-chin.
-~~:-(	Net.flame
+@HHOJ
+*unknown
+-Ha ha, only joking
+
+@IMP
+*unknown
+-I might be pregnant
+
+@SOHF
+*unknown
+-Sense of humor failure
+
+@8:-)
+*unknown
+-User is a little girl.
+
+@STW
+*unknown
+-Search the web
+
+@CDIWY
+*unknown
+-Couldn't do it without you
+
+@G2GGS2D
+*unknown
+-Got to go get something to drink
+
+@VBS
+*unknown
+-Very big smile
+
+@M8
+*unknown
+-Mate
+
+@FCOL
+*unknown
+-For crying out loud
+
+@CFV
+*unknown
+-Call for votes
+
+@:->
+*unknown
+-hey hey
+
+@FBOW
+*unknown
+-For better or worse
+
+@WBS
+*unknown
+-Write back soon
+
+@::-)
+*unknown
+-User wears normal glasses.
+
+@TGIF
+*unknown
+-Thank god its Friday
+
+@IGTP
+*unknown
+-I get the point
+
+@BMTIPG
+*unknown
+-Brilliant minds think in parallel gutters
+
+@(8-o
+*unknown
+-It's Mr. Bill!
+
+@DBA
+*unknown
+-Doing business as
+
+@FWIW
+*unknown
+-For what it's worth
+
+@BMG
+*unknown
+-Be my guest
+
+@WTGP
+*unknown
+-Want to go private?
+
+@IRL
+*unknown
+-In real life
+
+@IMFAO
+*unknown
+-In my fooling arrogant opinion
+
+@GF
+*unknown
+-Girlfriend
+
+@B4
+*unknown
+-Before
+
+@SYS
+*unknown
+-See you soon
+
+@WYMM
+*unknown
+-Will you marry me?
+
+@YBS
+*unknown
+-You'll be sorry
+
+@HF
+*unknown
+-Have fun
+
+@ROFLOLUTS
+*unknown
+-Rolling on floor laughing out loud unable to speak
+
+@:-{)
+*unknown
+-User has a mustache.
+
+@=))
+*unknown
+-Full of laughing
+
+@IDC
+*unknown
+-I don't care
+
+@SAMAGAL
+*unknown
+-Stop annoying me and get a live
+
+@=:-)
+*unknown
+-User is a hosehead.
+
+@IBN
+*unknown
+-I'm bucked naked
+
+@TA
+*unknown
+-Thanks again
+
+@CWYL
+*unknown
+-Chat with you later
+
+@d8=
+*unknown
+-Your pet beaver is wearing goggles and a hard hat.
+
+@BBR
+*unknown
+-Burnt beyond repair
+
+@HMT
+*unknown
+-Here�s my try
+
+@HIWTH
+*unknown
+-Hate it when that happens
+
+@CYA
+*unknown
+-See ya
+
+@FCFS
+*unknown
+-First come, first served
+
+@FUBAR
+*unknown
+-F*cked up beyond all recognition
+
+@PMP
+*unknown
+-Peed my pants
+
+@:-O
+*unknown
+-oops
+
+@3:[
+*unknown
+-Mean Pet smiley.
+
+@NTA
+*unknown
+-Non-technical acronym
+
+@BOM
+*unknown
+-Bitch of mine
+
+@JAM
+*unknown
+-Just a minute
+
+@|-I
+*unknown
+-User is asleep.
+
+@@:-)
+*unknown
+-User is wearing a turban.
+
+@}:-(
+*unknown
+-Toupee in an updraft.
+
+@JJWY
+*unknown
+-Just joking with you
+
+@SNAFU
+*unknown
+-Situation normal, all fed up
+
+@FURTB
+*unknown
+-Full up ready to burst (about hard disk drives)
+
+@O-)
+*unknown
+-Megaton Man On Patrol!(or else, user is a scuba diver)
+
+@HHOS
+*unknown
+-Ha ha, only seriously
+
+@FYA
+*unknown
+-For your amusement
+
+@B:-)
+*unknown
+-Sunglasses on head.
+
+@YWTLM
+*unknown
+-You want to love me
+
+@CAD
+*unknown
+-Ctrl-alt-delete
+
+@W/E
+*unknown
+-Whatever
+
+@TTFN
+*unknown
+-Ta ta for now
+
+@SHID
+*unknown
+-Slaps head in disgust
+
+@EOM
+*unknown
+-End of message
+
+@SRY
+*unknown
+-Sorry
+
+@LTR
+*unknown
+-Long term relationship
+
+@GOWI
+*unknown
+-Get on with it
+
+@GBR
+*unknown
+-Garbled beyond recovery
+
+@BWTHDIK
+*unknown
+-But what the heck do I know
+
+@TX
+*unknown
+-Thanx
+
+@OF
+*unknown
+-On fire
+
+@W8
+*unknown
+-Wait
+
+@FAQ
+*unknown
+-Frequently asked questions
+
+@OFIS
+*unknown
+-On floor with stitches
+
+@POV
+*unknown
+-Point of view
+
+@FTTT
+*unknown
+-From time to time
+
+@HT
+*unknown
+-Hi there
+
+@:-`
+*unknown
+-User spitting out its chewing tobacco.
+
+@RUTTM
+*unknown
+-Are you talking to me
+
+@SO
+*unknown
+-Significant other
+
+@IRC
+*unknown
+-Internet Relay Chat; an multiuser, multinetwork conversing platform (http://www.irc.org)
+
+@FIFO
+*unknown
+-First in, first out
+
+@AWGTHTGTTA
+*unknown
+-Are we going to have to go trough this again?
+
+@DGA
+*unknown
+-Digital guardian angel
+
+@CM@TW
+*unknown
+-Catch me at the web
+
+@DFLA
+*unknown
+-Disenhanced four-letter acronym
+
+@:-(
+*unknown
+-boo hoo
+
+@ANFSCD
+*unknown
+-And now for something completely different
+
+@NFI
+*unknown
+-No found idea
+
+@PEBCAK
+*unknown
+-Problem exists between chair and keyboard
+
+@:-S
+*unknown
+-User just made an incoherent statement.
+
+@FISH
+*unknown
+-First in, still here
+
+@TCO
+*unknown
+-Taken care of
+
+@DIIK
+*unknown
+-Darn if i know
+
+@TT2T
+*unknown
+-To tired to talk
+
+@TJM
+*unknown
+-That's just me
+
+@G2G
+*unknown
+-Got to go
+
+@GAFIA
+*unknown
+-Get away from it all
+
+@<:-I
+*unknown
+-User is a dunce.
+
+@THX
+*unknown
+-Thanks
+
+@IK
+*unknown
+-I know
+
+@(:I
+*unknown
+-User is an egghead.
+
+@OMG
+*unknown
+-Oh my god / gosh / goodness
+
+@4U
+*unknown
+-For you
+
+@LBR
+*unknown
+-Little boys room
+
+@BYOB
+*unknown
+-Bring your own bottle
+
+@PLS
+*unknown
+-Please
+
+@BBLBNTSBO...
+*unknown
+-Be back later but not to soon because of...
+
+@JIC
+*unknown
+-Just in case
+
+@:>
+*unknown
+-What?
+
+@N/M
+*unknown
+-Never mind / nothing much
+
+@JK
+*unknown
+-Just kidding
+
+@C=:-)
+*unknown
+-User is a chef.
+
+@:-F
+*unknown
+-Bucktoothed vampire with one tooth missing.
+
+@OTTOMH
+*unknown
+-Off the top of my head
+
+@>;->
+*unknown
+-Winky and devil combined. A very lewd remark was just made.
+
+@IANAL
+*unknown
+-I am not a lawyer
+
+@ATM
+*unknown
+-At the moment
+
+@HB
+*unknown
+-Hug back
+
+@GD&R
+*unknown
+-Grinning, ducking and running
+
+@FYE
+*unknown
+-For your entertainment
+
+@CNP
+*unknown
+-Continue in next post
+
+@GD&RVF
+*unknown
+-Grinning, ducking and running very
+
+@LOML
+*unknown
+-Light of my life (or love of my life)
+
+@TBA
+*unknown
+-To be announced
+
+@ASL
+*unknown
+-Assistant section leader
+
+@HAG1
+*unknown
+-Have a good one
+
+@LOLA
+*unknown
+-Laughing out loud again
+
+@:-9
+*unknown
+-User is licking his/her lips.
+
+@TPTB
+*unknown
+-The powers that be
+
+@OT
+*unknown
+-Off topic / other topic
+
+@GTSY
+*unknown
+-Glad to see you
+
+@|I
+*unknown
+-Asleep.
+
+@NOM
+*unknown
+-No offense meant
+
+@LSHMBH
+*unknown
+-Laughing so hard my belly hurts
+
+@IDK
+*unknown
+-I don't know
+
+@IMAO
+*unknown
+-In my arrogant opinion
+
+@BMB
+*unknown
+-bite my bum
+
+@:<)
+*unknown
+-User is from an Ivy League School.
+
+@KB
+*unknown
+-Kiss back
+
+@LMK
+*unknown
+-Let me know
+
+@EOD
+*unknown
+-End of discussion
+
+@:-)~
+*unknown
+-User drools.
+
+@AIUI
+*unknown
+-As I understand it
+
+@AYOR
+*unknown
+-At your own risk
+
+@IIT
+*unknown
+-I�m impressed too
+
+@TSDMC
+*unknown
+-Tears streaming down my cheeks
+
+@QT
+*unknown
+-Cutie
+
+@OIC
+*unknown
+-Oh I see
+
+@YOYO
+*unknown
+-You're on your own
+
+@GFETE
+*unknown
+-Grinning from ear to ear
+
+@SWALK
+*unknown
+-Sweet, with all love, kisses
+
+@OK
+*unknown
+-Abbreviation of oll korrect (all correct)
+
+@ILYFAE
+*unknown
+-I love you forever and ever
+
+@BG
+*unknown
+-Big grin
+
+@MB
+*unknown
+-Maybe
+
+@ETLA
+*unknown
+-Extended three letter acronym
+
+@WUF
+*unknown
+-Where are you from?
+
+@KIT
+*unknown
+-Keep in touch
+
+@SWAK
+*unknown
+-Sealed with a kiss
+
+@4AYN
+*unknown
+-For all you know
+
+@BBIAB
+*unknown
+-Be back in a bit
+
+@SWL
+*unknown
+-Screaming with laughter
+
+@EG
+*unknown
+-Evil grin
+
+@IMO
+*unknown
+-In my opinion
+
+@FYI
+*unknown
+-For your information
+
+@AFAICT
+*unknown
+-As far as I can tell
+
+@:*)
+*unknown
+-User is drunk.
+
+@|-D
+*unknown
+-ho ho
+
+@FLA
+*unknown
+-Four-letter acronym
+
+@>U
+*unknown
+-Screw you!
+
+@JMO
+*unknown
+-Just my opinion
+
+@LGR
+*unknown
+-Little girls room
+
+@^o
+*unknown
+-Snoring.
+
+@LY
+*unknown
+-Love ya
+
+@GG
+*unknown
+-Good game
+
+@:C
+*unknown
+-What?
+
+@BRBS
+*unknown
+-Be right back soon
+
+@MYOB
+*unknown
+-Mind your own business
+
+@BITMT
+*unknown
+-But in the meantime
+
+@JP
+*unknown
+-Just playing
+
+@?4U
+*unknown
+-Question for you
+
+@ICOCBW
+*unknown
+-I could of course be wrong
+
+@JTLYK
+*unknown
+-Just to let you know
+
+@URAQT!
+*unknown
+-You are a cutie!
+
+@DUCT
+*unknown
+-Did you see that?
+
+@WYSIWYG
+*unknown
+-What you see is what you get
+
+@[]
+*unknown
+-Hugs and ...
+
+@:-0
+*unknown
+-No Yelling!(Quiet Lab)
+
+@BEG
+*unknown
+-Big evil grin
+
+@GAL
+*unknown
+-Get a life
+
+@:-[
+*unknown
+-User is a vampire.
+
+@^_-
+*unknown
+-Wink
+
+@:'-(
+*unknown
+-User is crying.
+
+@4SALE
+*unknown
+-For sale
+
+@GFU
+*unknown
+-Good for you
+
+@BRB
+*unknown
+-Be right back
+
+@CU
+*unknown
+-See you
+
+@LSHIPMP
+*unknown
+-Laughing so hard I pissed my pants
+
+@:-#
+*unknown
+-User wears braces.
+
+@WFM
+*unknown
+-Works for me
+
+@NP
+*unknown
+-No problem
+
+@HMS
+*unknown
+-Home made smiley
+
+@NOYFB
+*unknown
+-None of your failing business
+
+@HAND
+*unknown
+-Have a nice day
+
+@ROFLOLWTIME
+*unknown
+-Rolling on floor laughing out loud with tears in my eyes
+
+@WRT
+*unknown
+-With respect to
+
+@BCNU
+*unknown
+-Be Seein' You
+
+@WB
+*unknown
+-Welcome back
+
+@BL
+*unknown
+-Belly laughing
+
+@ITRW
+*unknown
+-In the real world
+
+@IMS
+*unknown
+-I am sorry
+
+@BOL
+*unknown
+-Be on later
+
+@G2B
+*unknown
+-Going to bed
+
+@HDYWTDT
+*unknown
+-How do you work this dratted thing
+
+@SHICPMP
+*unknown
+-So happy I could piss my pants
+
+@GR&D
+*unknown
+-Grinning, running and ducking
+
+@FU
+*unknown
+-F*cked up
+
+@CFY
+*unknown
+-Calling for you
+
+@DL
+*unknown
+-Dead link
+
+@BAC
+*unknown
+-Back at computer
+
+@:(
+*unknown
+-Sad.
+
+@QSL
+*unknown
+-Reply
+
+@BST
+*unknown
+-But seriously though
+
+@TY
+*unknown
+-Thank you
+
+@YMMD
+*unknown
+-You've made my day
+
+@:Q
+*unknown
+-What?
+
+@BC
+*unknown
+-Because
+
+@[:-)
+*unknown
+-User is wearing a walkman.
+
+@EMFJI
+*unknown
+-Excuse me for jumping in
+
+@EOL
+*unknown
+-End of lecture
+
+@-:-(
+*unknown
+-Real punk rockers don't smile.
+
+@DIKU
+*unknown
+-Do I know you?
+
+@BRS
+*unknown
+-Big red switch
+
+@IDGW
+*unknown
+-In a good way
+
+@CRS
+*unknown
+-Can�t remember shit
+
+@DWIM
+*unknown
+-Do what I mean
+
+@POOF
+*unknown
+-I have left the chat
+
+@:-~)
+*unknown
+-User has a cold.
+
+@GL
+*unknown
+-Good luck
+
+@GBH&K
+*unknown
+-Great big huh and kisses
+
+@NMJC
+*unknown
+-Nothing much, just chillin'
+
+@CSG
+*unknown
+-Chuckle snicker grin
+
+@BICBW
+*unknown
+-But I could be wrong
+
+@AWOL
+*unknown
+-Absent without leave
+
+@F2F
+*unknown
+-Face to face
+
+@B/C
+*unknown
+-Because
+
+@TLA
+*unknown
+-Three-letter acronym
+
+@`:-)
+*unknown
+-User shaved one of his eyebrows off this morning.
+
+@HSIK
+*unknown
+-How should i know
+
+@FOAD
+*unknown
+-Fight over and die
+
+@TNSTAAFL
+*unknown
+-There's no such thing as a free lunch
+
+@WP
+*unknown
+-Wrong person
+
+@GDW
+*unknown
+-Grin, duck and wave
+
+@Y2K
+*unknown
+-You're too kind
+
+@IAC
+*unknown
+-In any case
+
+@YY4U
+*unknown
+-Two wise for you
+
+@XTLA
+*unknown
+-Extended three letter acronym
+
+@HTH
+*unknown
+-Hope this helps
+
+@:-E
+*unknown
+-Bucktoothed vampire.
+
+@IC
+*unknown
+-I see
+
+@BAG
+*unknown
+-Busting a gut
+
+@PDS
+*unknown
+-Please don't shoot
+
+@:-)-8
+*unknown
+-User is a Big girl.
+
+@LOL
+*unknown
+-Lots of love
+
+@TOH
+*unknown
+-To other half
+
+@HTHBE
+*unknown
+-Hope this has been enlightening
+
+@WAY
+*unknown
+-Who are you
+
+@X-(
+*unknown
+-Net.suicide
+
+@:=)
+*unknown
+-User has two noses.
+
+@KISS
+*unknown
+-Keeping it sweetly simple
+
+@LNK
+*unknown
+-Love and kisses
+
+@KWIM
+*unknown
+-Know what I mean?
+
+@HAGS
+*unknown
+-Have a good summer
+
+@NL
+*unknown
+-Not likely
+
+@ADN
+*unknown
+-Any day now
+
+@IFVB
+*unknown
+-I feel very bad
+
+@YG
+*unknown
+-Young gentleman
+
+@C=}>;*{))
+*unknown
+-A drunk, devilish chef with a toupee in an updraft, a mustache, and a double chin.
+
+@NBD
+*unknown
+-No big deal
+
+@+-:-)
+*unknown
+-User is the Pope or holds some other religious office.
+
+@IDGI
+*unknown
+-I don't get it
+
+@J/P
+*unknown
+-Just playing
+
+@CLM
+*unknown
+-Career limiting move
+
+@OL
+*unknown
+-Old lady (wife, girlfriend)
+
+@Q4U
+*unknown
+-Question for you
+
+@LSHMBB
+*unknown
+-Laughing so hard my belly is bouncing
+
+@GBH
+*unknown
+-Great big hug
+
+@TTYLMF
+*unknown
+-Talk to you later my friend
+
+@BION
+*unknown
+-Believe it or not
+
+@RUOK?
+*unknown
+-Are you okay?
+
+@}:^#})
+*unknown
+-Updrafted bushy-mustached pointy nosed smiley with a double-chin.
+
+@GD&RAFAP
+*unknown
+-Grinning, ducking and running as fast as possible
+
+@FOC
+*unknown
+-Free of charge
+
+@DWISNWID
+*unknown
+-Do what I say, not what I do
+
+@PMFJI
+*unknown
+-Pardon me for jumping in
+
+@FOCL
+*unknown
+-Falling of chair laughing
+
+@KHYF
+*unknown
+-Know how you feel
+
+@KOTC
+*unknown
+-Kiss on the cheek
+
+@EMSG
+*unknown
+-Email message
+
+@DH
+*unknown
+-Darling husband
+
+@KIS
+*unknown
+-Keep it simple
+
+@BOT
+*unknown
+-Back on topic
+
+@TU
+*unknown
+-Thank you
+
+@BBL
+*unknown
+-Be back later
+
+@SETE
+*unknown
+-Smiling ear to ear
+
+@TOY
+*unknown
+-Thinking of you
+
+@YHBBYBD
+*unknown
+-You'd have better bet your bottom dollar
+
+@IAG
+*unknown
+-It's all good
+
+@:-I
+*unknown
+-hmmm
+
+@BAK
+*unknown
+-Back at the keyboard
+
+@TNX
+*unknown
+-Thanks
+
+@HLM
+*unknown
+-He loves me
+
+@:D
+*unknown
+-Laughter.
+
+@C&G
+*unknown
+-Chuckle and grin
+
+@EOT
+*unknown
+-End of thread
+
+@WU
+*unknown
+-What's up?
+
+@GBY
+*unknown
+-God bless you
+
+@HH
+*unknown
+-Holding hands
+
+@N/C
+*unknown
+-Not cool
+
+@BTOBS
+*unknown
+-Be there or be square
+
+@^-~
+*unknown
+-Wink
+
+@TTUL
+*unknown
+-Talk to you later
+
+@SHMILY
+*unknown
+-See how much I love you
+
+@HHIS
+*unknown
+-Hanging head in shame
+
+@AAMOF
+*unknown
+-As a matter of fact
+
+@EAK
+*unknown
+-Eating at keyboard
+
+@NE1
+*unknown
+-Anyone
+
+@RTSM
+*unknown
+-Read the stupid manual
+
+@=W=
+*unknown
+-Whatever
+
+@YVW
+*unknown
+-You're very welcome
+
+@:-/
+*unknown
+-User is skeptical.
+
+@GD&H
+*unknown
+-Grinning, ducking and hiding
+
+@IMOBO
+*unknown
+-In my own biased opinion
+
+@FOAF
+*unknown
+-Friend of a friend
+
+@IMPOV
+*unknown
+-In my point of view
+
+@|-)
+*unknown
+-hee hee
+
+@YMMV
+*unknown
+-Your mileage may vary
+
+@DTC
+*unknown
+-Damn this computer
+
+@2U2
+*unknown
+-To you too
+
+@LMA
+*unknown
+-Leave me alone
+
+@YL
+*unknown
+-You 'll live
+
+@OOC
+*unknown
+-Out of character
+
+@FUD
+*unknown
+-Fear, uncertainty and doubt
+
+@BUDWEISER
+*unknown
+-Because you deserve what every individual should ever receive
+
+@HAK
+*unknown
+-Hug and kiss
+
+@:[
+*unknown
+-Real Downer.
+
+@BM
+*unknown
+-Bite me
+
+@PLZ
+*unknown
+-Please
+
+@POC
+*unknown
+-Point of contact
+
+@POAHF
+*unknown
+-Put on a happy face
+
+@WTH
+*unknown
+-What/who the heck?
+
+@YWTKM
+*unknown
+-You want to kiss me
+
+@GD&REF&F
+*unknown
+-grinning, ducking and running even further and faster
+
+@G&BIT
+*unknown
+-Grin and bear it
+
+@<|-)
+*unknown
+-User is Chinese.
+
+@KOTL
+*unknown
+-Kiss on the lips
+
+@*:o)
+*unknown
+-And Bozo the Clown!
+
+@:)
+*unknown
+-Happy.
+
+@BYOH
+*unknown
+-Bat You Onna Head
+
+@OH
+*unknown
+-Off hand
+
+@TBH
+*unknown
+-To be honest
+
+@:{
+*unknown
+-What?
+
+@AFK
+*unknown
+-Away from computer keyboard (for wireless users)
+
+@:-@
+*unknown
+-User is screaming.
+
+@TTYL
+*unknown
+-Talk to you later
+
+@L8R G8R
+*unknown
+-Later gator
+
+@HYLMS
+*unknown
+-Hate you like my sister
+
+@-=* :-)
+*unknown
+-User is a TeX wizard.
+
+@IME
+*unknown
+-In my experience
+
+@DTRT
+*unknown
+-Do the right thing
+
+@IMHO
+*unknown
+-In my humble opinion
+
+@IAIM
+*unknown
+-In an Irish minute
+
+@DYOH
+*unknown
+-Do your own homework
+
+@HHOK
+*unknown
+-Ha ha, only kidding
+
+@GRA
+*unknown
+-Go right ahead
+
+@OTOH
+*unknown
+-On the other hand
+
+@O |-)
+*unknown
+-Net.religion
+
+@GM
+*unknown
+-Good morning
+
+@:I
+*unknown
+-Hmmm...
+
+@=)
+*unknown
+-Variation on a theme...
+
+@IIRC
+*unknown
+-If I recall correctly
+
+@JMHO
+*unknown
+-Just my humble opinion
+
+@W8AM
+*unknown
+-Wait a minute
+
+@:-{}
+*unknown
+-User wears lipstick.
+
+@BSF
+*unknown
+-But seriously folks
+
+@IRMFI
+*unknown
+-I reply merely for information
+
+@ABT
+*unknown
+-About
+
+@SH
+*unknown
+-So hot
+
+@GOK
+*unknown
+-God only knows
+
+@HAGN
+*unknown
+-Have a good night
+
+@J/K
+*unknown
+-Just kidding
+
+@?
+*unknown
+-Huh?
+
+@IM
+*unknown
+-Instant message
+
+@TMA
+*unknown
+-Take my advice
+
+@H&K
+*unknown
+-Hug and kiss
+
+@LMHO
+*unknown
+-Laughing my head off
+
+@SOMY
+*unknown
+-Sick of me yet?
+
+@:-&
+*unknown
+-User is tongue tied.
+
+@:@
+*unknown
+-What?
+
+@LYL
+*unknown
+-Love ya lots
+
+@OTP
+*unknown
+-On the phone
+
+@BTOBD
+*unknown
+-Be there or be dead
+
+@IOIT
+*unknown
+-I'm on Irish Time
+
+@AFAIC
+*unknown
+-As far as I'm concerned
+
+@:-Q
+*unknown
+-User is a smoker.
+
+@3:]
+*unknown
+-Pet smiley.
+
+@AFAIK
+*unknown
+-As far as I know
+
+@AWA
+*unknown
+-As well as
+
+@NRN
+*unknown
+-No response necessary
+
+@GTG
+*unknown
+-Got to go
+
+@B
+*unknown
+-Back
+
+@IYKWIM
+*unknown
+-If you know what I mean
+
+@ILU
+*unknown
+-I love you
+
+@CUL8R
+*unknown
+-See you later
+
+@:-D
+*unknown
+-User is laughing (at you!)
+
+@FAWC
+*unknown
+-For anyone who cares
+
+@{:-)
+*unknown
+-User wears a toupee.
+
+@NETUA
+*unknown
+-Nobody ever tells us anything
+
+@QSO
+*unknown
+-Conversation
+
+@IDTT
+*unknown
+-I'll drink to that
+
+@BOB
+*unknown
+-Back off bastard
+
+@LHM
+*unknown
+-Lord help me
+
+@IAAA
+*unknown
+-I am an accountant
+
+@CUL
+*unknown
+-See you later
+
+@BRBB
+*unknown
+-Be right back bitch
+
+@:-o
+*unknown
+-Uh oh!
+
+@NM
+*unknown
+-Never mind / nothing much
+
+@IHTFP
+*unknown
+-I hate this fountain place
+
+@H/O
+*unknown
+-Hold on
+
+@YT?
+*unknown
+-You there?
+
+@LD
+*unknown
+-Long distance
+
+@EIE
+*unknown
+-Enough is enough
+
+@ITFA
+*unknown
+-In the final analysis
+
+@:-7
+*unknown
+-User juust made a wry statement.
+
+@OM
+*unknown
+-Old man (husband, boyfriend)
+
+@LAB
+*unknown
+-Life's a bitch
+
+@F
+*unknown
+-Female
+
+@GAS
+*unknown
+-Greetings and salutations
+
+@IDI
+*unknown
+-I doubt it
+
+@PM
+*unknown
+-Private message
+
+@AFAYC
+*unknown
+-As far as you're concerned
+
+@PPL
+*unknown
+-People
+
+@:^)
+*unknown
+-User has a broken nose.
+
+@GR8
+*unknown
+-Great
+
+@AISI
+*unknown
+-As I see it
+
+@IIR
+*unknown
+-If I recall
+
+@G
+*unknown
+-Grin
+
+@E-:-)
+*unknown
+-User is a Ham radio operator.
+
+@:-*
+*unknown
+-User just ate something sour.
+
+@FOB
+*unknown
+-Full of bless
+
+@LYLAB
+*unknown
+-Love ya like a brother
+
+@H
+*unknown
+-Hug
+
+@IJWTK
+*unknown
+-I just want to know
+
+@B/F
+*unknown
+-Boyfriend
+
+@CU2
+*unknown
+-See you too
+
+@WTMI
+*unknown
+-Way to much information
+
+@IJWTS
+*unknown
+-I just want to say
+
+@WUD
+*unknown
+-What's up dog?
+
+@JAS
+*unknown
+-Just a second
+
+@-6%
+*unknown
+-User is braindead.
+
+@2MFM
+*unknown
+-To much for me
+
+@|-O
+*unknown
+-User is yawning/snoring.
+
+@E-:-I
+*unknown
+-Net.ham-radio
+
+@IGP
+*unknown
+-I gotta pee
+
+@8 :-)
+*unknown
+-User is a wizard.
+
+@ILY
+*unknown
+-I love you
+
+@CRAFT
+*unknown
+-Can't remember a frighten thing
+
+@WDHLM
+*unknown
+-Why doesn't he love me
+
+@CADET
+*unknown
+-Can't add, doesn't even try
+
+@K
+*unknown
+-Kiss (rarely used)
+
+@%-)
+*unknown
+-User has been staring at a green screen for 15 hours straight.
+
+@S2R
+*unknown
+-Send to receive
+
+@LOOL
+*unknown
+-Laughing out outrageously loud
+
+@*<:-)
+*unknown
+-User is wearing a Santa Claus Hat.
+
+@L
+*unknown
+-Laugh
+
+@8 :-I
+*unknown
+-Net.unix-wizards
+
+@IKWUM
+*unknown
+-I know what you mean
+
+@F/F
+*unknown
+-Face to face
+
+@II
+*unknown
+-I�m impressed
+
+@NOTTOMH
+*unknown
+-Not of the top of my mind
+
+@INAL
+*unknown
+-I'm not a lawyer
+
+@TIA
+*unknown
+-Thanks in advance
+
+@CFS
+*unknown
+-Care for secret?
+
+@TTT
+*unknown
+-Thought that, too
+
+@:<
+*unknown
+-What?
+
+@JAWS
+*unknown
+-Just another windows shell
+
+@M
+*unknown
+-Male
+
+@FOS
+*unknown
+-Freedom of speech
+
+@NVM
+*unknown
+-Nevermind
+
+@JASE
+*unknown
+-Just another system error
+
+@IMCO
+*unknown
+-In my considered opinion
+
+@N
+*unknown
+-In
+
+@HHJK
+*unknown
+-Ha ha, just kidding
+
+@EOF
+*unknown
+-End of file
+
+@ISWYM
+*unknown
+-I see what you mean
+
+@TMI
+*unknown
+-To much information
+
+@LUWAMH
+*unknown
+-Love you with all my heart
+
+@YM
+*unknown
+-You mean
+
+@FOFL
+*unknown
+-Falling on the floor laughing
+
+@IHU
+*unknown
+-I hate you
+
+@NOYB
+*unknown
+-None of your business
+
+@GL&GH
+*unknown
+-Good luck and good hunting
+
+@ASOP
+*unknown
+-Assistant system operator
+
+@AIM
+*unknown
+-AOL Instant Messenger; also verb for FTP'ing files via AIM
+
+@DYK
+*unknown
+-Do you know
+
+@YWIA
+*unknown
+-You're welcome in advance
+
+@ROTFL
+*unknown
+-Rolling on the floor laughing
+
+@FW
+*unknown
+-Forward
+
+@IYSWIM
+*unknown
+-If you see what I mean
+
+@IWBNI
+*unknown
+-It would be nice if
+
+@WTG
+*unknown
+-Way to go
+
+@:*
+*unknown
+-Kisses.
+
+@SCNR
+*unknown
+-Sorry, could not resist
+
+@N/S
+*unknown
+-No shit
+
+@TIIC
+*unknown
+-The idiots in charge
+
+@CIM
+*unknown
+-CompuServe information manager
+
+@GW
+*unknown
+-Good work
+
+@,-)
+*unknown
+-Ditto...but he's winking.
+
+@DWIMC
+*unknown
+-Do what I mean, correctly
+
+@PMJI
+*unknown
+-Pardon my jumping in (Another way for PMFJI)
+
+@U2
+*unknown
+-You too
+
+@LHU
+*unknown
+-Lord help us
+
+@WNDITWB
+*unknown
+-We never did it this way before
+
+@S
+*unknown
+-Smile
+
+@AWHFY
+*unknown
+-Are we having fun yet?
+
+@ITRO
+*unknown
+-In the reality of
+
+@AFAICS
+*unknown
+-As far as I can see
+
+@TWMA
+*unknown
+-Till we meet again
+
+@IANAA
+*unknown
+-I am not an accountant
+
+@(-:
+*unknown
+-User is left handed.
+
+@T
+*unknown
+-Tickle
+
+@.-)
+*unknown
+-User only has one eye.
+
+@:-?
+*unknown
+-User smokes a pipe.
+
+@AYPI?
+*unknown
+-And your point is?
+
+@CTS
+*unknown
+-Changing the subject
+
+@A/S/L
+*unknown
+-Age/Sex/Location
+
+@SYSOP
+*unknown
+-System operator
+
+@DQMOT
+*unknown
+-Don't quote me on this
+
+@GN
+*unknown
+-Good night
+
+@ISTR
+*unknown
+-I seem to recall
+
+@DCED
+*unknown
+-Disconnected
+
+@BTDT
+*unknown
+-Been there done that
+
+@JW
+*unknown
+-Just wondering
+
+@WUWT
+*unknown
+-Whats up with that
+
+@GGU2
+*unknown
+-Good game you two
+
+@UR
+*unknown
+-Your
+
+@VBG
+*unknown
+-Very big grin
+
+@DLTBBB
+*unknown
+-Don't let the bad bugs bite
+
+@LYLAS
+*unknown
+-Love ya like a sister
+
+@HMWK
+*unknown
+-Homework
+
+@PAW
+*unknown
+-Parents are watching
+
+@SITWB
+*unknown
+-Sorry, in the wrong box
+
+@SPAM
+*unknown
+-Stupid persons' advertisement
+
+@W
+*unknown
+-Wink
+
+@POS
+*unknown
+-Parents over shoulder
+
+@CMIIW
+*unknown
+-Correct me if I'm wrong
+
+@GE
+*unknown
+-Good evening
+
+@IHY
+*unknown
+-I hate you
+
+@CYO
+*unknown
+-See you online
+
+@GMAB
+*unknown
+-Give me a break
+
+@IMNSHO
+*unknown
+-In my, not so humble opinion
+
+@IOW
+*unknown
+-In other words
+
+@N2M
+*unknown
+-Not too much
+
+@THTH
+*unknown
+-To hot to handle
+
+@BTSOOM
+*unknown
+-Beats the shit out of me
+
+@CYAL8R
+*unknown
+-See ya later
+
+@ROFLOLTSDMC
+*unknown
+-Rolling on floor laughing out loud tears streaming down my cheeks
+
+@BBS
+*unknown
+-Be back soon
+
+@LYK
+*unknown
+-Let you know
+
+@Y
+*unknown
+-Why?
+
+@GMTA
+*unknown
+-Great minds think alike
+
+@FTF
+*unknown
+-Face to face
+
+@:-P
+*unknown
+-nyahhhh!
+
+@LL&P
+*unknown
+-Live long & prosper
+
+@WU?
+*unknown
+-What's up?
+
+@ABFL
+*unknown
+-A big fat lady
+
+@BS
+*unknown
+-Big smile
+
+@ILBCNU
+*unknown
+-I"ll be seeing you
+
+@4COL
+*unknown
+-For crying out loud
+
+@BTW
+*unknown
+-By the way
+
+@K:P
+*unknown
+-User is a little kid with a propeller beenie.
+
+@:'-)
+*unknown
+-User is so happy, s/he is crying.
+
+@RVD
+*unknown
+-Really very dumb
+
+@ROFL
+*unknown
+-Rolling on floor laughing
+
+@:-C
+*unknown
+-User is really bummed.
+
+@CID
+*unknown
+-Consider it done
+
+@IAAL
+*unknown
+-I am a lawyer
+
+@~~:-(
+*unknown
+-Net.flame
+
+@AML
+*unknown
+-All my love
+
+@FBTW
+*unknown
+-Fine, be that way
+
+@BFN
+*unknown
+-Bye for now
+
+@n00b
+*unknown
+-Leetspeak for beginner
+
+@FYEO
+*unknown
+-For your eyes only
+
+@RSN
+*unknown
+-Real soon now
+
+@PSA
+*unknown
+-Public show of affection
+
+@IWALY
+*unknown
+-I will always love you
+
+@LTS
+*unknown
+-Laughing to self
+
+@CFN
+*unknown
+-Ciao for now
+
+@DMMGH
+*unknown
+-Don't make me get hostile
+
+@:_)
+*unknown
+-User's nose is sliding off of his face.
+
+@8-)
+*unknown
+-User is wearing sunglasses.
+
+@HOAS
+*unknown
+-Hold on a second
+
+@:O
+*unknown
+-Yelling.
+
+@,:-)
+*unknown
+-Same thing...other side.
+
+@LOMLILY
+*unknown
+-Light of my life, I love you
+
+@BRH
+*unknown
+-Be right here
+
+@UW
+*unknown
+-You're welcom
+
+@:-)
+*unknown
+-ha ha
+
+@GIGO
+*unknown
+-Garbage in garbage out
+
+@^_^
+*unknown
+-Smile
+
+@-:-)
+*unknown
+-User is a punk rocker.
+
+@BWQ
+*unknown
+-Buzz word quotient
+
+@O :-)
+*unknown
+-User is an angel (at heart, at least).
+
+@;-)
+*unknown
+-Winky smiley. User just made a flirtatious and/or sarcastic remark.More of a "don't hit me for what I just said" smiley.
+
+@IS
+*unknown
+-I'm sorry
+
+@CWOT
+*unknown
+-Complete waste of time
+
+@NMH
+*unknown
+-Not much here
+
+@IVL
+*unknown
+-In virtual live
+
+@:,(
+*unknown
+-Crying.
+
+@GJ
+*unknown
+-Good job
+
+@GFN
+*unknown
+-Gone for now
+
+@B4N
+*unknown
+-Bye for now
+
+@DYJHIW
+*unknown
+-Don't you just hate it when...
+
+@SIM
+*unknown
+-Shit, it's Monday
+
+@BIOYIOB
+*unknown
+-Blow it out your I/O port
+
+@HILIACACLO
+*unknown
+-Help I lapsed into a coma and can�t log off
+
+@RE
+*unknown
+-Hi again (same as re's)
+
+@TYVM
+*unknown
+-Thank you very much
+
+@^-^
+*unknown
+-Satisfied Smile
+
+@IAE
+*unknown
+-In any event
+
+@RCED
+*unknown
+-Reconnected
+
+@POTB
+*unknown
+-Pats on the back
+
+@INPO
+*unknown
+-In no particular order
+
+@LULAS
+*unknown
+-Love you like a sister
+
+@HAGD
+*unknown
+-Have a good day
+
+@:v)
+*unknown
+-User has a broken nose, but it's the other way.
+
+@TAFN
+*unknown
+-That's all for now
+
+@YATB
+*unknown
+-You are the best
+
+@YW
+*unknown
+-You are welcome
+
+@GA
+*unknown
+-Good afternoon
+
+@ROFLOLAY
+*unknown
+-Rolling on floor laughing out loud at you
+
+@BTAIM
+*unknown
+-Be that as it may
+
+@>:->
+*unknown
+-User just made a really devilish remark.
+
+@OBTW
+*unknown
+-Oh, by the way
+
+@DWAI
+*unknown
+-Don't worry about it
+
+@FOTCL
+*unknown
+-Falling of the chair laughing
+
+@:-:
+*unknown
+-Mutant smiley; the invisible smiley.
+
+@RTF
+*unknown
+-Read the FAQ
+
+@NS
+*unknown
+-No shit
+
+@L8R
+*unknown
+-Later
+
+@KUTGW
+*unknown
+-Keep up the good work
+
+@IMBO
+*unknown
+-In my bloody opinion
+
+@DITYID
+*unknown
+-Did I tell you I'm distressed
+
+@BTA
+*unknown
+-But then again
+
+@GD&RF
+*unknown
+-Grinning, ducking and running fast
+
+@ITSFWI
+*unknown
+-If the shoe fits, wear it
+
+@ISTM
+*unknown
+-It seems to me
+
+@WE
+*unknown
+-Whatever
+
+@:]
+*unknown
+-Gleep...a friendly midget smiley who will gladly be your friend.
+
+@DND
+*unknown
+-Do not disturb
+
+@GPF
+*unknown
+-General protection fault
+
+@<|-(
+*unknown
+-User is Chinese and doesn't like these kind of jokes.
+
+@B-)
+*unknown
+-User wears horn-rimmed glasses.
+
+@PS
+*unknown
+-Post script
+
+@CO
+*unknown
+-Conference
+
+@HIH
+*unknown
+-Hope it helps
+
+@AKA
+*unknown
+-Also known as
+
+@:-X
+*unknown
+-User's lips are sealed.
+
+@[:]
+*unknown
+-User is a robot.
+
+@BKA
+*unknown
+-Better known as
+
+@BF
+*unknown
+-Boyfriend
+
+@DIY
+*unknown
+-Do it yourself
+
+@:}
+*unknown
+-What should we call these? (what?)
+
+@@=
+*unknown
+-User is pro-nuclear war.
+
+@WTF
+*unknown
+-What/who the fool?
+
+@GD&W
+*unknown
+-Grin, duck and wave
+
+@HAHA
+*unknown
+-Having a heart attack
+
+@LTNS
+*unknown
+-Long time no see
+
+@ASAP
+*unknown
+-As soon as possible
+

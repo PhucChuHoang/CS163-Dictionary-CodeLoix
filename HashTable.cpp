@@ -89,7 +89,11 @@ void HashTable::displayChain() {
 
 void HashTable::DeleteWord(string &s) {
     int location = GetHash(s);
-    if (List[location].pHead == nullptr) return;
+    if (List[location].pHead == nullptr){
+        cout << "Word doesn't exist" << endl;
+        system("pause");
+        return;
+    }
 
     Prefix.Delete(s);
     if (List[location].pHead->data.Key == s) {
@@ -114,6 +118,8 @@ void HashTable::DeleteWord(string &s) {
 
             Cur = Cur->pNext;
         }
+        cout << "Word doesn't exist" << endl;
+        system("pause");
     }
 
 }
@@ -223,6 +229,10 @@ void HashTable::LoadHistory() {
 }
 
 void HashTable::DisplayHistory() {
+    if (History.size() == 0) {
+        cout << setw(93) << " " << "You haven't searched anything!" << '\n';
+        return;
+    }
     cout << setw(93) << "Search History" << '\n';
     int cnt = 0;
     if (History.size()) for (string &c: History) cout << setw(93) << " " << (cnt++) << ". " << c << '\n';
