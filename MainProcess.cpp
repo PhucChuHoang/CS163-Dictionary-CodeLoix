@@ -33,10 +33,18 @@ void InitData(HashTable &AnhViet, HashTable &VietAnh, HashTable &AnhAnh, HashTab
 }
 
 bool SearchProcessing(HashTable &MainData) {
-    SearchMenu();
-    int Command = GetCommand();
+    vector<string> menu = SearchMenu();
+    gotoxy(0,1);
+    for (int i = 1; i <= menu.size(); ++i) {
+        cout << setw(95) << " " << menu[i - 1] << endl;
+    }
+    gotoxy(0,1);
+    SetColor(14);
+    cout << setw(95) << " " << menu[0];
+    SetColor(7);
+    int Command = getChoosing(menu, 95);
 
-    if (Command == 0) return 0;
+    if (Command == menu.size()) return 0;
     system("cls");
     // Search by keyword
     if (Command == 1) {
@@ -122,10 +130,18 @@ bool SearchProcessing(HashTable &MainData) {
 }
 
 bool EditProcessing(HashTable &MainData) {
-    EditWordMenu();
-    int Command = GetCommand();
+    vector<string> wordMenu = EditWordMenu();
+    gotoxy(0,1);
+    for (int i = 1; i <= wordMenu.size(); ++i) {
+        cout << setw(95) << " " << wordMenu[i - 1] << endl;
+    }
+    gotoxy(0,1);
+    SetColor(14);
+    cout << setw(95) << " " << wordMenu[0];
+    SetColor(7);
+    int Command = getChoosing(wordMenu, 95);
 
-    if (Command == 0) return 0;
+    if (Command == wordMenu.size()) return 0;
     system("cls");
     //Add new word
     if (Command == 1){
@@ -227,12 +243,20 @@ bool RandomWordProcessing(HashTable &MainData) {
 }
 
 bool FavouriteProcessing(HashTable &MainData) {
-    FavouriteMenu();
-    int Command = GetCommand();
+    vector<string> favouriteMenu = FavouriteMenu();
+    gotoxy(0,1);
+    for (int i = 1; i <= favouriteMenu.size(); ++i) {
+        cout << setw(95) << " " << favouriteMenu[i - 1] << endl;
+    }
+    gotoxy(0,1);
+    SetColor(14);
+    cout << setw(95) << " " << favouriteMenu[0];
+    SetColor(7);
+    int Command = getChoosing(favouriteMenu, 95);
 
-    if (Command == 0) return 0;
+    if (Command == favouriteMenu.size()) return 0;
+
     system("cls");
-
     // Show Favorite list
     if (Command == 1){
         MainData.DisplayFavorite();
@@ -262,10 +286,18 @@ bool FavouriteProcessing(HashTable &MainData) {
 }
 
 bool EditWordDefProcessing(HashTable &data, string to_edit) {
-    EditWordDefMenu();
-    int Command = GetCommand();
+    vector<string> defMenu = EditWordDefMenu();
+    gotoxy(0,1);
+    for (int i = 1; i <= defMenu.size(); ++i) {
+        cout << setw(95) << " " << defMenu[i - 1] << endl;
+    }
+    gotoxy(0,1);
+    SetColor(14);
+    cout << setw(95) << " " << defMenu[0];
+    SetColor(7);
+    int Command = getChoosing(defMenu, 95);
 
-    if (Command == 0) return 0;
+    if (Command == defMenu.size()) return 0;
 
     HashNode* to_edit_word = data.FindWord(to_edit);
     if (!to_edit_word) {
@@ -305,52 +337,19 @@ bool checkDif(long long check1, long long check2, long long check3, long long ch
     return check1 != check2 && check1 != check3 && check1 != check4;
 }
 
-void SetBGColor(WORD color)
-{
-	HANDLE hConsoleOutput;
-	hConsoleOutput = GetStdHandle(STD_OUTPUT_HANDLE);
-
-	CONSOLE_SCREEN_BUFFER_INFO screen_buffer_info;
-	GetConsoleScreenBufferInfo(hConsoleOutput, &screen_buffer_info);
-
-	WORD wAttributes = screen_buffer_info.wAttributes;
-	color &= 0x000f;
-	color <<= 4;
-	wAttributes &= 0xff0f;
-	wAttributes |= color;
-
-	SetConsoleTextAttribute(hConsoleOutput, wAttributes);
-}
-
-void gotoxy(short x,short y)
-{
-	HANDLE hConsoleOutput;
-	COORD Cursor_an_Pos = { x,y};
-	hConsoleOutput = GetStdHandle(STD_OUTPUT_HANDLE);
-	SetConsoleCursorPosition(hConsoleOutput , Cursor_an_Pos);
-}
-
-void SetColor(WORD color)
-{
-	HANDLE hConsoleOutput;
-	hConsoleOutput = GetStdHandle(STD_OUTPUT_HANDLE);
-
-	CONSOLE_SCREEN_BUFFER_INFO screen_buffer_info;
-	GetConsoleScreenBufferInfo(hConsoleOutput, &screen_buffer_info);
-
-	WORD wAttributes = screen_buffer_info.wAttributes;
-	color &= 0x000f;
-	wAttributes &= 0xfff0;
-	wAttributes |= color;
-
-	SetConsoleTextAttribute(hConsoleOutput, wAttributes);
-}
-
 bool MinigameProcessing(HashTable &MainData) {
-    MinigameMenu();
-    int Command = GetCommand();
+    vector<string> gameMenu = MinigameMenu();
+    gotoxy(0,1);
+    for (int i = 1; i <= gameMenu.size(); ++i) {
+        cout << setw(95) << " " << gameMenu[i - 1] << endl;
+    }
+    gotoxy(0,1);
+    SetColor(14);
+    cout << setw(95) << " " << gameMenu[0];
+    SetColor(7);
+    int Command = getChoosing(gameMenu, 95);
 
-    if (Command == 0) return 0;
+    if (Command == gameMenu.size()) return 0;
 
     system("cls");
     long long location = Rand(0, MainData.N-1);
@@ -427,35 +426,8 @@ bool MinigameProcessing(HashTable &MainData) {
     gotoxy(0, currentChoose);
     SetColor(14);
     cout << ans[currentChoose-1];
-    while(1) {
-        char c = _getch();
-        if ((int)c == 13) {
-            break;
-        }
-        int prevChoose = currentChoose;
-        if ((int)c == -32) {
-            char c = _getch();
-            if ((int)c == 72) {
-                if (currentChoose != 1) {
-                    --currentChoose;
-                }
-            }
-            else if ((int)c == 80) {
-                if (currentChoose != 4) {
-                    ++currentChoose;
-                }
-            } 
-        }
-        if (currentChoose != prevChoose) {
-            gotoxy(0, prevChoose);
-            SetColor(7);
-            cout << ans[prevChoose-1];
-            SetColor(14);
-            gotoxy(0, currentChoose);
-            cout << ans[currentChoose-1]; 
-        }
-    }
-    gotoxy(0,5);
+    getChoosing(ans, 0);
+    gotoxy(0,ans.size()+1);
     SetColor(7);
     if (currentChoose == ansIndex) cout << "Correct" << endl;
     else cout << "Incorrect" << endl;
@@ -465,11 +437,18 @@ bool MinigameProcessing(HashTable &MainData) {
 }
 
 bool ChooseFunctions(HashTable &MainData) {
+    vector<string> data = ChooseFunctionsMenu();
+    gotoxy(0,1);
+    for (int i = 1; i <= data.size(); ++i) {
+        cout << setw(95) << " " << data[i - 1] << endl;
+    }
+    gotoxy(0,1);
+    SetColor(14);
+    cout << setw(95) << " " << data[0];
+    SetColor(7);
+    int Command = getChoosing(data, 95);
 
-    ChooseFunctionsMenu();
-    int Command = GetCommand();
-
-    if (Command == 0) return 0;
+    if (Command == data.size()) return 0;
 
     if (Command == 1) while (SearchProcessing(MainData));
     if (Command == 2) while (EditProcessing(MainData));
@@ -480,11 +459,18 @@ bool ChooseFunctions(HashTable &MainData) {
 }
 
 bool ChooseDictionary(HashTable &AnhViet, HashTable &VietAnh, HashTable &AnhAnh, HashTable &emotional, HashTable& slang) {
+    vector<string> dict = ChooseDictionaryMenu();
+    gotoxy(0,1);
+    for (int i = 1; i <= dict.size(); ++i) {
+        cout << setw(95) << " " << dict[i - 1] << endl;
+    }
+    gotoxy(0,1);
+    SetColor(14);
+    cout << setw(95) << " " << dict[0];
+    SetColor(7);
+    int Command = getChoosing(dict, 95);
 
-    ChooseDictionaryMenu();
-    int Command = GetCommand();
-
-    if (Command == 0) return 0;
+    if (Command == dict.size()) return 0;
 
     if (Command == 1) while (ChooseFunctions(AnhViet));
     if (Command == 2) while (ChooseFunctions(VietAnh));
@@ -500,4 +486,3 @@ void MainProcess() {
     InitData(AnhViet, VietAnh, AnhAnh, emotional, slang);
     while (ChooseDictionary(AnhViet, VietAnh, AnhAnh, emotional, slang));
 }
-

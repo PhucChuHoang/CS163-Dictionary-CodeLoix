@@ -2,68 +2,83 @@
 
 using namespace std;
 
-void ChooseDictionaryMenu() {
-    system("cls");
-    cout << setw(90) << " " << "1. English - Vietnamese Dictionary" << '\n';
-    cout << setw(90) << " " << "2. Vietnamese - English Dictionary" << '\n';
-    cout << setw(90) << " " << "3. English Dictionary" << '\n';
-    cout << setw(90) << " " << "4. Emotional Dictionary" << '\n';
-    cout << setw(90) << " " << "5. Slang Dictionary" << '\n';
-    cout << setw(90) << " " << "0. Exit" << '\n';
-}
-
-void ChooseFunctionsMenu() {
-    system("cls");
-    cout << setw(95) << " " << "1. Search" << '\n';
-    cout << setw(95) << " " << "2. Edit Dictionary" << '\n';
-    cout << setw(95) << " " << "3. View Random Word" << '\n';
-    cout << setw(95) << " " << "4. Favorite List" << '\n';
-    cout << setw(95) << " " << "5. Minigame" << '\n';
-    cout << setw(95) << " " << "0. Back" << '\n';
-}
-
-void SearchMenu() {
-    system("cls");
-    cout << setw(95) << " " << "1. Search by Keyword" << '\n';
-    cout << setw(95) << " " << "2. Search by Definition" << '\n';
-    cout << setw(95) << " " << "3. View Search History" << '\n';
-    cout << setw(95) << " " << "0. Back" << '\n';
-}
-
-void EditWordMenu() {
-    system("cls");
-    cout << setw(95) << " " << "1. Add New Word" << '\n';
-    cout << setw(95) << " " << "2. Edit Definition" << '\n';
-    cout << setw(95) << " " << "3. Remove Word" << '\n';
-    cout << setw(95) << " " << "4. Reset Dictionary" << '\n';
-    cout << setw(95) << " " << "0. Back" << '\n';
-}
-
-void FavouriteMenu() {
-    system("cls");
-    cout << setw(95) << " " << "1. View Favorite List" << '\n';
-    cout << setw(95) << " " << "2. Remove Word from Favorite List" << '\n';
-    cout << setw(95) << " " << "3. Clear Favorite List" << '\n';
-    cout << setw(95) << " " << "0. Back" << '\n';
-}
-
-void MinigameMenu() {
-    system("cls");
-    cout << setw(95) << " " << "1. Guess Word" << '\n';
-    cout << setw(95) << " " << "2. Guess Meaning" << '\n';
-    cout << setw(95) << " " << "0. Back" << '\n';
-}
-
-void EditWordDefMenu() {
-    system("cls");
-    cout << setw(95) << " " << "1. Change Definition" << '\n';
-    cout << setw(95) << " " << "2. Add Definition" << '\n';
-    cout << setw(95) << " " << "0. Back" << '\n';
-}
 
 void ChangeWordDefMenu() {
     system("cls");
     cout << setw(95) << " " << "1. Change Definition" << '\n';
     cout << setw(95) << " " << "2. Add Definition" << '\n';
-    cout << setw(95) << " " << "0. Back" << '\n';
+    cout << setw(95) << " " << "3. Back" << '\n';
+}
+
+vector<string> ChooseDictionaryMenu() {
+    system("cls");
+    vector<string> temp;
+    temp.push_back("1. English - Vietnamese Dictionary");
+    temp.push_back("2. Vietnamese - English Dictionary");
+    temp.push_back("3. English Dictionary");
+    temp.push_back("4. Emotional Dictionary");
+    temp.push_back("5. Slang Dictionary");
+    temp.push_back("6. Exit");
+    return temp;
+}
+
+vector<string> ChooseFunctionsMenu() {
+    system("cls");
+    vector<string> temp;
+    temp.push_back("1. Search");
+    temp.push_back("2. Edit Dictionary");
+    temp.push_back("3. View Random Word");
+    temp.push_back("4. Favorite List");
+    temp.push_back("5. Minigame");
+    temp.push_back("6. Exit");
+    return temp;
+}
+
+vector<string> SearchMenu() {
+    system("cls");
+    vector<string> temp;
+    temp.push_back("1. Search by Keyword");
+    temp.push_back("2. Search by Definition");
+    temp.push_back("3. View Search History");
+    temp.push_back("4. Back");
+    return temp;
+}
+
+vector<string> EditWordMenu() {
+    system("cls");
+    vector<string> temp;
+    temp.push_back("1. Add New Word");
+    temp.push_back("2. Edit Definition");
+    temp.push_back("3. Remove Word");
+    temp.push_back("4. Reset Dictionary");
+    temp.push_back("5. Back");
+    return temp;
+}
+
+vector<string> FavouriteMenu() {
+    system("cls");
+    vector<string> temp;
+    temp.push_back("1. View Favorite List");
+    temp.push_back("2. Remove Word from Favorite List");
+    temp.push_back("3. Clear Favorite List");
+    temp.push_back("4. Back");
+    return temp;
+}
+
+vector<string> MinigameMenu() {
+    system("cls");
+    vector<string> temp;
+    temp.push_back("1. Guess Word");
+    temp.push_back("2. Guess Meaning");
+    temp.push_back("3. Back");
+    return temp;
+}
+
+vector<string> EditWordDefMenu() {
+    system("cls");
+    vector<string> temp;
+    temp.push_back("1. Change Definition");
+    temp.push_back("2. Add Definition");
+    temp.push_back("3. Back");
+    return temp;
 }
