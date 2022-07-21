@@ -14,6 +14,9 @@
 #include <assert.h>
 #include <ctime>
 #include <iomanip>
+#include <conio.h>
+#include <stdlib.h>
+#include <windows.h>
 
 void InitData(HashTable &AnhViet, HashTable &VietAnh, HashTable &AnhAnh, HashTable &emo, HashTable &slang);
 

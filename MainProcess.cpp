@@ -305,6 +305,47 @@ bool checkDif(long long check1, long long check2, long long check3, long long ch
     return check1 != check2 && check1 != check3 && check1 != check4;
 }
 
+void SetBGColor(WORD color)
+{
+	HANDLE hConsoleOutput;
+	hConsoleOutput = GetStdHandle(STD_OUTPUT_HANDLE);
+
+	CONSOLE_SCREEN_BUFFER_INFO screen_buffer_info;
+	GetConsoleScreenBufferInfo(hConsoleOutput, &screen_buffer_info);
+
+	WORD wAttributes = screen_buffer_info.wAttributes;
+	color &= 0x000f;
+	color <<= 4;
+	wAttributes &= 0xff0f;
+	wAttributes |= color;
+
+	SetConsoleTextAttribute(hConsoleOutput, wAttributes);
+}
+
+void gotoxy(short x,short y)
+{
+	HANDLE hConsoleOutput;
+	COORD Cursor_an_Pos = { x,y};
+	hConsoleOutput = GetStdHandle(STD_OUTPUT_HANDLE);
+	SetConsoleCursorPosition(hConsoleOutput , Cursor_an_Pos);
+}
+
+void SetColor(WORD color)
+{
+	HANDLE hConsoleOutput;
+	hConsoleOutput = GetStdHandle(STD_OUTPUT_HANDLE);
+
+	CONSOLE_SCREEN_BUFFER_INFO screen_buffer_info;
+	GetConsoleScreenBufferInfo(hConsoleOutput, &screen_buffer_info);
+
+	WORD wAttributes = screen_buffer_info.wAttributes;
+	color &= 0x000f;
+	wAttributes &= 0xfff0;
+	wAttributes |= color;
+
+	SetConsoleTextAttribute(hConsoleOutput, wAttributes);
+}
+
 bool MinigameProcessing(HashTable &MainData) {
     MinigameMenu();
     int Command = GetCommand();
@@ -331,53 +372,92 @@ bool MinigameProcessing(HashTable &MainData) {
     int ansIndex = Rand(1,4);
     bool used1 = false, used2 = false;
 
+    int currentChoose = 1;
+    vector<string> ans;
     if (Command == 1) {
         cout << "What is the meaning of \"" << wordAns << "\"?" << endl;
         for (int i = 1; i <= 4; ++i) {
             if (i == ansIndex) {
-                cout << i <<". " << defAns << endl;
+                ans.push_back(defAns);
                 continue;
             }
             else {
                 if (!used1) {
-                    cout << i << ". " << MainData.List[fake1].pHead->data.typeDefEx[0].Trans[0] << endl;
+                    ans.push_back(MainData.List[fake1].pHead->data.typeDefEx[0].Trans[0]);
                     used1 = true;
                 }
                 else if (!used2) {
-                    cout << i << ". " << MainData.List[fake2].pHead->data.typeDefEx[0].Trans[0] << endl;
+                    ans.push_back(MainData.List[fake2].pHead->data.typeDefEx[0].Trans[0]);
                     used2 = true;
                 }
                 else {
-                    cout << i << ". " << MainData.List[fake3].pHead->data.typeDefEx[0].Trans[0] << endl;
+                    ans.push_back(MainData.List[fake3].pHead->data.typeDefEx[0].Trans[0]);
                 }
             }
+        }
+        for (int i = 0; i < 4; ++i) {
+            cout << ans[i] << endl;
         }
     }
     else if (Command == 2) {
         cout << "What is the word for \"" << defAns << "\"?" << endl;
         for (int i = 1; i <= 4; ++i) {
             if (i == ansIndex) {
-                cout << i <<". " << wordAns << endl;
+                ans.push_back(wordAns);
                 continue;
             }
             else {
                 if (!used1) {
-                    cout << i << ". " << MainData.List[fake1].pHead->data.Key << endl;
+                    ans.push_back(MainData.List[fake1].pHead->data.Key);
                     used1 = true;
                 }
                 else if (!used2) {
-                    cout << i << ". " << MainData.List[fake2].pHead->data.Key << endl;
+                    ans.push_back(MainData.List[fake2].pHead->data.Key);
                     used2 = true;
                 }
                 else {
-                    cout << i << ". " << MainData.List[fake3].pHead->data.Key << endl;
+                    ans.push_back(MainData.List[fake3].pHead->data.Key);
                 }
             }
         }
+        for (int i = 0; i < 4; ++i) {
+            cout << ans[i] << endl;
+        }
     }
-
-    int res = GetCommand();
-    if (res == ansIndex) cout << "Correct" << endl;
+    gotoxy(0, currentChoose);
+    SetColor(14);
+    cout << ans[currentChoose-1];
+    while(1) {
+        char c = _getch();
+        if ((int)c == 13) {
+            break;
+        }
+        int prevChoose = currentChoose;
+        if ((int)c == -32) {
+            char c = _getch();
+            if ((int)c == 72) {
+                if (currentChoose != 1) {
+                    --currentChoose;
+                }
+            }
+            else if ((int)c == 80) {
+                if (currentChoose != 4) {
+                    ++currentChoose;
+                }
+            } 
+        }
+        if (currentChoose != prevChoose) {
+            gotoxy(0, prevChoose);
+            SetColor(7);
+            cout << ans[prevChoose-1];
+            SetColor(14);
+            gotoxy(0, currentChoose);
+            cout << ans[currentChoose-1]; 
+        }
+    }
+    gotoxy(0,5);
+    SetColor(7);
+    if (currentChoose == ansIndex) cout << "Correct" << endl;
     else cout << "Incorrect" << endl;
     system("pause");
 
