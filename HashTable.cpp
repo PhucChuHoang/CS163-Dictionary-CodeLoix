@@ -17,7 +17,6 @@ HashTable::HashTable(string _Name, int _P, int _N) {
 }
 
 HashTable::~HashTable() {
-    SaveHashTable();
 
     for (int i = 0; i < N; i++) {
         HashNode *pD = nullptr;
@@ -137,7 +136,7 @@ HashNode* HashTable::FindWord(string &s) {
     return nullptr;
 }
 
-void HashTable::FileInput(string &Filename) {
+void HashTable::FileInput(string &Filename, bool isReset) {
 
     ifstream fi(Filename);
     vector <Word> Temp;
@@ -157,6 +156,10 @@ void HashTable::FileInput(string &Filename) {
     for (Word &c: Temp) InsertNewWord(c);
     Temp.clear();
 
+    if (!isReset) {
+        LoadFavorite();
+        LoadHistory();
+    }
 }
 
 void HashTable::ShowAllWord() {
@@ -202,6 +205,9 @@ void HashTable::SaveHashTable() {
     }
 
     fo.close();
+
+    SaveHistory();
+    SaveFavorite();
 }
 
 //History dev

@@ -7,7 +7,7 @@ void GetData(HashTable &HT) {
     string check = Path + "Checker/" + HT.Name + ".txt";
     string Filename = Path;
     ifstream fi(check);
-    int isReset = 0;
+    bool isReset = 0;
     if (fi.good()) {
         fi >> isReset;
     }
@@ -15,14 +15,12 @@ void GetData(HashTable &HT) {
     if (isReset) Filename += "Origin/";
         else Filename += "Save/";
     Filename += HT.Name + ".txt";
-    HT.FileInput(Filename);
+    HT.FileInput(Filename, isReset);
     if (isReset) {
         string his = "Data/History/" + HT.Name + ".txt";
         ofstream fho(his);
         fho.close();
     }
-    HT.LoadHistory();
-    HT.LoadFavorite();
 }
 
 void InitData(HashTable &AnhViet, HashTable &VietAnh, HashTable &AnhAnh, HashTable &emo, HashTable &slang) {
@@ -32,11 +30,18 @@ void InitData(HashTable &AnhViet, HashTable &VietAnh, HashTable &AnhAnh, HashTab
     GetData(slang);
 }
 
+void SaveData(HashTable &AnhViet, HashTable &VietAnh, HashTable &AnhAnh, HashTable &emo, HashTable &slang) {
+    AnhViet.SaveHashTable();
+    VietAnh.SaveHashTable();
+    emo.SaveHashTable();
+    slang.SaveHashTable();
+}
+
 bool SearchProcessing(HashTable &MainData) {
     vector<string> menu = SearchMenu();
     gotoxy(0,1);
     for (int i = 1; i <= menu.size(); ++i) {
-        cout << setw(95) << " " << menu[i - 1] << endl;
+        cout << setw(95) << " " << menu[i - 1] << '\n';
     }
     gotoxy(0,1);
     SetColor(14);
@@ -54,7 +59,7 @@ bool SearchProcessing(HashTable &MainData) {
         cin >> w;
         vector <string> SuggestWords = MainData.Prefix.FindWordWithSamePrefix(10, w);
         if (SuggestWords.empty()) {
-            cout << "Ko tim thay!";
+            cout << "Cannot found!";
             system("pause");
             return 1;
         }
@@ -75,7 +80,6 @@ bool SearchProcessing(HashTable &MainData) {
         if (MainData.History.size() > 5){
             MainData.History.erase(MainData.History.begin());
         }
-        MainData.SaveHistory();
         // Save in Favorite
         cout << '\n';
         cout << "1. Save in Favorite" << '\n';
@@ -105,10 +109,9 @@ bool SearchProcessing(HashTable &MainData) {
                 MainData.Favorite.erase(MainData.Favorite.begin() + id);
             }
         }
-        MainData.SaveFavorite();
         system("pause");
     }
-    
+
     // Search by definition
     if (Command == 2){
 
@@ -133,7 +136,7 @@ bool EditProcessing(HashTable &MainData) {
     vector<string> wordMenu = EditWordMenu();
     gotoxy(0,1);
     for (int i = 1; i <= wordMenu.size(); ++i) {
-        cout << setw(95) << " " << wordMenu[i - 1] << endl;
+        cout << setw(95) << " " << wordMenu[i - 1] << '\n';
     }
     gotoxy(0,1);
     SetColor(14);
@@ -154,10 +157,10 @@ bool EditProcessing(HashTable &MainData) {
             while(EditWordDefProcessing(MainData, to_add.Key));
         }
         else{
-            cout << "This word already exists in dictionary" << endl;
-            cout << "1. Edit definition" << endl;
-            cout << "2. Add another word" << endl;
-            cout << "0. Back" << endl;
+            cout << "This word already exists in dictionary" << '\n';
+            cout << "1. Edit definition" << '\n';
+            cout << "2. Add another word" << '\n';
+            cout << "0. Back" << '\n';
             int p  = GetCommand();
             if (p == 1){
                 while (EditWordDefProcessing(MainData, to_add.Key));
@@ -192,8 +195,12 @@ bool EditProcessing(HashTable &MainData) {
         string Filename = "Data/Checker/" + MainData.Name + ".txt";
         ofstream fo;
         fo.open(Filename);
-        fo << 1 << endl;
+        fo << 1 << '\n';
         fo.close();
+
+        cout << "Please restart your app :>\n";
+        system("pause");
+        exit(0);
     }
 
     return 1;
@@ -214,8 +221,8 @@ bool RandomWordProcessing(HashTable &MainData) {
     }
     string word = MainData.List[location].pHead->data.Key;
     string wordDef = MainData.List[location].pHead->data.typeDefEx[0].Trans[0];
-    cout << setw(106 - word.length()/2) << " " << word << endl;
-    cout << setw(106 - wordDef.length()/2) << " " << wordDef << endl << endl;
+    cout << setw(106 - word.length()/2) << " " << word << '\n';
+    cout << setw(106 - wordDef.length()/2) << " " << wordDef << '\n' << '\n';
     MainData.History.push_back(word);
     if (MainData.History.size() > 5){
         MainData.History.erase(MainData.History.begin());
@@ -246,7 +253,7 @@ bool FavouriteProcessing(HashTable &MainData) {
     vector<string> favouriteMenu = FavouriteMenu();
     gotoxy(0,1);
     for (int i = 1; i <= favouriteMenu.size(); ++i) {
-        cout << setw(95) << " " << favouriteMenu[i - 1] << endl;
+        cout << setw(95) << " " << favouriteMenu[i - 1] << '\n';
     }
     gotoxy(0,1);
     SetColor(14);
@@ -289,7 +296,7 @@ bool EditWordDefProcessing(HashTable &data, string to_edit) {
     vector<string> defMenu = EditWordDefMenu();
     gotoxy(0,1);
     for (int i = 1; i <= defMenu.size(); ++i) {
-        cout << setw(95) << " " << defMenu[i - 1] << endl;
+        cout << setw(95) << " " << defMenu[i - 1] << '\n';
     }
     gotoxy(0,1);
     SetColor(14);
@@ -301,7 +308,7 @@ bool EditWordDefProcessing(HashTable &data, string to_edit) {
 
     HashNode* to_edit_word = data.FindWord(to_edit);
     if (!to_edit_word) {
-        cout << setw(95) << " " << "Word doesn't exist" << endl;
+        cout << setw(95) << " " << "Word doesn't exist" << '\n';
         system("pause");
         return 0;
     }
@@ -318,12 +325,12 @@ bool EditWordDefProcessing(HashTable &data, string to_edit) {
     // change definition (clear + update)
     if (Command == 1) {
         to_edit_word->data.typeDefEx.clear();
-        cout << setw(95) << " " << "The word's definition has been changed." << endl;
+        cout << setw(95) << " " << "The word's definition has been changed." << '\n';
     }
 
     // add definition
     if (Command == 2) {
-        cout << setw(95) << " " << "New definition has been added" << endl;
+        cout << setw(95) << " " << "New definition has been added" << '\n';
     }
 
     to_edit_word->data.AddType(int_type);
@@ -341,7 +348,7 @@ bool MinigameProcessing(HashTable &MainData) {
     vector<string> gameMenu = MinigameMenu();
     gotoxy(0,1);
     for (int i = 1; i <= gameMenu.size(); ++i) {
-        cout << setw(95) << " " << gameMenu[i - 1] << endl;
+        cout << setw(95) << " " << gameMenu[i - 1] << '\n';
     }
     gotoxy(0,1);
     SetColor(14);
@@ -374,7 +381,7 @@ bool MinigameProcessing(HashTable &MainData) {
     int currentChoose = 1;
     vector<string> ans;
     if (Command == 1) {
-        cout << "What is the meaning of \"" << wordAns << "\"?" << endl;
+        cout << "What is the meaning of \"" << wordAns << "\"?" << '\n';
         for (int i = 1; i <= 4; ++i) {
             if (i == ansIndex) {
                 ans.push_back(defAns);
@@ -395,11 +402,11 @@ bool MinigameProcessing(HashTable &MainData) {
             }
         }
         for (int i = 0; i < 4; ++i) {
-            cout << ans[i] << endl;
+            cout << ans[i] << '\n';
         }
     }
     else if (Command == 2) {
-        cout << "What is the word for \"" << defAns << "\"?" << endl;
+        cout << "What is the word for \"" << defAns << "\"?" << '\n';
         for (int i = 1; i <= 4; ++i) {
             if (i == ansIndex) {
                 ans.push_back(wordAns);
@@ -420,7 +427,7 @@ bool MinigameProcessing(HashTable &MainData) {
             }
         }
         for (int i = 0; i < 4; ++i) {
-            cout << ans[i] << endl;
+            cout << ans[i] << '\n';
         }
     }
     gotoxy(0, currentChoose);
@@ -429,8 +436,8 @@ bool MinigameProcessing(HashTable &MainData) {
     getChoosing(ans, 0);
     gotoxy(0,ans.size()+1);
     SetColor(7);
-    if (currentChoose == ansIndex) cout << "Correct" << endl;
-    else cout << "Incorrect" << endl;
+    if (currentChoose == ansIndex) cout << "Correct" << '\n';
+    else cout << "Incorrect" << '\n';
     system("pause");
 
     return 1;
@@ -440,7 +447,7 @@ bool ChooseFunctions(HashTable &MainData) {
     vector<string> data = ChooseFunctionsMenu();
     gotoxy(0,1);
     for (int i = 1; i <= data.size(); ++i) {
-        cout << setw(95) << " " << data[i - 1] << endl;
+        cout << setw(95) << " " << data[i - 1] << '\n';
     }
     gotoxy(0,1);
     SetColor(14);
@@ -462,7 +469,7 @@ bool ChooseDictionary(HashTable &AnhViet, HashTable &VietAnh, HashTable &AnhAnh,
     vector<string> dict = ChooseDictionaryMenu();
     gotoxy(0,1);
     for (int i = 1; i <= dict.size(); ++i) {
-        cout << setw(95) << " " << dict[i - 1] << endl;
+        cout << setw(95) << " " << dict[i - 1] << '\n';
     }
     gotoxy(0,1);
     SetColor(14);
@@ -484,5 +491,6 @@ bool ChooseDictionary(HashTable &AnhViet, HashTable &VietAnh, HashTable &AnhAnh,
 void MainProcess() {
     HashTable AnhViet("AnhViet", 31, 14071), VietAnh("VietAnh", 31, 14071), AnhAnh("AnhAnh", 31, 14071), emotional("emotional", 131, 14071), slang("slang", 131, 14701);
     InitData(AnhViet, VietAnh, AnhAnh, emotional, slang);
+    SaveData(AnhViet, VietAnh, AnhAnh, emotional, slang);
     while (ChooseDictionary(AnhViet, VietAnh, AnhAnh, emotional, slang));
 }

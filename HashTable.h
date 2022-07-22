@@ -41,7 +41,7 @@ struct HashTable {
     void DeleteWord(std::string &s);
     HashNode* FindWord(std::string &s);
 
-    void FileInput(std::string &Filename);
+    void FileInput(std::string &Filename, bool isReset);
     void ShowAllWord();
     void SaveHashTable();
 

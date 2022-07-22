@@ -67,10 +67,10 @@ int getChoosing(vector<string> data, int location) {
                 }
             }
             else if ((int)c == 80) {
-                if (currentChoose != data.size()) {
+                if (currentChoose != (int)(data.size())) {
                     ++currentChoose;
                 }
-            } 
+            }
         }
         if (currentChoose != prevChoose) {
             gotoxy(location, prevChoose);
@@ -78,7 +78,7 @@ int getChoosing(vector<string> data, int location) {
             cout << data[prevChoose-1];
             SetColor(14);
             gotoxy(location, currentChoose);
-            cout << data[currentChoose-1]; 
+            cout << data[currentChoose-1];
         }
     }
 }

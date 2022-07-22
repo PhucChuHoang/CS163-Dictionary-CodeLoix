@@ -2,6 +2,14 @@
 
 using namespace std;
 
+
+void ChangeWordDefMenu() {
+    system("cls");
+    cout << setw(95) << " " << "1. Change Definition" << '\n';
+    cout << setw(95) << " " << "2. Add Definition" << '\n';
+    cout << setw(95) << " " << "3. Back" << '\n';
+}
+
 vector<string> ChooseDictionaryMenu() {
     system("cls");
     vector<string> temp;

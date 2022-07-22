@@ -19,6 +19,7 @@
 #include <windows.h>
 
 void InitData(HashTable &AnhViet, HashTable &VietAnh, HashTable &AnhAnh, HashTable &emo, HashTable &slang);
+void SaveData(HashTable &AnhViet, HashTable &VietAnh, HashTable &AnhAnh, HashTable &emo, HashTable &slang);
 
 bool SearchProcessing(HashTable &MainData);
 bool EditProcessing(HashTable &MainData);
