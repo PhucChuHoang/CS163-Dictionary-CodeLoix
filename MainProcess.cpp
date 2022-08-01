@@ -64,13 +64,18 @@ bool SearchProcessing(HashTable &MainData) {
             return 1;
         }
         for (int i = 0; i < (int)(SuggestWords.size()); i++)
-            cout << i + 1 << ". " << SuggestWords[i] << '\n';
-        int pos = GetCommand();
-        if (pos > (int) (SuggestWords.size()) || pos < 1) {
-            cout << "Invalid input!";
-            system("pause");
-            return 1;
-        }
+            cout << SuggestWords[i] << '\n';
+        gotoxy(0,1);
+        SetColor(14);
+        cout << SuggestWords[0];
+        SetColor(7);
+        int pos = getChoosing(SuggestWords, 0);
+        // if (pos > (int) (SuggestWords.size()) || pos < 1) {
+        //     cout << "Invalid input!";
+        //     system("pause");
+        //     return 1;
+        // }
+        system("cls");
 
         HashNode *wp = MainData.FindWord(SuggestWords[pos - 1]);
         wp->data.ShowData(3, MainData.GetType);
@@ -82,11 +87,52 @@ bool SearchProcessing(HashTable &MainData) {
         }
         // Save in Favorite
         cout << '\n';
-        cout << "1. Save in Favorite" << '\n';
-        cout << "2. Remove from Favorite" << '\n';
-        cout << "0. Back" << '\n';
+        vector<string> favMenu;
+        favMenu.push_back("1. Save in Favorite");
+        favMenu.push_back("2. Remove from Favorite");
+        favMenu.push_back("3. Back");
 
-        int p = GetCommand();
+        gotoxy(0,7);
+        for (int i = 0; i < favMenu.size(); ++i) {
+            cout << favMenu[i] << '\n';
+        }
+        gotoxy(0,7);
+        SetColor(14);
+        cout << favMenu[0];
+        SetColor(7);
+        int currentChoose = 1;
+        while(1) {
+            char c = _getch();
+            if ((int)c == 13) {
+                SetColor(7);
+                break;
+            }
+            int prevChoose = currentChoose;
+            if ((int)c == -32) {
+                char c = _getch();
+                if ((int)c == 72) {
+                    if (currentChoose != 1) {
+                        --currentChoose;
+                    }
+                }
+                else if ((int)c == 80) {
+                    if (currentChoose != (int)(favMenu.size())) {
+                        ++currentChoose;
+                    }
+                }
+            }
+            if (currentChoose != prevChoose) {
+                gotoxy(0, prevChoose + 6);
+                SetColor(7);
+                cout << favMenu[prevChoose-1];
+                SetColor(14);
+                gotoxy(0, currentChoose + 6);
+                cout << favMenu[currentChoose-1];
+            }
+        }
+        gotoxy(0, 10);
+
+        int p = currentChoose;
         int cnt = 0;
         int id = -1;
         for (string &c: MainData.Favorite){
@@ -228,9 +274,51 @@ bool RandomWordProcessing(HashTable &MainData) {
         MainData.History.erase(MainData.History.begin());
     }
     MainData.SaveHistory();
-    cout << "1. Add to favorite list" << '\n';
-    cout << "0. Back" << '\n';
-    int p = GetCommand();
+    vector<string> addMenu;
+    addMenu.push_back("1. Add to favorite list");
+    addMenu.push_back("2. Back");
+    gotoxy(0,4);
+    for (int i = 1; i <= addMenu.size(); ++i) {
+        cout << setw(95) << " " << addMenu[i - 1] << '\n';
+    }
+    gotoxy(0,4);
+    SetColor(14);
+    cout << setw(95) << " " << addMenu[0];
+    SetColor(7);
+    int currentChoose = 1;
+    while(1) {
+        char c = _getch();
+        if ((int)c == 13) {
+            SetColor(7);
+            break;
+        }
+        int prevChoose = currentChoose;
+        if ((int)c == -32) {
+            char c = _getch();
+            if ((int)c == 72) {
+                if (currentChoose != 1) {
+                    --currentChoose;
+                }
+            }
+            else if ((int)c == 80) {
+                if (currentChoose != (int)(addMenu.size())) {
+                    ++currentChoose;
+                }
+            }
+        }
+        if (currentChoose != prevChoose) {
+            gotoxy(95, prevChoose + 3);
+            SetColor(7);
+            cout << addMenu[prevChoose-1];
+            SetColor(14);
+            gotoxy(95, currentChoose + 3);
+            cout << addMenu[currentChoose-1];
+        }
+    }
+    if (currentChoose == 2) {
+        return 0;
+    }
+
     int cnt = 0;
     int id = -1;
     for (string &c: MainData.Favorite){
@@ -240,7 +328,7 @@ bool RandomWordProcessing(HashTable &MainData) {
         }
         cnt++;
     }
-    if (p == 1){
+    if (currentChoose == 1){
         if (id == -1) MainData.Favorite.push_back(word);
         else cout << "You have added this word into favorite!" << '\n';
     }
@@ -381,7 +469,7 @@ bool MinigameProcessing(HashTable &MainData) {
     int currentChoose = 1;
     vector<string> ans;
     if (Command == 1) {
-        cout << "What is the meaning of \"" << wordAns << "\"?" << '\n';
+        cout << setw(90) << " " << "What is the meaning of \"" << wordAns << "\"?" << '\n';
         for (int i = 1; i <= 4; ++i) {
             if (i == ansIndex) {
                 ans.push_back(defAns);
@@ -402,11 +490,11 @@ bool MinigameProcessing(HashTable &MainData) {
             }
         }
         for (int i = 0; i < 4; ++i) {
-            cout << ans[i] << '\n';
+            cout << setw(90) << " " << ans[i] << '\n';
         }
     }
     else if (Command == 2) {
-        cout << "What is the word for \"" << defAns << "\"?" << '\n';
+        cout << setw(90) << " " << "What is the word for \"" << defAns << "\"?" << '\n';
         for (int i = 1; i <= 4; ++i) {
             if (i == ansIndex) {
                 ans.push_back(wordAns);
@@ -427,17 +515,17 @@ bool MinigameProcessing(HashTable &MainData) {
             }
         }
         for (int i = 0; i < 4; ++i) {
-            cout << ans[i] << '\n';
+            cout << setw(90) << " " << ans[i] << '\n';
         }
     }
-    gotoxy(0, currentChoose);
+    gotoxy(90, currentChoose);
     SetColor(14);
     cout << ans[currentChoose-1];
-    getChoosing(ans, 0);
-    gotoxy(0,ans.size()+1);
+    getChoosing(ans, 90);
+    gotoxy(90,ans.size()+2);
     SetColor(7);
-    if (currentChoose == ansIndex) cout << "Correct" << '\n';
-    else cout << "Incorrect" << '\n';
+    if (currentChoose == ansIndex) cout << "The answer is Correct!!!" << '\n';
+    else cout << "Incorrect, Good luck next time." << '\n';
     system("pause");
 
     return 1;
