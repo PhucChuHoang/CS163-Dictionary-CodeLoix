@@ -491,6 +491,6 @@ bool ChooseDictionary(HashTable &AnhViet, HashTable &VietAnh, HashTable &AnhAnh,
 void MainProcess() {
     HashTable AnhViet("AnhViet", 31, 14071), VietAnh("VietAnh", 31, 14071), AnhAnh("AnhAnh", 31, 14071), emotional("emotional", 131, 14071), slang("slang", 131, 14701);
     InitData(AnhViet, VietAnh, AnhAnh, emotional, slang);
-    SaveData(AnhViet, VietAnh, AnhAnh, emotional, slang);
     while (ChooseDictionary(AnhViet, VietAnh, AnhAnh, emotional, slang));
+    SaveData(AnhViet, VietAnh, AnhAnh, emotional, slang);
 }

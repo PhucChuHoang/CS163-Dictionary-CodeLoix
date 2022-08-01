@@ -216,7 +216,7 @@ void HashTable::SaveHistory() {
     ofstream fout;
     string filePath = "Data/History/" + Name + ".txt";
     fout.open(filePath);
-    if (History.size()) for (string &c: History) fout << c << '\n';
+    for (string &c: History) fout << c << '\n';
     fout.close();
 }
 
@@ -226,9 +226,10 @@ void HashTable::LoadHistory() {
     fin.open(filePath);
     if (fin.is_open()) {
         while(!fin.eof()) {
-            fin >> temp;
+            getline(fin, temp);
             History.push_back(temp);
         }
+        History.pop_back();
         fin.close();
     }
     return;
@@ -241,7 +242,7 @@ void HashTable::DisplayHistory() {
     }
     cout << setw(93) << "Search History" << '\n';
     int cnt = 0;
-    if (History.size()) for (string &c: History) cout << setw(93) << " " << (cnt++) << ". " << c << '\n';
+    for (string &c: History) cout << setw(93) << " " << (cnt++) << ". " << c << '\n';
 }
 
 //Favorite dev
@@ -250,7 +251,7 @@ void HashTable::SaveFavorite() {
     ofstream fout;
     string filePath = "Data/Favorite/" + Name + ".txt";
     fout.open(filePath);
-    if (Favorite.size()) for (string &c: Favorite) fout << c << '\n';
+    for (string &c: Favorite) fout << c << '\n';
     fout.close();
 }
 
@@ -260,9 +261,10 @@ void HashTable::LoadFavorite() {
     fin.open(filePath);
     if (fin.is_open()) {
         while(!fin.eof()) {
-            fin >> temp;
+            getline(fin, temp);
             Favorite.push_back(temp);
         }
+        Favorite.pop_back();
         fin.close();
     }
     return;
@@ -271,7 +273,7 @@ void HashTable::LoadFavorite() {
 void HashTable::DisplayFavorite() {
     cout << setw(93) << "Favorite list" << '\n';
     int cnt = 0;
-    if (Favorite.size()) for (string &c: Favorite) cout << setw(93) << " " << (cnt++) << ". " << c << '\n';
+    for (string &c: Favorite) cout << setw(93) << " " << (cnt++) << ". " << c << '\n';
 }
 
 
