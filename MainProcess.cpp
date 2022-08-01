@@ -164,16 +164,59 @@ bool SearchProcessing(HashTable &MainData) {
     }
 
     //Show search History
+    //Show search History
     if (Command == 3){
         MainData.DisplayHistory();
-        cout << '\n' << "1. Clear History" << '\n';
-        cout << "0. Back" << '\n';
-        int p = GetCommand();
+        vector<string> askMenu;
+        askMenu.push_back("1. Clear History");
+        askMenu.push_back("2. Back");
+        gotoxy(0, MainData.History.size() + 2);
+        for (int i = 0; i < askMenu.size(); ++i) {
+            cout << askMenu[i] << '\n';
+        }
+        gotoxy(0, MainData.History.size() + 2);
+        SetColor(14);
+        cout << askMenu[0];
+        SetColor(7);
+        int currentChoose = 1;
+        while(1) {
+            char c = _getch();
+            if ((int)c == 13) {
+                SetColor(7);
+                break;
+            }
+            int prevChoose = currentChoose;
+            if ((int)c == -32) {
+                char c = _getch();
+                if ((int)c == 72) {
+                    if (currentChoose != 1) {
+                        --currentChoose;
+                    }
+                }
+                else if ((int)c == 80) {
+                    if (currentChoose != (int)(askMenu.size())) {
+                        ++currentChoose;
+                    }
+                }
+            }
+            if (currentChoose != prevChoose) {
+                gotoxy(0, prevChoose + MainData.History.size() + 1);
+                SetColor(7);
+                cout << askMenu[prevChoose-1];
+                SetColor(14);
+                gotoxy(0, currentChoose + MainData.History.size() + 1);
+                cout << askMenu[currentChoose-1];
+            }
+        }
+        gotoxy(0, MainData.History.size() + 3);
+        int p = currentChoose;
         if (p == 1){
             MainData.History.clear();
             MainData.SaveHistory();
         }
-        system("pause");
+        else {
+            return 1;
+        }
     }
     return 1;
 }
@@ -203,11 +246,51 @@ bool EditProcessing(HashTable &MainData) {
             while(EditWordDefProcessing(MainData, to_add.Key));
         }
         else{
-            cout << "This word already exists in dictionary" << '\n';
-            cout << "1. Edit definition" << '\n';
-            cout << "2. Add another word" << '\n';
-            cout << "0. Back" << '\n';
-            int p  = GetCommand();
+            vector<string> askMenu;
+            askMenu.push_back("1. Edit definition");
+            askMenu.push_back("2. Add another word");
+            askMenu.push_back("3. Back");
+            gotoxy(0,2);
+            cout << "This word already exists in dictionary" << endl;
+            for (int i = 0; i < askMenu.size(); ++i) {
+                cout << askMenu[i] << '\n';
+            }
+            gotoxy(0,3);
+            SetColor(14);
+            cout << askMenu[0];
+            SetColor(7);
+            int currentChoose = 1;
+            while(1) {
+                char c = _getch();
+                if ((int)c == 13) {
+                    SetColor(7);
+                    break;
+                }
+                int prevChoose = currentChoose;
+                if ((int)c == -32) {
+                    char c = _getch();
+                    if ((int)c == 72) {
+                        if (currentChoose != 1) {
+                            --currentChoose;
+                        }
+                    }
+                    else if ((int)c == 80) {
+                        if (currentChoose != (int)(askMenu.size())) {
+                            ++currentChoose;
+                        }
+                    }
+                }
+                if (currentChoose != prevChoose) {
+                    gotoxy(0, prevChoose + 2);
+                    SetColor(7);
+                    cout << askMenu[prevChoose-1];
+                    SetColor(14);
+                    gotoxy(0, currentChoose + 2);
+                    cout << askMenu[currentChoose-1];
+                }
+            }
+            gotoxy(0, 10);
+            int p = currentChoose;
             if (p == 1){
                 while (EditWordDefProcessing(MainData, to_add.Key));
             }
