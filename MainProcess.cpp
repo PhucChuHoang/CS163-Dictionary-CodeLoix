@@ -314,7 +314,6 @@ bool EditProcessing(HashTable &MainData) {
     if (Command == 3){
         cout << "Input the word you want to remove: ";
         string to_remove;
-        cin.ignore();
         getline(cin, to_remove);
         MainData.DeleteWord(to_remove);
     }

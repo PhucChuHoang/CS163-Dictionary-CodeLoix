@@ -148,9 +148,7 @@ void HashTable::FileInput(string &Filename, bool isReset) {
     reverse(tmp.begin(), tmp.end());
     if (fi.good()) {
         Temp.clear();
-        if (tmp == "emotional.txt") readEmo(Temp, fi);
-        else if (tmp == "slang.txt") readSlang(Temp, fi);
-        else readData(Temp, fi, GetType);
+        readData(Temp, fi, GetType);
     }
     fi.close();
     for (Word &c: Temp) InsertNewWord(c);
@@ -240,7 +238,7 @@ void HashTable::DisplayHistory() {
         cout << setw(93) << " " << "You haven't searched anything!" << '\n';
         return;
     }
-    cout << setw(93) << "Search History" << '\n';
+    cout << setw(107) << "Search History" << '\n';
     int cnt = 0;
     for (string &c: History) cout << setw(93) << " " << (cnt++) << ". " << c << '\n';
 }
@@ -271,7 +269,7 @@ void HashTable::LoadFavorite() {
 }
 
 void HashTable::DisplayFavorite() {
-    cout << setw(93) << "Favorite list" << '\n';
+    cout << setw(106) << "Favorite list" << '\n';
     int cnt = 0;
     for (string &c: Favorite) cout << setw(93) << " " << (cnt++) << ". " << c << '\n';
 }

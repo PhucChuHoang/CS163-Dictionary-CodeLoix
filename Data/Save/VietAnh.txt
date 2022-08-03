@@ -9531,8 +9531,7 @@
 *excl
 -Clear up, clear away
 =Nhat nhanh het dung cu vao 
-=To clear up all the tools.
-=Gather
+=To clear up all the tools.+Gather
 =Nhat nhanh tin tuc
 =To gather information
 
@@ -16663,8 +16662,7 @@
 *excl
 -Do not expect
 =Tuong truot muoi muoi, hay dau lai do 
-=he though he
-=would surely fail and did not expect to pass
+=he though he+would surely fail and did not expect to pass
 
 @phi quan su
 *excl
@@ -19307,9 +19305,7 @@
 *excl
 -Languid, sluggish
 =Trong mat thi thong minh, ma nguoi thi du ddo
-=`
-=To look
-=intelligent and to be sluggish in one's movements
+=`+To look+intelligent and to be sluggish in one's movements
 
 @to hop
 *noun
@@ -24838,8 +24834,7 @@
 =an mung ngay cuoi
 =to celebrate a wedding anniversary
 =An mung nha moi: Nhan dip xay cat xong ngoi nha, chu nhan chon ngay lanh thang tot de don ve nha mo
-='i. Nhan dip nay, chu nhan sua soan le moi ba con, ban be den de an mung.
-=An mung nha moi (Housewarming celebration): After the construction of a new house has been completed, the owner chooses a good date for moving in it. On this occasion, he celebrates a housewarming banquet at which the guests will share his happiness
+='i. Nhan dip nay, chu nhan sua soan le moi ba con, ban be den de an mung.+An mung nha moi (Housewarming celebration): After the construction of a new house has been completed, the owner chooses a good date for moving in it. On this occasion, he celebrates a housewarming banquet at which the guests will share his happiness
 
 @chang trach
 *excl
@@ -32380,8 +32375,7 @@
 -the people at large, the world at large
 -Dullard, dolt
 =Dung lam gi de nguoi doi cuoi che
-=Not to do anything
-=which can be sneered at by the people at large
+=Not to do anything+which can be sneered at by the people at large
 =Co the ma khong hieu, ro nguoi doi!
 =What a dolt! Think that he does not understand even such a simple thing
 
@@ -56982,9 +56976,7 @@
 -(cu) People's cultural standard
 -(cu) Canopied dais; the throne
 =Khau dau lay tru
-='o
-=c dan tri
-=To kow tow before the canopied dais
+='o+c dan tri+To kow tow before the canopied dais
 
 @chiet khau
 *excl
@@ -59938,8 +59930,7 @@
 *noun
 -Durian
 =qua sau rieng
-=Sau Rieng signifies "One's own sorrows" in Vietnamese. Why is this fruit under such an austere name? -Yes, it proceeds from an immortal love story. Long ago, there lived a young couple in the region. Not being able to overcome some social prejudices, they had to find their death to be faithful to their love for ever. Their own sorrows have received the populace's sympathies, and their dramatic love story has been handed down from generation to generation. To commemorate that couple, locals have named their one of the local valuable fruits Sau Rieng.
-=Durian is an expensive fruit. It is from five to six times larger than a mangosteen. Its skin is thick, rough and covered with sharp thorns. Yet, with a gentle cut between the edges of the outer shell, you can easily open the fruit to see layers of layers of brightly yellow segments of pulp as if the pulp is covered with a thin layer of butter. According to the writer Mai Van Tao, "The dense fragrance which spreads near and far and lingers a long time before disappearing. The strong smell can go straight to your nostrils when you are still as far as several dozen metres away from where the fruit is. The fragrance of durian is a mixture of smell coming from a ripening jackfruit and that of a shaddock. Moreover, it also has a strong smell that foreign-made cheese has to offer and is as tastily rich as that of a hen's egg. Others add more traits to the fruit as it also has the sweet like that of well-kept honey. What a specially tempting smell! Those who have not enjoyed the fruit for once could find it hard to eat. Yet, once they have tried it, they are likely to seek for it happily..."
+=Sau Rieng signifies "One's own sorrows" in Vietnamese. Why is this fruit under such an austere name? -Yes, it proceeds from an immortal love story. Long ago, there lived a young couple in the region. Not being able to overcome some social prejudices, they had to find their death to be faithful to their love for ever. Their own sorrows have received the populace's sympathies, and their dramatic love story has been handed down from generation to generation. To commemorate that couple, locals have named their one of the local valuable fruits Sau Rieng.+Durian is an expensive fruit. It is from five to six times larger than a mangosteen. Its skin is thick, rough and covered with sharp thorns. Yet, with a gentle cut between the edges of the outer shell, you can easily open the fruit to see layers of layers of brightly yellow segments of pulp as if the pulp is covered with a thin layer of butter. According to the writer Mai Van Tao, "The dense fragrance which spreads near and far and lingers a long time before disappearing. The strong smell can go straight to your nostrils when you are still as far as several dozen metres away from where the fruit is. The fragrance of durian is a mixture of smell coming from a ripening jackfruit and that of a shaddock. Moreover, it also has a strong smell that foreign-made cheese has to offer and is as tastily rich as that of a hen's egg. Others add more traits to the fruit as it also has the sweet like that of well-kept honey. What a specially tempting smell! Those who have not enjoyed the fruit for once could find it hard to eat. Yet, once they have tried it, they are likely to seek for it happily..."
 
 @canh moi
 *excl
@@ -77216,8 +77207,7 @@
 =Chieu nguoc
 =The opposite direction
 =Go up to the highlands, go upstream
-=Nguoc Lang Son To go up to
-=Langson
+=Nguoc Lang Son To go up to+Langson
 =Nguoc Yen Bai
 =To go up [stream] to Yenbai
 
@@ -81653,8 +81643,7 @@
 =loai lan
 =orchideae
 =to chuc mua lan cho tre em xem
-=to stage a unicorn dance for an audience of children Today, the dragon dance is no longer considered an entertainment reserved for children. Originating from China, it has become part of Vietnamese culture. It is performed not only during Tet or the Mid-Autumn Festival, but also on special occasions such as ground-breaking or inauguration ceremonies. It can be performed on the day when recruits leave their native towns for military units, or on other occasions. If you think that anyone can perform a Dragon Dance, you are mistaken. As an art, Dragon Dance has its principles and rules. A dragon dance usually lasts from 20 to 25 minutes. It consists of five episodes: In the first episode, the dragon appears on the stage; in the second, it exits; in the third, it enters again and rolls over the ground, then it kneels before the audience, and finally bows to the donors. For each episode, there is a different way of beating the drum. Accompanied by the cymbals, the drum sounds like that of a military march. And an expert can distinguish all the five basic feelings of humans (joy, anger, love, hatred and fear) depicted by the beatings of the drum. The drummer not only must be versed in his art, but also knows how to assess the situation. For example, when he sees that the owner of the building hangs the prize on the balcony of his house, the drummer must use the one-three rhythm (cac, bum, bum bum) As the dragon hears the drum change its rhythm, it grows more excited. But when the drum beating is slow, the dragon knows that it is time to wait and relax.A team of dragon dancers consists of thirty persons, as they have to take turns to play the main part. They have different occupations, but when the need arises, they gather at once at the rallying place. In the past, this was an occasion for amusement, not for money.
-=The part of the dragon is performed by three to five persons, but the most important part is that of the head of the dragon.. Usually the performer must be versed in wushu. Another part requires some skills: Hong Hai Nhi (a character in the Chinese novel entitled "Pilgrimage to the West") juggling with two balls of imitation jade he challenges the dragon to try to catch them and thus perform an amusing dance. A part of much more importance is that of the Monkey (one of the main characters of the aforesaid novel). The Monkey also leads the dragon to enter a house, and leave it. And, more important, he manages to stop the dragon when the latter is too excited and loses self-control in its "pursuit of prey".However, to most accounts, the most important role is that of Ong Dia (the genie of the earth). He is like a clown in the Western theatre or in Vietnam's classical opera, but unlike the clown, he does not utter any words. He makes people laugh with his gestures. Therefore, Ong Dia will be immediately replaced if he fails to play his roleIt takes a person four years to be able to perform a part in a dragon dance which usually lasts 20-25 minutes. On Tet Festival, he has to work for four days running, especially on the first, second and third days of the Lunar New Year. Nowadays, a team of dragon dancers can earn a lot of money -at times, nearly ten million VND. Seventy percent of the earnings is divided among members, 10 percent will go to the bonus fund, 10 percent is reserved for re-investment (a dragon costs up to three million VND). The rest is used as "working capital".Dragon dance services are no longer available for free. Those who are interested should order in advance Foreign companies often rent dragon dance teams. In late 1995, San Miguel Beer, for example, offered bonuses worth several million VND. In recent years, the dragon dance has gone through many refinements with a view to catching up with modern times while preserving the best of Vietnam's cultural traditions
+=to stage a unicorn dance for an audience of children Today, the dragon dance is no longer considered an entertainment reserved for children. Originating from China, it has become part of Vietnamese culture. It is performed not only during Tet or the Mid-Autumn Festival, but also on special occasions such as ground-breaking or inauguration ceremonies. It can be performed on the day when recruits leave their native towns for military units, or on other occasions. If you think that anyone can perform a Dragon Dance, you are mistaken. As an art, Dragon Dance has its principles and rules. A dragon dance usually lasts from 20 to 25 minutes. It consists of five episodes: In the first episode, the dragon appears on the stage; in the second, it exits; in the third, it enters again and rolls over the ground, then it kneels before the audience, and finally bows to the donors. For each episode, there is a different way of beating the drum. Accompanied by the cymbals, the drum sounds like that of a military march. And an expert can distinguish all the five basic feelings of humans (joy, anger, love, hatred and fear) depicted by the beatings of the drum. The drummer not only must be versed in his art, but also knows how to assess the situation. For example, when he sees that the owner of the building hangs the prize on the balcony of his house, the drummer must use the one-three rhythm (cac, bum, bum bum) As the dragon hears the drum change its rhythm, it grows more excited. But when the drum beating is slow, the dragon knows that it is time to wait and relax.A team of dragon dancers consists of thirty persons, as they have to take turns to play the main part. They have different occupations, but when the need arises, they gather at once at the rallying place. In the past, this was an occasion for amusement, not for money.+The part of the dragon is performed by three to five persons, but the most important part is that of the head of the dragon.. Usually the performer must be versed in wushu. Another part requires some skills: Hong Hai Nhi (a character in the Chinese novel entitled "Pilgrimage to the West") juggling with two balls of imitation jade he challenges the dragon to try to catch them and thus perform an amusing dance. A part of much more importance is that of the Monkey (one of the main characters of the aforesaid novel). The Monkey also leads the dragon to enter a house, and leave it. And, more important, he manages to stop the dragon when the latter is too excited and loses self-control in its "pursuit of prey".However, to most accounts, the most important role is that of Ong Dia (the genie of the earth). He is like a clown in the Western theatre or in Vietnam's classical opera, but unlike the clown, he does not utter any words. He makes people laugh with his gestures. Therefore, Ong Dia will be immediately replaced if he fails to play his roleIt takes a person four years to be able to perform a part in a dragon dance which usually lasts 20-25 minutes. On Tet Festival, he has to work for four days running, especially on the first, second and third days of the Lunar New Year. Nowadays, a team of dragon dancers can earn a lot of money -at times, nearly ten million VND. Seventy percent of the earnings is divided among members, 10 percent will go to the bonus fund, 10 percent is reserved for re-investment (a dragon costs up to three million VND). The rest is used as "working capital".Dragon dance services are no longer available for free. Those who are interested should order in advance Foreign companies often rent dragon dance teams. In late 1995, San Miguel Beer, for example, offered bonuses worth several million VND. In recent years, the dragon dance has gone through many refinements with a view to catching up with modern times while preserving the best of Vietnam's cultural traditions
 =lan nao cung den cham
 =to come late everytime. set; ply
 =ao lot hai lan
@@ -85239,8 +85228,7 @@
 =hai cau choi nhau tung chu mot
 =the two sentences are strictly symmetrical word for word
 =Choi trau dien ra o Do Son (Hai Phong) vao ngay 10 thang 8. Tuc ngu co cau: "Du ai buon dau ban dau, Mong 10 thang 8 choi trau thi ve".14 con trau khoe cua 14 thon trong tong duoc lua chon ky de dau tung doi mot. Lang co trau thang tran duoc thuong, va trau thang tran duoc ruoc ve san dinh. Sau cuoc dau, cac con trau du thi deu duoc mo thit te than
-=Choi trau (Buffalo-fighting festival) is annually held on the 10th of the lunar eighth month in Do Son (Hai Phong City). It results in
-=this saying: "Go everywhere you want, but come back on the 10th of the lunar eighth month to attend the buffalo-fighting festival". Fourteen strongest buffaloes from fourteen villages of the canton will fight in pairs. Any village whose buffalo is a winner will receive an award. The victorious buffalo itself will be escorted to the yard of the village communal house. Eventually, all those fighting buffaloes will be slaughtered as tributes to the deities
+=Choi trau (Buffalo-fighting festival) is annually held on the 10th of the lunar eighth month in Do Son (Hai Phong City). It results in+this saying: "Go everywhere you want, but come back on the 10th of the lunar eighth month to attend the buffalo-fighting festival". Fourteen strongest buffaloes from fourteen villages of the canton will fight in pairs. Any village whose buffalo is a winner will receive an award. The victorious buffalo itself will be escorted to the yard of the village communal house. Eventually, all those fighting buffaloes will be slaughtered as tributes to the deities
 =chung cu ranh ranh ma con choi
 =though the evidence was obvious, he denied
 =ngai di, cho nen tim ly do de choi
@@ -97412,8 +97400,7 @@
 =ngoi sao san co
 =a star player, a football star to copy, to duplicate to dry in a pan, to dehydrat why, how, what
 =sao truc
-=The bamboo flute is a stem of fine bamboo with a diameter of 1.5cm and a 
-=length of about 30cm. On the stem, there is one mouth piece and 10 finger holes. It could be said that the bamboo flute contains the musical essence of the Vietnamese countryside together with all four tranquil seasons
+=The bamboo flute is a stem of fine bamboo with a diameter of 1.5cm and a +length of about 30cm. On the stem, there is one mouth piece and 10 finger holes. It could be said that the bamboo flute contains the musical essence of the Vietnamese countryside together with all four tranquil seasons
 *excl
 -Bamboo lattice basket
 -Give birth prematurely
@@ -107567,8 +107554,7 @@
 *excl
 -Be concurrently having many qualities... to a high degree
 =Tri luc kiem toan
-=Having concurrently physical strength and
-=intellectual power to a high degree
+=Having concurrently physical strength and+intellectual power to a high degree
 
 @in it
 *excl

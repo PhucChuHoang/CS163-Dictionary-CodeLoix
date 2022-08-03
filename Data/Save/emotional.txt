@@ -1,2816 +1,2737 @@
-@@@@@@@@@@@@@@@@@@@@HHOJ
-*unknown
+@HHOJ
+*emo
 -Ha ha, only joking
 
 @IMP
-*unknown
+*emo
 -I might be pregnant
 
 @SOHF
-*unknown
+*emo
 -Sense of humor failure
 
 @8:-)
-*unknown
+*emo
 -User is a little girl.
 
 @STW
-*unknown
+*emo
 -Search the web
 
 @CDIWY
-*unknown
+*emo
 -Couldn't do it without you
 
 @G2GGS2D
-*unknown
+*emo
 -Got to go get something to drink
 
 @VBS
-*unknown
+*emo
 -Very big smile
 
 @M8
-*unknown
+*emo
 -Mate
 
 @FCOL
-*unknown
+*emo
 -For crying out loud
 
 @CFV
-*unknown
+*emo
 -Call for votes
 
 @:->
-*unknown
+*emo
 -hey hey
 
 @FBOW
-*unknown
+*emo
 -For better or worse
 
 @WBS
-*unknown
+*emo
 -Write back soon
 
 @::-)
-*unknown
+*emo
 -User wears normal glasses.
 
 @TGIF
-*unknown
+*emo
 -Thank god its Friday
 
 @IGTP
-*unknown
+*emo
 -I get the point
 
 @BMTIPG
-*unknown
+*emo
 -Brilliant minds think in parallel gutters
 
 @(8-o
-*unknown
+*emo
 -It's Mr. Bill!
 
 @DBA
-*unknown
+*emo
 -Doing business as
 
 @FWIW
-*unknown
+*emo
 -For what it's worth
 
 @BMG
-*unknown
+*emo
 -Be my guest
 
 @WTGP
-*unknown
+*emo
 -Want to go private?
 
 @IRL
-*unknown
+*emo
 -In real life
 
 @IMFAO
-*unknown
+*emo
 -In my fooling arrogant opinion
 
 @GF
-*unknown
+*emo
 -Girlfriend
 
 @B4
-*unknown
+*emo
 -Before
 
 @SYS
-*unknown
+*emo
 -See you soon
 
 @WYMM
-*unknown
+*emo
 -Will you marry me?
 
 @YBS
-*unknown
+*emo
 -You'll be sorry
 
 @HF
-*unknown
+*emo
 -Have fun
 
 @ROFLOLUTS
-*unknown
+*emo
 -Rolling on floor laughing out loud unable to speak
 
 @:-{)
-*unknown
+*emo
 -User has a mustache.
 
 @=))
-*unknown
+*emo
 -Full of laughing
 
 @IDC
-*unknown
+*emo
 -I don't care
 
 @SAMAGAL
-*unknown
+*emo
 -Stop annoying me and get a live
 
 @=:-)
-*unknown
+*emo
 -User is a hosehead.
 
 @IBN
-*unknown
+*emo
 -I'm bucked naked
 
 @TA
-*unknown
+*emo
 -Thanks again
 
 @CWYL
-*unknown
+*emo
 -Chat with you later
 
 @d8=
-*unknown
+*emo
 -Your pet beaver is wearing goggles and a hard hat.
 
 @BBR
-*unknown
+*emo
 -Burnt beyond repair
 
 @HMT
-*unknown
+*emo
 -Here�s my try
 
 @HIWTH
-*unknown
+*emo
 -Hate it when that happens
 
 @CYA
-*unknown
+*emo
 -See ya
 
 @FCFS
-*unknown
+*emo
 -First come, first served
 
+@-:-(    Real punk rockers don't smile.
+*emo
+-:-)
+-User is a punk rocker.
+
 @FUBAR
-*unknown
+*emo
 -F*cked up beyond all recognition
 
 @PMP
-*unknown
+*emo
 -Peed my pants
 
 @:-O
-*unknown
+*emo
 -oops
 
 @3:[
-*unknown
+*emo
 -Mean Pet smiley.
 
 @NTA
-*unknown
+*emo
 -Non-technical acronym
 
 @BOM
-*unknown
+*emo
 -Bitch of mine
 
 @JAM
-*unknown
+*emo
 -Just a minute
 
 @|-I
-*unknown
+*emo
 -User is asleep.
 
 @@:-)
-*unknown
+*emo
 -User is wearing a turban.
 
 @}:-(
-*unknown
+*emo
 -Toupee in an updraft.
 
 @JJWY
-*unknown
+*emo
 -Just joking with you
 
 @SNAFU
-*unknown
+*emo
 -Situation normal, all fed up
 
 @FURTB
-*unknown
+*emo
 -Full up ready to burst (about hard disk drives)
 
 @O-)
-*unknown
+*emo
 -Megaton Man On Patrol!(or else, user is a scuba diver)
 
 @HHOS
-*unknown
+*emo
 -Ha ha, only seriously
 
 @FYA
-*unknown
+*emo
 -For your amusement
 
 @B:-)
-*unknown
+*emo
 -Sunglasses on head.
 
 @YWTLM
-*unknown
+*emo
 -You want to love me
 
 @CAD
-*unknown
+*emo
 -Ctrl-alt-delete
 
 @W/E
-*unknown
+*emo
 -Whatever
 
 @TTFN
-*unknown
+*emo
 -Ta ta for now
 
 @SHID
-*unknown
+*emo
 -Slaps head in disgust
 
 @EOM
-*unknown
+*emo
 -End of message
 
 @SRY
-*unknown
+*emo
 -Sorry
 
 @LTR
-*unknown
+*emo
 -Long term relationship
 
 @GOWI
-*unknown
+*emo
 -Get on with it
 
 @GBR
-*unknown
+*emo
 -Garbled beyond recovery
 
 @BWTHDIK
-*unknown
+*emo
 -But what the heck do I know
 
 @TX
-*unknown
+*emo
 -Thanx
 
 @OF
-*unknown
+*emo
 -On fire
 
 @W8
-*unknown
+*emo
 -Wait
 
 @FAQ
-*unknown
+*emo
 -Frequently asked questions
 
 @OFIS
-*unknown
+*emo
 -On floor with stitches
 
 @POV
-*unknown
+*emo
 -Point of view
 
 @FTTT
-*unknown
+*emo
 -From time to time
 
 @HT
-*unknown
+*emo
 -Hi there
 
 @:-`
-*unknown
+*emo
 -User spitting out its chewing tobacco.
 
 @RUTTM
-*unknown
+*emo
 -Are you talking to me
 
 @SO
-*unknown
+*emo
 -Significant other
 
 @IRC
-*unknown
+*emo
 -Internet Relay Chat; an multiuser, multinetwork conversing platform (http://www.irc.org)
 
 @FIFO
-*unknown
+*emo
 -First in, first out
 
 @AWGTHTGTTA
-*unknown
+*emo
 -Are we going to have to go trough this again?
 
 @DGA
-*unknown
+*emo
 -Digital guardian angel
 
 @CM@TW
-*unknown
+*emo
 -Catch me at the web
 
 @DFLA
-*unknown
+*emo
 -Disenhanced four-letter acronym
 
 @:-(
-*unknown
+*emo
 -boo hoo
 
 @ANFSCD
-*unknown
+*emo
 -And now for something completely different
 
 @NFI
-*unknown
+*emo
 -No found idea
 
 @PEBCAK
-*unknown
+*emo
 -Problem exists between chair and keyboard
 
 @:-S
-*unknown
+*emo
 -User just made an incoherent statement.
 
 @FISH
-*unknown
+*emo
 -First in, still here
 
 @TCO
-*unknown
+*emo
 -Taken care of
 
 @DIIK
-*unknown
+*emo
 -Darn if i know
 
 @TT2T
-*unknown
+*emo
 -To tired to talk
 
 @TJM
-*unknown
+*emo
 -That's just me
 
 @G2G
-*unknown
+*emo
 -Got to go
 
 @GAFIA
-*unknown
+*emo
 -Get away from it all
 
 @<:-I
-*unknown
+*emo
 -User is a dunce.
 
 @THX
-*unknown
+*emo
 -Thanks
 
 @IK
-*unknown
+*emo
 -I know
 
 @(:I
-*unknown
+*emo
 -User is an egghead.
 
 @OMG
-*unknown
+*emo
 -Oh my god / gosh / goodness
 
 @4U
-*unknown
+*emo
 -For you
 
 @LBR
-*unknown
+*emo
 -Little boys room
 
 @BYOB
-*unknown
+*emo
 -Bring your own bottle
 
 @PLS
-*unknown
+*emo
 -Please
 
 @BBLBNTSBO...
-*unknown
+*emo
 -Be back later but not to soon because of...
 
 @JIC
-*unknown
+*emo
 -Just in case
 
 @:>
-*unknown
+*emo
 -What?
 
 @N/M
-*unknown
+*emo
 -Never mind / nothing much
 
 @JK
-*unknown
+*emo
 -Just kidding
 
 @C=:-)
-*unknown
+*emo
 -User is a chef.
 
 @:-F
-*unknown
+*emo
 -Bucktoothed vampire with one tooth missing.
 
 @OTTOMH
-*unknown
+*emo
 -Off the top of my head
 
 @>;->
-*unknown
+*emo
 -Winky and devil combined. A very lewd remark was just made.
 
 @IANAL
-*unknown
+*emo
 -I am not a lawyer
 
 @ATM
-*unknown
+*emo
 -At the moment
 
 @HB
-*unknown
+*emo
 -Hug back
 
 @GD&R
-*unknown
+*emo
 -Grinning, ducking and running
 
 @FYE
-*unknown
+*emo
 -For your entertainment
 
 @CNP
-*unknown
+*emo
 -Continue in next post
 
 @GD&RVF
-*unknown
+*emo
 -Grinning, ducking and running very
 
 @LOML
-*unknown
+*emo
 -Light of my life (or love of my life)
 
 @TBA
-*unknown
+*emo
 -To be announced
 
 @ASL
-*unknown
+*emo
 -Assistant section leader
 
 @HAG1
-*unknown
+*emo
 -Have a good one
 
 @LOLA
-*unknown
+*emo
 -Laughing out loud again
 
 @:-9
-*unknown
+*emo
 -User is licking his/her lips.
 
 @TPTB
-*unknown
+*emo
 -The powers that be
 
 @OT
-*unknown
+*emo
 -Off topic / other topic
 
 @GTSY
-*unknown
+*emo
 -Glad to see you
 
 @|I
-*unknown
+*emo
 -Asleep.
 
 @NOM
-*unknown
+*emo
 -No offense meant
 
 @LSHMBH
-*unknown
+*emo
 -Laughing so hard my belly hurts
 
 @IDK
-*unknown
+*emo
 -I don't know
 
 @IMAO
-*unknown
+*emo
 -In my arrogant opinion
 
 @BMB
-*unknown
+*emo
 -bite my bum
 
 @:<)
-*unknown
+*emo
 -User is from an Ivy League School.
 
 @KB
-*unknown
+*emo
 -Kiss back
 
 @LMK
-*unknown
+*emo
 -Let me know
 
 @EOD
-*unknown
+*emo
 -End of discussion
 
 @:-)~
-*unknown
+*emo
 -User drools.
 
 @AIUI
-*unknown
+*emo
 -As I understand it
 
 @AYOR
-*unknown
+*emo
 -At your own risk
 
 @IIT
-*unknown
+*emo
 -I�m impressed too
 
 @TSDMC
-*unknown
+*emo
 -Tears streaming down my cheeks
 
 @QT
-*unknown
+*emo
 -Cutie
 
 @OIC
-*unknown
+*emo
 -Oh I see
 
 @YOYO
-*unknown
+*emo
 -You're on your own
 
 @GFETE
-*unknown
+*emo
 -Grinning from ear to ear
 
 @SWALK
-*unknown
+*emo
 -Sweet, with all love, kisses
 
 @OK
-*unknown
+*emo
 -Abbreviation of oll korrect (all correct)
 
 @ILYFAE
-*unknown
+*emo
 -I love you forever and ever
 
 @BG
-*unknown
+*emo
 -Big grin
 
 @MB
-*unknown
+*emo
 -Maybe
 
 @ETLA
-*unknown
+*emo
 -Extended three letter acronym
 
 @WUF
-*unknown
+*emo
 -Where are you from?
 
 @KIT
-*unknown
+*emo
 -Keep in touch
 
 @SWAK
-*unknown
+*emo
 -Sealed with a kiss
 
 @4AYN
-*unknown
+*emo
 -For all you know
 
 @BBIAB
-*unknown
+*emo
 -Be back in a bit
 
 @SWL
-*unknown
+*emo
 -Screaming with laughter
 
 @EG
-*unknown
+*emo
 -Evil grin
 
 @IMO
-*unknown
+*emo
 -In my opinion
 
 @FYI
-*unknown
+*emo
 -For your information
 
 @AFAICT
-*unknown
+*emo
 -As far as I can tell
 
 @:*)
-*unknown
+*emo
 -User is drunk.
 
 @|-D
-*unknown
+*emo
 -ho ho
 
 @FLA
-*unknown
+*emo
 -Four-letter acronym
 
 @>U
-*unknown
+*emo
 -Screw you!
 
 @JMO
-*unknown
+*emo
 -Just my opinion
 
 @LGR
-*unknown
+*emo
 -Little girls room
 
 @^o
-*unknown
+*emo
 -Snoring.
 
 @LY
-*unknown
+*emo
 -Love ya
 
 @GG
-*unknown
+*emo
 -Good game
 
 @:C
-*unknown
+*emo
 -What?
 
 @BRBS
-*unknown
+*emo
 -Be right back soon
 
 @MYOB
-*unknown
+*emo
 -Mind your own business
 
 @BITMT
-*unknown
+*emo
 -But in the meantime
 
 @JP
-*unknown
+*emo
 -Just playing
 
 @?4U
-*unknown
+*emo
 -Question for you
 
 @ICOCBW
-*unknown
+*emo
 -I could of course be wrong
 
 @JTLYK
-*unknown
+*emo
 -Just to let you know
 
 @URAQT!
-*unknown
+*emo
 -You are a cutie!
 
 @DUCT
-*unknown
+*emo
 -Did you see that?
 
 @WYSIWYG
-*unknown
+*emo
 -What you see is what you get
 
 @[]
-*unknown
+*emo
 -Hugs and ...
 
 @:-0
-*unknown
+*emo
 -No Yelling!(Quiet Lab)
 
 @BEG
-*unknown
+*emo
 -Big evil grin
 
 @GAL
-*unknown
+*emo
 -Get a life
 
 @:-[
-*unknown
+*emo
 -User is a vampire.
 
 @^_-
-*unknown
+*emo
 -Wink
 
 @:'-(
-*unknown
+*emo
 -User is crying.
 
 @4SALE
-*unknown
+*emo
 -For sale
 
 @GFU
-*unknown
+*emo
 -Good for you
 
 @BRB
-*unknown
+*emo
 -Be right back
 
 @CU
-*unknown
+*emo
 -See you
 
 @LSHIPMP
-*unknown
+*emo
 -Laughing so hard I pissed my pants
 
 @:-#
-*unknown
+*emo
 -User wears braces.
 
 @WFM
-*unknown
+*emo
 -Works for me
 
 @NP
-*unknown
+*emo
 -No problem
 
 @HMS
-*unknown
+*emo
 -Home made smiley
 
 @NOYFB
-*unknown
+*emo
 -None of your failing business
 
 @HAND
-*unknown
+*emo
 -Have a nice day
 
 @ROFLOLWTIME
-*unknown
+*emo
 -Rolling on floor laughing out loud with tears in my eyes
 
 @WRT
-*unknown
+*emo
 -With respect to
 
 @BCNU
-*unknown
+*emo
 -Be Seein' You
 
 @WB
-*unknown
+*emo
 -Welcome back
 
 @BL
-*unknown
+*emo
 -Belly laughing
 
 @ITRW
-*unknown
+*emo
 -In the real world
 
 @IMS
-*unknown
+*emo
 -I am sorry
 
 @BOL
-*unknown
+*emo
 -Be on later
 
 @G2B
-*unknown
+*emo
 -Going to bed
 
 @HDYWTDT
-*unknown
+*emo
 -How do you work this dratted thing
 
 @SHICPMP
-*unknown
+*emo
 -So happy I could piss my pants
 
 @GR&D
-*unknown
+*emo
 -Grinning, running and ducking
 
 @FU
-*unknown
+*emo
 -F*cked up
 
 @CFY
-*unknown
+*emo
 -Calling for you
 
 @DL
-*unknown
+*emo
 -Dead link
 
 @BAC
-*unknown
+*emo
 -Back at computer
 
 @:(
-*unknown
+*emo
 -Sad.
 
 @QSL
-*unknown
+*emo
 -Reply
 
 @BST
-*unknown
+*emo
 -But seriously though
 
 @TY
-*unknown
+*emo
 -Thank you
 
 @YMMD
-*unknown
+*emo
 -You've made my day
 
 @:Q
-*unknown
+*emo
 -What?
 
 @BC
-*unknown
+*emo
 -Because
 
 @[:-)
-*unknown
+*emo
 -User is wearing a walkman.
 
 @EMFJI
-*unknown
+*emo
 -Excuse me for jumping in
 
 @EOL
-*unknown
+*emo
 -End of lecture
 
-@-:-(
-*unknown
--Real punk rockers don't smile.
-
 @DIKU
-*unknown
+*emo
 -Do I know you?
 
 @BRS
-*unknown
+*emo
 -Big red switch
 
 @IDGW
-*unknown
+*emo
 -In a good way
 
 @CRS
-*unknown
+*emo
 -Can�t remember shit
 
 @DWIM
-*unknown
+*emo
 -Do what I mean
 
 @POOF
-*unknown
+*emo
 -I have left the chat
 
 @:-~)
-*unknown
+*emo
 -User has a cold.
 
 @GL
-*unknown
+*emo
 -Good luck
 
 @GBH&K
-*unknown
+*emo
 -Great big huh and kisses
 
 @NMJC
-*unknown
+*emo
 -Nothing much, just chillin'
 
 @CSG
-*unknown
+*emo
 -Chuckle snicker grin
 
 @BICBW
-*unknown
+*emo
 -But I could be wrong
 
 @AWOL
-*unknown
+*emo
 -Absent without leave
 
 @F2F
-*unknown
+*emo
 -Face to face
 
 @B/C
-*unknown
+*emo
 -Because
 
 @TLA
-*unknown
+*emo
 -Three-letter acronym
 
 @`:-)
-*unknown
+*emo
 -User shaved one of his eyebrows off this morning.
 
 @HSIK
-*unknown
+*emo
 -How should i know
 
 @FOAD
-*unknown
+*emo
 -Fight over and die
 
 @TNSTAAFL
-*unknown
+*emo
 -There's no such thing as a free lunch
 
 @WP
-*unknown
+*emo
 -Wrong person
 
 @GDW
-*unknown
+*emo
 -Grin, duck and wave
 
 @Y2K
-*unknown
+*emo
 -You're too kind
 
 @IAC
-*unknown
+*emo
 -In any case
 
 @YY4U
-*unknown
+*emo
 -Two wise for you
 
 @XTLA
-*unknown
+*emo
 -Extended three letter acronym
 
 @HTH
-*unknown
+*emo
 -Hope this helps
 
 @:-E
-*unknown
+*emo
 -Bucktoothed vampire.
 
 @IC
-*unknown
+*emo
 -I see
 
 @BAG
-*unknown
+*emo
 -Busting a gut
 
 @PDS
-*unknown
+*emo
 -Please don't shoot
 
 @:-)-8
-*unknown
+*emo
 -User is a Big girl.
 
 @LOL
-*unknown
+*emo
 -Lots of love
 
 @TOH
-*unknown
+*emo
 -To other half
 
 @HTHBE
-*unknown
+*emo
 -Hope this has been enlightening
 
 @WAY
-*unknown
+*emo
 -Who are you
 
 @X-(
-*unknown
+*emo
 -Net.suicide
 
 @:=)
-*unknown
+*emo
 -User has two noses.
 
 @KISS
-*unknown
+*emo
 -Keeping it sweetly simple
 
 @LNK
-*unknown
+*emo
 -Love and kisses
 
 @KWIM
-*unknown
+*emo
 -Know what I mean?
 
 @HAGS
-*unknown
+*emo
 -Have a good summer
 
 @NL
-*unknown
+*emo
 -Not likely
 
 @ADN
-*unknown
+*emo
 -Any day now
 
 @IFVB
-*unknown
+*emo
 -I feel very bad
 
 @YG
-*unknown
+*emo
 -Young gentleman
 
 @C=}>;*{))
-*unknown
+*emo
 -A drunk, devilish chef with a toupee in an updraft, a mustache, and a double chin.
 
 @NBD
-*unknown
+*emo
 -No big deal
 
 @+-:-)
-*unknown
+*emo
 -User is the Pope or holds some other religious office.
 
 @IDGI
-*unknown
+*emo
 -I don't get it
 
 @J/P
-*unknown
+*emo
 -Just playing
 
 @CLM
-*unknown
+*emo
 -Career limiting move
 
 @OL
-*unknown
+*emo
 -Old lady (wife, girlfriend)
 
 @Q4U
-*unknown
+*emo
 -Question for you
 
 @LSHMBB
-*unknown
+*emo
 -Laughing so hard my belly is bouncing
 
 @GBH
-*unknown
+*emo
 -Great big hug
 
 @TTYLMF
-*unknown
+*emo
 -Talk to you later my friend
 
 @BION
-*unknown
+*emo
 -Believe it or not
 
 @RUOK?
-*unknown
+*emo
 -Are you okay?
 
 @}:^#})
-*unknown
+*emo
 -Updrafted bushy-mustached pointy nosed smiley with a double-chin.
 
 @GD&RAFAP
-*unknown
+*emo
 -Grinning, ducking and running as fast as possible
 
 @FOC
-*unknown
+*emo
 -Free of charge
 
 @DWISNWID
-*unknown
+*emo
 -Do what I say, not what I do
 
 @PMFJI
-*unknown
+*emo
 -Pardon me for jumping in
 
 @FOCL
-*unknown
+*emo
 -Falling of chair laughing
 
 @KHYF
-*unknown
+*emo
 -Know how you feel
 
 @KOTC
-*unknown
+*emo
 -Kiss on the cheek
 
 @EMSG
-*unknown
+*emo
 -Email message
 
 @DH
-*unknown
+*emo
 -Darling husband
 
 @KIS
-*unknown
+*emo
 -Keep it simple
 
 @BOT
-*unknown
+*emo
 -Back on topic
 
 @TU
-*unknown
+*emo
 -Thank you
 
 @BBL
-*unknown
+*emo
 -Be back later
 
 @SETE
-*unknown
+*emo
 -Smiling ear to ear
 
 @TOY
-*unknown
+*emo
 -Thinking of you
 
 @YHBBYBD
-*unknown
+*emo
 -You'd have better bet your bottom dollar
 
 @IAG
-*unknown
+*emo
 -It's all good
 
 @:-I
-*unknown
+*emo
 -hmmm
 
 @BAK
-*unknown
+*emo
 -Back at the keyboard
 
 @TNX
-*unknown
+*emo
 -Thanks
 
 @HLM
-*unknown
+*emo
 -He loves me
 
 @:D
-*unknown
+*emo
 -Laughter.
 
 @C&G
-*unknown
+*emo
 -Chuckle and grin
 
 @EOT
-*unknown
+*emo
 -End of thread
 
 @WU
-*unknown
+*emo
 -What's up?
 
 @GBY
-*unknown
+*emo
 -God bless you
 
 @HH
-*unknown
+*emo
 -Holding hands
 
 @N/C
-*unknown
+*emo
 -Not cool
 
 @BTOBS
-*unknown
+*emo
 -Be there or be square
 
 @^-~
-*unknown
+*emo
 -Wink
 
 @TTUL
-*unknown
+*emo
 -Talk to you later
 
 @SHMILY
-*unknown
+*emo
 -See how much I love you
 
 @HHIS
-*unknown
+*emo
 -Hanging head in shame
 
 @AAMOF
-*unknown
+*emo
 -As a matter of fact
 
 @EAK
-*unknown
+*emo
 -Eating at keyboard
 
 @NE1
-*unknown
+*emo
 -Anyone
 
 @RTSM
-*unknown
+*emo
 -Read the stupid manual
 
 @=W=
-*unknown
+*emo
 -Whatever
 
 @YVW
-*unknown
+*emo
 -You're very welcome
 
 @:-/
-*unknown
+*emo
 -User is skeptical.
 
 @GD&H
-*unknown
+*emo
 -Grinning, ducking and hiding
 
 @IMOBO
-*unknown
+*emo
 -In my own biased opinion
 
 @FOAF
-*unknown
+*emo
 -Friend of a friend
 
 @IMPOV
-*unknown
+*emo
 -In my point of view
 
 @|-)
-*unknown
+*emo
 -hee hee
 
 @YMMV
-*unknown
+*emo
 -Your mileage may vary
 
 @DTC
-*unknown
+*emo
 -Damn this computer
 
 @2U2
-*unknown
+*emo
 -To you too
 
 @LMA
-*unknown
+*emo
 -Leave me alone
 
 @YL
-*unknown
+*emo
 -You 'll live
 
 @OOC
-*unknown
+*emo
 -Out of character
 
 @FUD
-*unknown
+*emo
 -Fear, uncertainty and doubt
 
 @BUDWEISER
-*unknown
+*emo
 -Because you deserve what every individual should ever receive
 
 @HAK
-*unknown
+*emo
 -Hug and kiss
 
 @:[
-*unknown
+*emo
 -Real Downer.
 
 @BM
-*unknown
+*emo
 -Bite me
 
 @PLZ
-*unknown
+*emo
 -Please
 
 @POC
-*unknown
+*emo
 -Point of contact
 
 @POAHF
-*unknown
+*emo
 -Put on a happy face
 
 @WTH
-*unknown
+*emo
 -What/who the heck?
 
 @YWTKM
-*unknown
+*emo
 -You want to kiss me
 
 @GD&REF&F
-*unknown
+*emo
 -grinning, ducking and running even further and faster
 
 @G&BIT
-*unknown
+*emo
 -Grin and bear it
 
 @<|-)
-*unknown
+*emo
 -User is Chinese.
 
 @KOTL
-*unknown
+*emo
 -Kiss on the lips
 
 @*:o)
-*unknown
+*emo
 -And Bozo the Clown!
 
 @:)
-*unknown
+*emo
 -Happy.
 
 @BYOH
-*unknown
+*emo
 -Bat You Onna Head
 
 @OH
-*unknown
+*emo
 -Off hand
 
 @TBH
-*unknown
+*emo
 -To be honest
 
 @:{
-*unknown
+*emo
 -What?
 
 @AFK
-*unknown
+*emo
 -Away from computer keyboard (for wireless users)
 
 @:-@
-*unknown
+*emo
 -User is screaming.
 
 @TTYL
-*unknown
+*emo
 -Talk to you later
 
 @L8R G8R
-*unknown
+*emo
 -Later gator
 
 @HYLMS
-*unknown
+*emo
 -Hate you like my sister
 
 @-=* :-)
-*unknown
+*emo
 -User is a TeX wizard.
 
 @IME
-*unknown
+*emo
 -In my experience
 
 @DTRT
-*unknown
+*emo
 -Do the right thing
 
 @IMHO
-*unknown
+*emo
 -In my humble opinion
 
 @IAIM
-*unknown
+*emo
 -In an Irish minute
 
 @DYOH
-*unknown
+*emo
 -Do your own homework
 
 @HHOK
-*unknown
+*emo
 -Ha ha, only kidding
 
 @GRA
-*unknown
+*emo
 -Go right ahead
 
 @OTOH
-*unknown
+*emo
 -On the other hand
 
 @O |-)
-*unknown
+*emo
 -Net.religion
 
 @GM
-*unknown
+*emo
 -Good morning
 
 @:I
-*unknown
+*emo
 -Hmmm...
 
 @=)
-*unknown
+*emo
 -Variation on a theme...
 
 @IIRC
-*unknown
+*emo
 -If I recall correctly
 
 @JMHO
-*unknown
+*emo
 -Just my humble opinion
 
 @W8AM
-*unknown
+*emo
 -Wait a minute
 
 @:-{}
-*unknown
+*emo
 -User wears lipstick.
 
 @BSF
-*unknown
+*emo
 -But seriously folks
 
 @IRMFI
-*unknown
+*emo
 -I reply merely for information
 
 @ABT
-*unknown
+*emo
 -About
 
 @SH
-*unknown
+*emo
 -So hot
 
 @GOK
-*unknown
+*emo
 -God only knows
 
 @HAGN
-*unknown
+*emo
 -Have a good night
 
 @J/K
-*unknown
+*emo
 -Just kidding
 
 @?
-*unknown
+*emo
 -Huh?
 
 @IM
-*unknown
+*emo
 -Instant message
 
 @TMA
-*unknown
+*emo
 -Take my advice
 
 @H&K
-*unknown
+*emo
 -Hug and kiss
 
 @LMHO
-*unknown
+*emo
 -Laughing my head off
 
 @SOMY
-*unknown
+*emo
 -Sick of me yet?
 
 @:-&
-*unknown
+*emo
 -User is tongue tied.
 
 @:@
-*unknown
+*emo
 -What?
 
 @LYL
-*unknown
+*emo
 -Love ya lots
 
 @OTP
-*unknown
+*emo
 -On the phone
 
 @BTOBD
-*unknown
+*emo
 -Be there or be dead
 
 @IOIT
-*unknown
+*emo
 -I'm on Irish Time
 
 @AFAIC
-*unknown
+*emo
 -As far as I'm concerned
 
 @:-Q
-*unknown
+*emo
 -User is a smoker.
 
 @3:]
-*unknown
+*emo
 -Pet smiley.
 
 @AFAIK
-*unknown
+*emo
 -As far as I know
 
 @AWA
-*unknown
+*emo
 -As well as
 
 @NRN
-*unknown
+*emo
 -No response necessary
 
 @GTG
-*unknown
+*emo
 -Got to go
 
 @B
-*unknown
+*emo
 -Back
 
 @IYKWIM
-*unknown
+*emo
 -If you know what I mean
 
 @ILU
-*unknown
+*emo
 -I love you
 
 @CUL8R
-*unknown
+*emo
 -See you later
 
 @:-D
-*unknown
+*emo
 -User is laughing (at you!)
 
 @FAWC
-*unknown
+*emo
 -For anyone who cares
 
 @{:-)
-*unknown
+*emo
 -User wears a toupee.
 
 @NETUA
-*unknown
+*emo
 -Nobody ever tells us anything
 
 @QSO
-*unknown
+*emo
 -Conversation
 
 @IDTT
-*unknown
+*emo
 -I'll drink to that
 
 @BOB
-*unknown
+*emo
 -Back off bastard
 
 @LHM
-*unknown
+*emo
 -Lord help me
 
 @IAAA
-*unknown
+*emo
 -I am an accountant
 
 @CUL
-*unknown
+*emo
 -See you later
 
 @BRBB
-*unknown
+*emo
 -Be right back bitch
 
 @:-o
-*unknown
+*emo
 -Uh oh!
 
 @NM
-*unknown
+*emo
 -Never mind / nothing much
 
 @IHTFP
-*unknown
+*emo
 -I hate this fountain place
 
 @H/O
-*unknown
+*emo
 -Hold on
 
 @YT?
-*unknown
+*emo
 -You there?
 
 @LD
-*unknown
+*emo
 -Long distance
 
 @EIE
-*unknown
+*emo
 -Enough is enough
 
 @ITFA
-*unknown
+*emo
 -In the final analysis
 
 @:-7
-*unknown
+*emo
 -User juust made a wry statement.
 
 @OM
-*unknown
+*emo
 -Old man (husband, boyfriend)
 
 @LAB
-*unknown
+*emo
 -Life's a bitch
 
 @F
-*unknown
+*emo
 -Female
 
 @GAS
-*unknown
+*emo
 -Greetings and salutations
 
 @IDI
-*unknown
+*emo
 -I doubt it
 
 @PM
-*unknown
+*emo
 -Private message
 
 @AFAYC
-*unknown
+*emo
 -As far as you're concerned
 
 @PPL
-*unknown
+*emo
 -People
 
 @:^)
-*unknown
+*emo
 -User has a broken nose.
 
 @GR8
-*unknown
+*emo
 -Great
 
 @AISI
-*unknown
+*emo
 -As I see it
 
 @IIR
-*unknown
+*emo
 -If I recall
 
 @G
-*unknown
+*emo
 -Grin
 
 @E-:-)
-*unknown
+*emo
 -User is a Ham radio operator.
 
 @:-*
-*unknown
+*emo
 -User just ate something sour.
 
 @FOB
-*unknown
+*emo
 -Full of bless
 
 @LYLAB
-*unknown
+*emo
 -Love ya like a brother
 
 @H
-*unknown
+*emo
 -Hug
 
 @IJWTK
-*unknown
+*emo
 -I just want to know
 
 @B/F
-*unknown
+*emo
 -Boyfriend
 
 @CU2
-*unknown
+*emo
 -See you too
 
 @WTMI
-*unknown
+*emo
 -Way to much information
 
 @IJWTS
-*unknown
+*emo
 -I just want to say
 
 @WUD
-*unknown
+*emo
 -What's up dog?
 
 @JAS
-*unknown
+*emo
 -Just a second
 
 @-6%
-*unknown
+*emo
 -User is braindead.
 
 @2MFM
-*unknown
+*emo
 -To much for me
 
 @|-O
-*unknown
+*emo
 -User is yawning/snoring.
 
 @E-:-I
-*unknown
+*emo
 -Net.ham-radio
 
 @IGP
-*unknown
+*emo
 -I gotta pee
 
 @8 :-)
-*unknown
+*emo
 -User is a wizard.
 
 @ILY
-*unknown
+*emo
 -I love you
 
 @CRAFT
-*unknown
+*emo
 -Can't remember a frighten thing
 
 @WDHLM
-*unknown
+*emo
 -Why doesn't he love me
 
 @CADET
-*unknown
+*emo
 -Can't add, doesn't even try
 
 @K
-*unknown
+*emo
 -Kiss (rarely used)
 
 @%-)
-*unknown
+*emo
 -User has been staring at a green screen for 15 hours straight.
 
 @S2R
-*unknown
+*emo
 -Send to receive
 
 @LOOL
-*unknown
+*emo
 -Laughing out outrageously loud
 
 @*<:-)
-*unknown
+*emo
 -User is wearing a Santa Claus Hat.
 
 @L
-*unknown
+*emo
 -Laugh
 
 @8 :-I
-*unknown
+*emo
 -Net.unix-wizards
 
 @IKWUM
-*unknown
+*emo
 -I know what you mean
 
 @F/F
-*unknown
+*emo
 -Face to face
 
 @II
-*unknown
+*emo
 -I�m impressed
 
 @NOTTOMH
-*unknown
+*emo
 -Not of the top of my mind
 
 @INAL
-*unknown
+*emo
 -I'm not a lawyer
 
 @TIA
-*unknown
+*emo
 -Thanks in advance
 
 @CFS
-*unknown
+*emo
 -Care for secret?
 
 @TTT
-*unknown
+*emo
 -Thought that, too
 
 @:<
-*unknown
+*emo
 -What?
 
 @JAWS
-*unknown
+*emo
 -Just another windows shell
 
 @M
-*unknown
+*emo
 -Male
 
 @FOS
-*unknown
+*emo
 -Freedom of speech
 
 @NVM
-*unknown
+*emo
 -Nevermind
 
 @JASE
-*unknown
+*emo
 -Just another system error
 
 @IMCO
-*unknown
+*emo
 -In my considered opinion
 
 @N
-*unknown
+*emo
 -In
 
 @HHJK
-*unknown
+*emo
 -Ha ha, just kidding
 
 @EOF
-*unknown
+*emo
 -End of file
 
 @ISWYM
-*unknown
+*emo
 -I see what you mean
 
 @TMI
-*unknown
+*emo
 -To much information
 
 @LUWAMH
-*unknown
+*emo
 -Love you with all my heart
 
 @YM
-*unknown
+*emo
 -You mean
 
 @FOFL
-*unknown
+*emo
 -Falling on the floor laughing
 
 @IHU
-*unknown
+*emo
 -I hate you
 
 @NOYB
-*unknown
+*emo
 -None of your business
 
 @GL&GH
-*unknown
+*emo
 -Good luck and good hunting
 
 @ASOP
-*unknown
+*emo
 -Assistant system operator
 
 @AIM
-*unknown
+*emo
 -AOL Instant Messenger; also verb for FTP'ing files via AIM
 
 @DYK
-*unknown
+*emo
 -Do you know
 
 @YWIA
-*unknown
+*emo
 -You're welcome in advance
 
 @ROTFL
-*unknown
+*emo
 -Rolling on the floor laughing
 
 @FW
-*unknown
+*emo
 -Forward
 
 @IYSWIM
-*unknown
+*emo
 -If you see what I mean
 
 @IWBNI
-*unknown
+*emo
 -It would be nice if
 
 @WTG
-*unknown
+*emo
 -Way to go
 
 @:*
-*unknown
+*emo
 -Kisses.
 
 @SCNR
-*unknown
+*emo
 -Sorry, could not resist
 
 @N/S
-*unknown
+*emo
 -No shit
 
 @TIIC
-*unknown
+*emo
 -The idiots in charge
 
 @CIM
-*unknown
+*emo
 -CompuServe information manager
 
 @GW
-*unknown
+*emo
 -Good work
 
 @,-)
-*unknown
+*emo
 -Ditto...but he's winking.
 
 @DWIMC
-*unknown
+*emo
 -Do what I mean, correctly
 
 @PMJI
-*unknown
+*emo
 -Pardon my jumping in (Another way for PMFJI)
 
 @U2
-*unknown
+*emo
 -You too
 
 @LHU
-*unknown
+*emo
 -Lord help us
 
 @WNDITWB
-*unknown
+*emo
 -We never did it this way before
 
 @S
-*unknown
+*emo
 -Smile
 
 @AWHFY
-*unknown
+*emo
 -Are we having fun yet?
 
 @ITRO
-*unknown
+*emo
 -In the reality of
 
 @AFAICS
-*unknown
+*emo
 -As far as I can see
 
 @TWMA
-*unknown
+*emo
 -Till we meet again
 
 @IANAA
-*unknown
+*emo
 -I am not an accountant
 
 @(-:
-*unknown
+*emo
 -User is left handed.
 
 @T
-*unknown
+*emo
 -Tickle
 
 @.-)
-*unknown
+*emo
 -User only has one eye.
 
 @:-?
-*unknown
+*emo
 -User smokes a pipe.
 
 @AYPI?
-*unknown
+*emo
 -And your point is?
 
 @CTS
-*unknown
+*emo
 -Changing the subject
 
 @A/S/L
-*unknown
+*emo
 -Age/Sex/Location
 
 @SYSOP
-*unknown
+*emo
 -System operator
 
 @DQMOT
-*unknown
+*emo
 -Don't quote me on this
 
 @GN
-*unknown
+*emo
 -Good night
 
 @ISTR
-*unknown
+*emo
 -I seem to recall
 
 @DCED
-*unknown
+*emo
 -Disconnected
 
 @BTDT
-*unknown
+*emo
 -Been there done that
 
 @JW
-*unknown
+*emo
 -Just wondering
 
 @WUWT
-*unknown
+*emo
 -Whats up with that
 
 @GGU2
-*unknown
+*emo
 -Good game you two
 
 @UR
-*unknown
+*emo
 -Your
 
 @VBG
-*unknown
+*emo
 -Very big grin
 
 @DLTBBB
-*unknown
+*emo
 -Don't let the bad bugs bite
 
 @LYLAS
-*unknown
+*emo
 -Love ya like a sister
 
 @HMWK
-*unknown
+*emo
 -Homework
 
 @PAW
-*unknown
+*emo
 -Parents are watching
 
 @SITWB
-*unknown
+*emo
 -Sorry, in the wrong box
 
 @SPAM
-*unknown
+*emo
 -Stupid persons' advertisement
 
 @W
-*unknown
+*emo
 -Wink
 
 @POS
-*unknown
+*emo
 -Parents over shoulder
 
 @CMIIW
-*unknown
+*emo
 -Correct me if I'm wrong
 
 @GE
-*unknown
+*emo
 -Good evening
 
 @IHY
-*unknown
+*emo
 -I hate you
 
 @CYO
-*unknown
+*emo
 -See you online
 
 @GMAB
-*unknown
+*emo
 -Give me a break
 
 @IMNSHO
-*unknown
+*emo
 -In my, not so humble opinion
 
 @IOW
-*unknown
+*emo
 -In other words
 
 @N2M
-*unknown
+*emo
 -Not too much
 
 @THTH
-*unknown
+*emo
 -To hot to handle
 
 @BTSOOM
-*unknown
+*emo
 -Beats the shit out of me
 
 @CYAL8R
-*unknown
+*emo
 -See ya later
 
 @ROFLOLTSDMC
-*unknown
+*emo
 -Rolling on floor laughing out loud tears streaming down my cheeks
 
 @BBS
-*unknown
+*emo
 -Be back soon
 
 @LYK
-*unknown
+*emo
 -Let you know
 
 @Y
-*unknown
+*emo
 -Why?
 
 @GMTA
-*unknown
+*emo
 -Great minds think alike
 
 @FTF
-*unknown
+*emo
 -Face to face
 
 @:-P
-*unknown
+*emo
 -nyahhhh!
 
 @LL&P
-*unknown
+*emo
 -Live long & prosper
 
 @WU?
-*unknown
+*emo
 -What's up?
 
 @ABFL
-*unknown
+*emo
 -A big fat lady
 
 @BS
-*unknown
+*emo
 -Big smile
 
 @ILBCNU
-*unknown
+*emo
 -I"ll be seeing you
 
 @4COL
-*unknown
+*emo
 -For crying out loud
 
 @BTW
-*unknown
+*emo
 -By the way
 
 @K:P
-*unknown
+*emo
 -User is a little kid with a propeller beenie.
 
 @:'-)
-*unknown
+*emo
 -User is so happy, s/he is crying.
 
 @RVD
-*unknown
+*emo
 -Really very dumb
 
 @ROFL
-*unknown
+*emo
 -Rolling on floor laughing
 
 @:-C
-*unknown
+*emo
 -User is really bummed.
 
 @CID
-*unknown
+*emo
 -Consider it done
 
 @IAAL
-*unknown
+*emo
 -I am a lawyer
 
 @~~:-(
-*unknown
+*emo
 -Net.flame
 
 @AML
-*unknown
+*emo
 -All my love
 
 @FBTW
-*unknown
+*emo
 -Fine, be that way
 
 @BFN
-*unknown
+*emo
 -Bye for now
 
 @n00b
-*unknown
+*emo
 -Leetspeak for beginner
 
 @FYEO
-*unknown
+*emo
 -For your eyes only
 
 @RSN
-*unknown
+*emo
 -Real soon now
 
 @PSA
-*unknown
+*emo
 -Public show of affection
 
 @IWALY
-*unknown
+*emo
 -I will always love you
 
 @LTS
-*unknown
+*emo
 -Laughing to self
 
 @CFN
-*unknown
+*emo
 -Ciao for now
 
 @DMMGH
-*unknown
+*emo
 -Don't make me get hostile
 
 @:_)
-*unknown
+*emo
 -User's nose is sliding off of his face.
 
 @8-)
-*unknown
+*emo
 -User is wearing sunglasses.
 
 @HOAS
-*unknown
+*emo
 -Hold on a second
 
 @:O
-*unknown
+*emo
 -Yelling.
 
 @,:-)
-*unknown
+*emo
 -Same thing...other side.
 
 @LOMLILY
-*unknown
+*emo
 -Light of my life, I love you
 
 @BRH
-*unknown
+*emo
 -Be right here
 
 @UW
-*unknown
+*emo
 -You're welcom
 
 @:-)
-*unknown
+*emo
 -ha ha
 
 @GIGO
-*unknown
+*emo
 -Garbage in garbage out
 
 @^_^
-*unknown
+*emo
 -Smile
 
-@-:-)
-*unknown
--User is a punk rocker.
-
 @BWQ
-*unknown
+*emo
 -Buzz word quotient
 
 @O :-)
-*unknown
+*emo
 -User is an angel (at heart, at least).
 
 @;-)
-*unknown
+*emo
 -Winky smiley. User just made a flirtatious and/or sarcastic remark.More of a "don't hit me for what I just said" smiley.
 
 @IS
-*unknown
+*emo
 -I'm sorry
 
 @CWOT
-*unknown
+*emo
 -Complete waste of time
 
 @NMH
-*unknown
+*emo
 -Not much here
 
 @IVL
-*unknown
+*emo
 -In virtual live
 
 @:,(
-*unknown
+*emo
 -Crying.
 
 @GJ
-*unknown
+*emo
 -Good job
 
 @GFN
-*unknown
+*emo
 -Gone for now
 
 @B4N
-*unknown
+*emo
 -Bye for now
 
 @DYJHIW
-*unknown
+*emo
 -Don't you just hate it when...
 
 @SIM
-*unknown
+*emo
 -Shit, it's Monday
 
 @BIOYIOB
-*unknown
+*emo
 -Blow it out your I/O port
 
 @HILIACACLO
-*unknown
+*emo
 -Help I lapsed into a coma and can�t log off
 
 @RE
-*unknown
+*emo
 -Hi again (same as re's)
 
 @TYVM
-*unknown
+*emo
 -Thank you very much
 
 @^-^
-*unknown
+*emo
 -Satisfied Smile
 
 @IAE
-*unknown
+*emo
 -In any event
 
 @RCED
-*unknown
+*emo
 -Reconnected
 
 @POTB
-*unknown
+*emo
 -Pats on the back
 
 @INPO
-*unknown
+*emo
 -In no particular order
 
 @LULAS
-*unknown
+*emo
 -Love you like a sister
 
 @HAGD
-*unknown
+*emo
 -Have a good day
 
 @:v)
-*unknown
+*emo
 -User has a broken nose, but it's the other way.
 
 @TAFN
-*unknown
+*emo
 -That's all for now
 
 @YATB
-*unknown
+*emo
 -You are the best
 
 @YW
-*unknown
+*emo
 -You are welcome
 
 @GA
-*unknown
+*emo
 -Good afternoon
 
 @ROFLOLAY
-*unknown
+*emo
 -Rolling on floor laughing out loud at you
 
 @BTAIM
-*unknown
+*emo
 -Be that as it may
 
 @>:->
-*unknown
+*emo
 -User just made a really devilish remark.
 
 @OBTW
-*unknown
+*emo
 -Oh, by the way
 
 @DWAI
-*unknown
+*emo
 -Don't worry about it
 
 @FOTCL
-*unknown
+*emo
 -Falling of the chair laughing
 
 @:-:
-*unknown
+*emo
 -Mutant smiley; the invisible smiley.
 
 @RTF
-*unknown
+*emo
 -Read the FAQ
 
 @NS
-*unknown
+*emo
 -No shit
 
 @L8R
-*unknown
+*emo
 -Later
 
 @KUTGW
-*unknown
+*emo
 -Keep up the good work
 
 @IMBO
-*unknown
+*emo
 -In my bloody opinion
 
 @DITYID
-*unknown
+*emo
 -Did I tell you I'm distressed
 
 @BTA
-*unknown
+*emo
 -But then again
 
 @GD&RF
-*unknown
+*emo
 -Grinning, ducking and running fast
 
 @ITSFWI
-*unknown
+*emo
 -If the shoe fits, wear it
 
 @ISTM
-*unknown
+*emo
 -It seems to me
 
 @WE
-*unknown
+*emo
 -Whatever
 
 @:]
-*unknown
+*emo
 -Gleep...a friendly midget smiley who will gladly be your friend.
 
 @DND
-*unknown
+*emo
 -Do not disturb
 
 @GPF
-*unknown
+*emo
 -General protection fault
 
 @<|-(
-*unknown
+*emo
 -User is Chinese and doesn't like these kind of jokes.
 
 @B-)
-*unknown
+*emo
 -User wears horn-rimmed glasses.
 
 @PS
-*unknown
+*emo
 -Post script
 
 @CO
-*unknown
+*emo
 -Conference
 
 @HIH
-*unknown
+*emo
 -Hope it helps
 
 @AKA
-*unknown
+*emo
 -Also known as
 
 @:-X
-*unknown
+*emo
 -User's lips are sealed.
 
 @[:]
-*unknown
+*emo
 -User is a robot.
 
 @BKA
-*unknown
+*emo
 -Better known as
 
 @BF
-*unknown
+*emo
 -Boyfriend
 
 @DIY
-*unknown
+*emo
 -Do it yourself
 
 @:}
-*unknown
+*emo
 -What should we call these? (what?)
 
 @@=
-*unknown
+*emo
 -User is pro-nuclear war.
 
 @WTF
-*unknown
+*emo
 -What/who the fool?
 
 @GD&W
-*unknown
+*emo
 -Grin, duck and wave
 
 @HAHA
-*unknown
+*emo
 -Having a heart attack
 
 @LTNS
-*unknown
+*emo
 -Long time no see
 
 @ASAP
-*unknown
+*emo
 -As soon as possible
-
-
-*unknown
--
-
-
-*unknown
--
-
-
-*unknown
--
-
-
-*unknown
--
-
-
-*unknown
--
-
-
-*unknown
--
-
-
-*unknown
--
-
-
-*unknown
--
-
-
-*unknown
--
-
-
-*unknown
--
-
-
-*unknown
--
-
-
-*unknown
--
-
-
-*unknown
--
-
-
-*unknown
--
-
-
-*unknown
--
-
-
-*unknown
--
-
-
-*unknown
--
-
-
-*unknown
--
-
-
-*unknown
--
 
