@@ -17,10 +17,12 @@
 #include <conio.h>
 #include <stdlib.h>
 #include <windows.h>
+#include <algorithm>
 
 void InitData(HashTable &AnhViet, HashTable &VietAnh, HashTable &AnhAnh, HashTable &emo, HashTable &slang);
 void SaveData(HashTable &AnhViet, HashTable &VietAnh, HashTable &AnhAnh, HashTable &emo, HashTable &slang);
 
+HashNode *SearchHelper(std::string &w, HashTable &MainData);
 bool SearchProcessing(HashTable &MainData);
 bool EditProcessing(HashTable &MainData);
 bool RandomWordProcessing(HashTable &MainData);
