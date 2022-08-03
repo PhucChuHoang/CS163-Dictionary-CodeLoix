@@ -57,7 +57,7 @@ bool SearchProcessing(HashTable &MainData) {
         string w;
         cout << "Input word: ";
         cin >> w;
-        vector <string> SuggestWords = MainData.Prefix.FindWordWithSamePrefix(10, w);
+        vector <string> SuggestWords = MainData.Prefix.FindWordWithSamePrefix(oo, w);
         if (SuggestWords.empty()) {
             cout << "Cannot found!";
             system("pause");
@@ -87,16 +87,18 @@ bool SearchProcessing(HashTable &MainData) {
         }
         // Save in Favorite
         cout << '\n';
+        system("pause");
+        system("cls");
         vector<string> favMenu;
         favMenu.push_back("1. Save in Favorite");
         favMenu.push_back("2. Remove from Favorite");
         favMenu.push_back("3. Back");
 
-        gotoxy(0,7);
+        gotoxy(0,1);
         for (int i = 0; i < favMenu.size(); ++i) {
             cout << favMenu[i] << '\n';
         }
-        gotoxy(0,7);
+        gotoxy(0,1);
         SetColor(14);
         cout << favMenu[0];
         SetColor(7);
@@ -122,11 +124,11 @@ bool SearchProcessing(HashTable &MainData) {
                 }
             }
             if (currentChoose != prevChoose) {
-                gotoxy(0, prevChoose + 6);
+                gotoxy(0, prevChoose);
                 SetColor(7);
                 cout << favMenu[prevChoose-1];
                 SetColor(14);
-                gotoxy(0, currentChoose + 6);
+                gotoxy(0, currentChoose);
                 cout << favMenu[currentChoose-1];
             }
         }
@@ -204,9 +206,10 @@ bool EditProcessing(HashTable &MainData) {
         }
         else{
             cout << "This word already exists in dictionary" << '\n';
-            cout << "1. Edit definition" << '\n';
-            cout << "2. Add another word" << '\n';
-            cout << "0. Back" << '\n';
+            // cout << "1. Edit definition" << '\n';
+            // cout << "2. Add another word" << '\n';
+            // cout << "0. Back" << '\n';
+            system("pause");
             int p  = GetCommand();
             if (p == 1){
                 while (EditWordDefProcessing(MainData, to_add.Key));
@@ -220,9 +223,9 @@ bool EditProcessing(HashTable &MainData) {
 
     // Edit definition
     if (Command == 2){
-        cout << "Input the word you want to edit: ";
+        cout << "Input the word you want to edit: \n";
         string to_edit;
-        cin.ignore();
+        cin.ignore(1, '\n');
         getline(cin, to_edit);
         while (EditWordDefProcessing(MainData, to_edit));
     }
@@ -231,7 +234,7 @@ bool EditProcessing(HashTable &MainData) {
     if (Command == 3){
         cout << "Input the word you want to remove: ";
         string to_remove;
-        cin.ignore();
+        cin.ignore(1, '\n');
         getline(cin, to_remove);
         MainData.DeleteWord(to_remove);
     }
@@ -380,7 +383,7 @@ bool FavouriteProcessing(HashTable &MainData) {
     return 1;
 }
 
-bool EditWordDefProcessing(HashTable &data, string to_edit) {
+bool EditWordDefProcessing(HashTable &Hashdata, string to_edit) {
     vector<string> defMenu = EditWordDefMenu();
     gotoxy(0,1);
     for (int i = 1; i <= defMenu.size(); ++i) {
@@ -394,7 +397,7 @@ bool EditWordDefProcessing(HashTable &data, string to_edit) {
 
     if (Command == defMenu.size()) return 0;
 
-    HashNode* to_edit_word = data.FindWord(to_edit);
+    HashNode* to_edit_word = Hashdata.FindWord(to_edit);
     if (!to_edit_word) {
         cout << setw(95) << " " << "Word doesn't exist" << '\n';
         system("pause");
@@ -403,12 +406,13 @@ bool EditWordDefProcessing(HashTable &data, string to_edit) {
 
     string tmp_type;
     string tmp_def;
+    // cin.ignore(1000,'\n');
     cout << setw(95) << " " << "Input type of the new definition: ";
     getline(cin, tmp_type);
-    AddType(tmp_type, data.GetType);
+    AddType(tmp_type, Hashdata.GetType);
     cout << setw(95) << " " << "Input the new definition: ";
     getline(cin, tmp_def);
-    int int_type = GetTypeInt(tmp_type, data.GetType);
+    int int_type = GetTypeInt(tmp_type, Hashdata.GetType);
 
     // change definition (clear + update)
     if (Command == 1) {
@@ -418,7 +422,7 @@ bool EditWordDefProcessing(HashTable &data, string to_edit) {
 
     // add definition
     if (Command == 2) {
-        cout << setw(95) << " " << "New definition has been added" << '\n';
+        cout << setw(95) << " " << "New definition has been added." << '\n';
     }
 
     to_edit_word->data.AddType(int_type);
