@@ -239,7 +239,7 @@ void HashTable::DisplayHistory() {
         return;
     }
     cout << setw(107) << "Search History" << '\n';
-    int cnt = 0;
+    int cnt = 1;
     for (string &c: History) cout << setw(93) << " " << (cnt++) << ". " << c << '\n';
 }
 
@@ -270,7 +270,7 @@ void HashTable::LoadFavorite() {
 
 void HashTable::DisplayFavorite() {
     cout << setw(106) << "Favorite list" << '\n';
-    int cnt = 0;
+    int cnt = 1;
     for (string &c: Favorite) cout << setw(93) << " " << (cnt++) << ". " << c << '\n';
 }
 

@@ -42,6 +42,9 @@ HashNode *SearchHelper(string &w, HashTable &MainData) {
 
     vector <string> SuggestWords = MainData.Prefix.FindWordWithSamePrefix(10, w);
     if (SuggestWords.empty()) return nullptr;
+    sort(SuggestWords.begin(), SuggestWords.end(), [](const string &a, const string &b) {
+        return a.size() < b.size();
+    });
     for (int i = 0; i < (int)(SuggestWords.size()); i++)
         cout << SuggestWords[i] << '\n';
     gotoxy(0,1);

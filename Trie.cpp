@@ -130,7 +130,7 @@ std::vector <std::string> Trie::FindWordWithSamePrefix(int NumberOfWords, std::s
     }
 
     FWWSPHelper(p, res, NumberOfWords, Prefix);
-
+    
     return res;
 }
 
