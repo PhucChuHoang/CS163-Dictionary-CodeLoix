@@ -45,6 +45,8 @@ HashNode *SearchHelper(string &w, HashTable &MainData) {
     sort(SuggestWords.begin(), SuggestWords.end(), [](const string &a, const string &b) {
         return a.size() < b.size();
     });
+    gotoxy(0,0);
+    cout << "Result: " << endl;
     for (int i = 0; i < (int)(SuggestWords.size()); i++)
         cout << SuggestWords[i] << '\n';
     gotoxy(0,1);
@@ -103,7 +105,8 @@ bool SearchProcessing(HashTable &MainData) {
         favMenu.push_back("2. Remove from Favorite");
         favMenu.push_back("3. Back");
 
-        gotoxy(0,1);
+        gotoxy(0,0);
+        cout << "Do you want to: " << endl;
         for (int i = 0; i < favMenu.size(); ++i) {
             cout << favMenu[i] << '\n';
         }
@@ -141,7 +144,7 @@ bool SearchProcessing(HashTable &MainData) {
                 cout << favMenu[currentChoose-1];
             }
         }
-        gotoxy(0, 10);
+        gotoxy(0, 4);
 
         int p = currentChoose;
         int cnt = 0;
@@ -154,8 +157,10 @@ bool SearchProcessing(HashTable &MainData) {
             cnt++;
         }
         if (p == 1){
-            if (id == -1)
-            MainData.Favorite.push_back(wp->data.Key);
+            if (id == -1) {
+                MainData.Favorite.push_back(wp->data.Key);
+                cout << "Save in Favorite successfully!" << '\n';
+            }     
             else cout << "You have added this word into favorite!" << '\n';
         }
         if (p == 2){
