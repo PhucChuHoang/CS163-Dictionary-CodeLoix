@@ -15,10 +15,9 @@ vector<string> ChooseDictionaryMenu() {
     vector<string> temp;
     temp.push_back("1. English - Vietnamese Dictionary");
     temp.push_back("2. Vietnamese - English Dictionary");
-    temp.push_back("3. English Dictionary");
-    temp.push_back("4. Emotional Dictionary");
-    temp.push_back("5. Slang Dictionary");
-    temp.push_back("6. Exit");
+    temp.push_back("3. Emotional Dictionary");
+    temp.push_back("4. Slang Dictionary");
+    temp.push_back("5. Exit");
     return temp;
 }
 
@@ -37,10 +36,9 @@ vector<string> ChooseFunctionsMenu() {
 vector<string> SearchMenu() {
     system("cls");
     vector<string> temp;
-    temp.push_back("1. Search by Keyword");
-    temp.push_back("2. Search by Definition");
-    temp.push_back("3. View Search History");
-    temp.push_back("4. Back");
+    temp.push_back("1. Search");
+    temp.push_back("2. View Search History");
+    temp.push_back("3. Back");
     return temp;
 }
 

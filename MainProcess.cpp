@@ -23,14 +23,14 @@ void GetData(HashTable &HT) {
     }
 }
 
-void InitData(HashTable &AnhViet, HashTable &VietAnh, HashTable &AnhAnh, HashTable &emo, HashTable &slang) {
+void InitData(HashTable &AnhViet, HashTable &VietAnh, HashTable &emo, HashTable &slang) {
     GetData(AnhViet);
     GetData(VietAnh);
     GetData(emo);
     GetData(slang);
 }
 
-void SaveData(HashTable &AnhViet, HashTable &VietAnh, HashTable &AnhAnh, HashTable &emo, HashTable &slang) {
+void SaveData(HashTable &AnhViet, HashTable &VietAnh, HashTable &emo, HashTable &slang) {
     AnhViet.SaveHashTable();
     VietAnh.SaveHashTable();
     emo.SaveHashTable();
@@ -174,15 +174,8 @@ bool SearchProcessing(HashTable &MainData) {
             system("pause");
         }
     }
-
-    // Search by definition
+    //Show search History
     if (Command == 2){
-
-    }
-
-    //Show search History
-    //Show search History
-    if (Command == 3){
         MainData.DisplayHistory();
         vector<string> askMenu;
         askMenu.push_back("1. Clear History");
@@ -322,7 +315,6 @@ bool EditProcessing(HashTable &MainData) {
     if (Command == 2){
         cout << "Input the word you want to edit: \n";
         string to_edit;
-        cin.ignore(1, '\n');
         getline(cin, to_edit);
         HashNode *wp = SearchHelper(to_edit, MainData);
         to_edit = wp->data.Key;
@@ -334,7 +326,6 @@ bool EditProcessing(HashTable &MainData) {
     if (Command == 3){
         cout << "Input the word you want to remove: ";
         string to_remove;
-        cin.ignore(1, '\n');
         getline(cin, to_remove);
         HashNode *wp = SearchHelper(to_remove, MainData);
         to_remove = wp->data.Key;
@@ -661,7 +652,7 @@ bool ChooseFunctions(HashTable &MainData) {
     return 1;
 }
 
-bool ChooseDictionary(HashTable &AnhViet, HashTable &VietAnh, HashTable &AnhAnh, HashTable &emotional, HashTable& slang) {
+bool ChooseDictionary(HashTable &AnhViet, HashTable &VietAnh, HashTable &emotional, HashTable& slang) {
     vector<string> dict = ChooseDictionaryMenu();
     gotoxy(0,1);
     for (int i = 1; i <= dict.size(); ++i) {
@@ -677,16 +668,15 @@ bool ChooseDictionary(HashTable &AnhViet, HashTable &VietAnh, HashTable &AnhAnh,
 
     if (Command == 1) while (ChooseFunctions(AnhViet));
     if (Command == 2) while (ChooseFunctions(VietAnh));
-    if (Command == 3) while (ChooseFunctions(AnhAnh));
-    if (Command == 4) while (ChooseFunctions(emotional));
-    if (Command == 5) while (ChooseFunctions(slang));
+    if (Command == 3) while (ChooseFunctions(emotional));
+    if (Command == 4) while (ChooseFunctions(slang));
 
     return 1;
 }
 
 void MainProcess() {
-    HashTable AnhViet("AnhViet", 31, 14071), VietAnh("VietAnh", 31, 14071), AnhAnh("AnhAnh", 31, 14071), emotional("emotional", 131, 14071), slang("slang", 131, 14701);
-    InitData(AnhViet, VietAnh, AnhAnh, emotional, slang);
-    while (ChooseDictionary(AnhViet, VietAnh, AnhAnh, emotional, slang));
-    SaveData(AnhViet, VietAnh, AnhAnh, emotional, slang);
+    HashTable AnhViet("AnhViet", 31, 14071), VietAnh("VietAnh", 31, 14071), emotional("emotional", 131, 14071), slang("slang", 131, 14701);
+    InitData(AnhViet, VietAnh, emotional, slang);
+    while (ChooseDictionary(AnhViet, VietAnh, emotional, slang));
+    SaveData(AnhViet, VietAnh, emotional, slang);
 }

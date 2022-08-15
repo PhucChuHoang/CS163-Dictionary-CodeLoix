@@ -19,8 +19,8 @@
 #include <windows.h>
 #include <algorithm>
 
-void InitData(HashTable &AnhViet, HashTable &VietAnh, HashTable &AnhAnh, HashTable &emo, HashTable &slang);
-void SaveData(HashTable &AnhViet, HashTable &VietAnh, HashTable &AnhAnh, HashTable &emo, HashTable &slang);
+void InitData(HashTable &AnhViet, HashTable &VietAnh, HashTable &emo, HashTable &slang);
+void SaveData(HashTable &AnhViet, HashTable &VietAnh, HashTable &emo, HashTable &slang);
 
 HashNode *SearchHelper(std::string &w, HashTable &MainData);
 bool SearchProcessing(HashTable &MainData);
@@ -31,7 +31,7 @@ bool MinigameProcessing(HashTable &MainData);
 bool EditWordDefProcessing(HashTable &data, std::string to_edit);
 
 bool ChooseFunctions(HashTable &MainData);
-bool ChooseDictionary(HashTable &AnhViet, HashTable &VietAnh, HashTable &AnhAnh, HashTable &emotional, HashTable& slang);
+bool ChooseDictionary(HashTable &AnhViet, HashTable &VietAnh, HashTable &emotional, HashTable& slang);
 
 void MainProcess();
 
