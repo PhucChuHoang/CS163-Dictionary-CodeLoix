@@ -40,7 +40,7 @@ void SaveData(HashTable &AnhViet, HashTable &VietAnh, HashTable &AnhAnh, HashTab
 HashNode *SearchHelper(string &w, HashTable &MainData) {
     system("cls");
 
-    vector <string> SuggestWords = MainData.Prefix.FindWordWithSamePrefix(10, w);
+    vector <string> SuggestWords = MainData.Prefix.FindWordWithSamePrefix(oo, w);
     if (SuggestWords.empty()) return nullptr;
     sort(SuggestWords.begin(), SuggestWords.end(), [](const string &a, const string &b) {
         return a.size() < b.size();
@@ -162,6 +162,7 @@ bool SearchProcessing(HashTable &MainData) {
                 cout << "Save in Favorite successfully!" << '\n';
             }     
             else cout << "You have added this word into favorite!" << '\n';
+            system("pause");
         }
         if (p == 2){
             if (id == -1){
@@ -170,8 +171,8 @@ bool SearchProcessing(HashTable &MainData) {
             else{
                 MainData.Favorite.erase(MainData.Favorite.begin() + id);
             }
+            system("pause");
         }
-        system("pause");
     }
 
     // Search by definition
@@ -438,6 +439,7 @@ bool RandomWordProcessing(HashTable &MainData) {
         else cout << "You have added this word into favorite!" << '\n';
     }
     MainData.SaveFavorite();
+    gotoxy(95,6);
     system("pause");
     return 0;
 }
