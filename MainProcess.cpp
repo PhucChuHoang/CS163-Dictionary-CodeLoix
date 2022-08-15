@@ -627,7 +627,7 @@ bool MinigameProcessing(HashTable &MainData) {
     gotoxy(90, currentChoose);
     SetColor(14);
     cout << ans[currentChoose-1];
-    getChoosing(ans, 90);
+    currentChoose = getChoosing(ans, 90);
     gotoxy(90,ans.size()+2);
     SetColor(7);
     if (currentChoose == ansIndex) cout << "The answer is Correct!!!" << '\n';
