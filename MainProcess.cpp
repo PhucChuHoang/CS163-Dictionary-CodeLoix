@@ -577,7 +577,7 @@ bool MinigameProcessing(HashTable &MainData) {
     int currentChoose = 1;
     vector<string> ans;
     if (Command == 1) {
-        cout << setw(90) << " " << "What is the meaning of \"" << wordAns << "\"?" << '\n';
+        cout << "What is the meaning of \"" << wordAns << "\"?" << '\n';
         for (int i = 1; i <= 4; ++i) {
             if (i == ansIndex) {
                 ans.push_back(defAns);
@@ -598,11 +598,11 @@ bool MinigameProcessing(HashTable &MainData) {
             }
         }
         for (int i = 0; i < 4; ++i) {
-            cout << setw(90) << " " << ans[i] << '\n';
+            cout << ans[i] << '\n';
         }
     }
     else if (Command == 2) {
-        cout << setw(90) << " " << "What is the word for \"" << defAns << "\"?" << '\n';
+        cout << "What is the word for \"" << defAns << "\"?" << '\n';
         for (int i = 1; i <= 4; ++i) {
             if (i == ansIndex) {
                 ans.push_back(wordAns);
@@ -623,14 +623,14 @@ bool MinigameProcessing(HashTable &MainData) {
             }
         }
         for (int i = 0; i < 4; ++i) {
-            cout << setw(90) << " " << ans[i] << '\n';
+            cout << ans[i] << '\n';
         }
     }
-    gotoxy(90, currentChoose);
+    gotoxy(0, currentChoose);
     SetColor(14);
     cout << ans[currentChoose-1];
-    currentChoose = getChoosing(ans, 90);
-    gotoxy(90,ans.size()+2);
+    currentChoose = getChoosing(ans, 0);
+    gotoxy(0,ans.size()+2);
     SetColor(7);
     if (currentChoose == ansIndex) cout << "The answer is Correct!!!" << '\n';
     else cout << "Incorrect, Good luck next time." << '\n';
