@@ -502,6 +502,7 @@ bool EditWordDefProcessing(HashTable &Hashdata, string to_edit) {
     string tmp_type;
     string tmp_def;
     // cin.ignore(1000,'\n');
+    system("cls");
     cout << setw(95) << " " << "Input type of the new definition: ";
     getline(cin, tmp_type);
     AddType(tmp_type, Hashdata.GetType);
@@ -528,7 +529,7 @@ bool EditWordDefProcessing(HashTable &Hashdata, string to_edit) {
 }
 
 bool checkDif(long long check1, long long check2, long long check3, long long check4) {
-    return check1 != check2 && check1 != check3 && check1 != check4;
+    return (check1 != check2 && check1 != check3 && check1 != check4);
 }
 
 bool MinigameProcessing(HashTable &MainData) {
@@ -654,6 +655,7 @@ bool ChooseFunctions(HashTable &MainData) {
 
 bool ChooseDictionary(HashTable &AnhViet, HashTable &VietAnh, HashTable &emotional, HashTable& slang) {
     vector<string> dict = ChooseDictionaryMenu();
+    cout << setw(98) << " " << "WELCOME TO CODELOIX DICTIONARY" << '\n';
     gotoxy(0,1);
     for (int i = 1; i <= dict.size(); ++i) {
         cout << setw(95) << " " << dict[i - 1] << '\n';
